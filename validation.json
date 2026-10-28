@@ -1,0 +1,25 @@
+{
+  "model_nq": 43,
+  "model_nv": 41,
+  "actuators": 29,
+  "geoms": 224,
+  "bull_world_m": [
+    2.9995,
+    0.0,
+    1.73
+  ],
+  "oche_to_board_face_m": 2.37,
+  "free_dart_mass_kg": 0.0267,
+  "free_dart_com_local_m": [
+    0.006199999999999997,
+    0.0,
+    0.0
+  ],
+  "free_dart_inertia_kg_m2": [
+    2.4118341225e-07,
+    1.81445652549e-05,
+    1.81445652549e-05
+  ],
+  "physics_smoke_seconds": 0.9999999999999453,
+  "status": "passed"
+}

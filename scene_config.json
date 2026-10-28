@@ -1,0 +1,30 @@
+{
+  "board_face_x_m": 3.0,
+  "bull_height_m": 1.73,
+  "oche_x_m": 0.6299999999999999,
+  "oche_to_board_m": 2.37,
+  "board_outer_radius_m": 0.2255,
+  "scoring_outer_radius_m": 0.17,
+  "inner_bull_radius_m": 0.00635,
+  "outer_bull_radius_m": 0.0159,
+  "dart_mass_kg": 0.0267,
+  "dart_properties": {
+    "mass_kg": 0.0267,
+    "tip_x_m": 0.0547,
+    "com_x_m": 0.006199999999999997,
+    "aerodynamic_center_x_m": -0.0718,
+    "static_margin_m": 0.078,
+    "inertia_kg_m2": [
+      2.4118341225e-07,
+      1.81445652549177e-05,
+      1.81445652549177e-05
+    ]
+  },
+  "dart_profile": "dart_profile.json",
+  "dart_status": "Experimental reference mass and COM; literature-inferred transverse inertia, approximate geometry and uncalibrated contact/drag. Air loads require DartDynamics.step(). No verified sim-to-real transfer or sticking model.",
+  "robot_status": "Existing 29-DoF G1 with rigid hands; inspection pose, no trained balance controller.",
+  "sources": {
+    "board_setup": "https://www.pdc-europe.tv/wiki/rules/",
+    "dart_reference": "https://doi.org/10.1007/s12283-018-0279-9"
+  }
+}
