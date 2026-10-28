@@ -1,0 +1,30 @@
+{
+  "id": "yt_KdbdYeST2fE",
+  "source_url": "https://www.youtube.com/watch?v=KdbdYeST2fE",
+  "creator": "Darts Review Channel",
+  "title": "Gary Anderson darts throw in slow motion",
+  "origin": "internet",
+  "retrieved_at": "2026-10-28T11:38:40.320174+00:00",
+  "path": "sources/youtube/KdbdYeST2fE.mp4",
+  "license": "not declared in metadata",
+  "redistribution": "unverified; local reference only",
+  "playback_speed": "mixed or unverified",
+  "capture_fps": null,
+  "source_session": "yt_KdbdYeST2fE",
+  "thrower": "unresolved",
+  "status": "awaiting_inspection",
+  "media": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "avg_frame_rate": "25/1",
+    "r_frame_rate": "25/1",
+    "time_base": "1/12800",
+    "start_time": "0.000000",
+    "duration_s": 54.88,
+    "frames": null,
+    "side_data": [],
+    "bytes": 15586173,
+    "sha256": "f1023845e6996887a492443204076e291fdac0f28c2f5900e7ebacc288630952"
+  }
+}

@@ -34,6 +34,7 @@ def load_scene():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--render", action="store_true", help="Save camera previews and exit")
+    parser.add_argument("--camera", choices=("room", "board", "robot", "side", "darts"), default="room")
     args = parser.parse_args()
     model, data = load_scene()
     dynamics = DartDynamics(model)
@@ -50,6 +51,7 @@ def main():
     initial = data.qpos.copy()
     state = {"paused": True, "reset": False, "camera": 0, "change_camera": True, "free": False}
     cameras = ["room", "board", "robot", "side", "darts"]
+    state["camera"] = cameras.index(args.camera)
     def key(code):
         if code == 32:
             state["paused"] = not state["paused"]

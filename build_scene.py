@@ -63,12 +63,20 @@ def textures():
         ("lane", "THROW LINE", "2.37 m TO BOARD FACE"),
         ("panel", "PRECISION THROUGH PRACTICE", "OBSERVE   /   RETARGET   /   LEARN"),
     ):
-        im = Image.new("RGB", (1536, 384), "#12292e")
+        im = Image.new("RGB", (1536, 384), "#10233a")
         d = ImageDraw.Draw(im)
-        d.rectangle((0, 0, 16, 384), fill="#f2a44f")
-        d.text((65, 125), title, font=font(76), fill="#f2e7d1", anchor="lm")
-        d.text((68, 255), subtitle, font=font(38), fill="#8cb9b8", anchor="lm")
+        d.rectangle((0, 0, 16, 384), fill="#c6a365")
+        d.text((65, 125), title, font=font(76), fill="#f2ecdc", anchor="lm")
+        d.text((68, 255), subtitle, font=font(38), fill="#b8c8d9", anchor="lm")
         im.save(ASSETS / f"{name}.png")
+    score = Image.new("RGB", (768, 512), "#101b2c")
+    sd = ImageDraw.Draw(score)
+    sd.rounded_rectangle((10, 10, 758, 502), radius=34, fill="#1b3150", outline="#c6a365", width=10)
+    sd.text((60, 105), "PRACTICE GAME", font=font(50), fill="#b8c8d9", anchor="lm")
+    sd.text((60, 290), "501", font=font(180), fill="#f2ecdc", anchor="lm")
+    sd.text((650, 330), "01", font=font(80), fill="#c6a365", anchor="mm")
+    sd.text((60, 425), "VISIT  /  THROW  /  RESET", font=font(30), fill="#b8c8d9", anchor="lm")
+    score.save(ASSETS / "score_panel.png")
 
 
 def add(parent, tag, **attrs):
@@ -130,13 +138,13 @@ def build():
     add(visual, "quality", shadowsize="4096", offsamples="4")
     asset = add(scene, "asset")
     add_dart_assets(asset, profile)
-    add(asset, "texture", name="floor_tex", type="2d", builtin="checker", rgb1=".25 .20 .15", rgb2=".30 .25 .19", width="512", height="512")
+    add(asset, "texture", name="floor_tex", type="2d", builtin="checker", rgb1=".48 .49 .47", rgb2=".55 .55 .52", width="512", height="512")
     add(asset, "material", name="floor_mat", texture="floor_tex", texrepeat="2 2", texuniform="true", reflectance=".04")
-    for name in ("dartboard", "header", "lane", "panel"):
+    for name in ("dartboard", "header", "lane", "panel", "score_panel"):
         add(asset, "texture", name=f"{name}_tex", type="2d", file=f"assets/{name}.png")
         add(asset, "material", name=f"{name}_mat", texture=f"{name}_tex", specular=".1", shininess=".1", emission=".12")
     disk_mesh(asset, "board_face")
-    for name, width, height in (("header", 1.55, .3875), ("lane", .85, .2125), ("panel", 1.5, .375)):
+    for name, width, height in (("header", 1.55, .3875), ("lane", .85, .2125), ("panel", 1.5, .375), ("score_panel", .54, .36)):
         sign_mesh(asset, f"{name}_mesh", width, height)
     world = add(scene, "worldbody")
     add(world, "light", name="key", pos=".2 -1.2 3", dir=".3 .1 -1", diffuse=".85 .83 .75", castshadow="true")
@@ -150,20 +158,32 @@ def build():
     def box(name, pos, size, rgba, **extra):
         return add(world, "geom", name=name, type="box", pos=pos, size=size, rgba=rgba, **extra)
     add(world, "geom", name="floor", type="plane", size="6 6 .05", material="floor_mat", friction=".9 .01 .001")
-    box("front_wall", "3.14 0 1.6", ".06 2.45 1.6", ".09 .17 .19 1")
-    box("left_wall", ".65 2.46 1.6", "2.55 .05 1.6", ".15 .22 .23 1")
+    box("front_wall", "3.14 0 1.6", ".06 2.45 1.6", ".82 .82 .77 1")
+    box("left_wall", ".65 2.46 1.6", "2.55 .05 1.6", ".90 .89 .85 1")
     # Open camera-side wall and ceiling for an unobstructed inspection view.
-    box("right_wall_low", ".65 -2.46 .19", "2.55 .05 .19", ".15 .22 .23 1")
-    box("wall_base", "3.069 0 .06", ".012 2.45 .06", ".035 .07 .08 1")
-    box("accent_left", "3.065 -1.01 1.65", ".012 .012 1.18", ".96 .52 .19 1", contype="0", conaffinity="0")
-    box("accent_right", "3.065 1.01 1.65", ".012 .012 1.18", ".96 .52 .19 1", contype="0", conaffinity="0")
-    box("lane_mat", "-.22 0 .004", "1.0 .53 .004", ".055 .12 .135 1", contype="0", conaffinity="0")
-    box("oche", f"{OCHE_X} 0 .009", ".012 .61 .009", ".98 .62 .24 1", contype="0", conaffinity="0")
+    box("right_wall_low", ".65 -2.46 .19", "2.55 .05 .19", ".90 .89 .85 1")
+    box("wall_base", "3.069 0 .06", ".012 2.45 .06", ".12 .14 .18 1")
+    # Slim architectural ribs and warm wall panels dress the practice bay.
+    for y in (-2.20, -1.72, 1.72, 2.20):
+        box(f"wall_rib_{y}", "3.075 "+str(y)+" 1.63", ".018 .018 1.53", ".64 .66 .61 1", contype="0", conaffinity="0")
+    for y in (-1.25, 1.25):
+        box(f"wall_inset_{y}", "3.071 "+str(y)+" 1.73", ".012 .23 .86", ".72 .73 .69 1", contype="0", conaffinity="0")
+        box(f"wall_inset_edge_{y}", "3.055 "+str(y)+" 1.73", ".01 .012 .86", ".62 .60 .50 1", contype="0", conaffinity="0")
+    box("accent_left", "3.065 -1.01 1.65", ".012 .012 1.18", ".78 .61 .30 1", contype="0", conaffinity="0")
+    box("accent_right", "3.065 1.01 1.65", ".012 .012 1.18", ".78 .61 .30 1", contype="0", conaffinity="0")
+    box("lane_mat", "-.22 0 .004", "1.0 .53 .004", ".045 .085 .15 1", contype="0", conaffinity="0")
+    box("oche", f"{OCHE_X} 0 .009", ".012 .61 .009", ".78 .61 .30 1", contype="0", conaffinity="0")
     for y in (-.54, .54):
-        box(f"lane_border_{y}", "-.22 "+str(y)+" .009", "1.0 .006 .001", ".38 .59 .58 1", contype="0", conaffinity="0")
+        box(f"lane_border_{y}", "-.22 "+str(y)+" .009", "1.0 .006 .001", ".53 .58 .44 1", contype="0", conaffinity="0")
     for x in (.95, 1.25, 1.55, 1.85, 2.15, 2.45):
-        box(f"lane_dash_{x}", f"{x} 0 .001", ".06 .005 .001", ".55 .47 .33 1", contype="0", conaffinity="0")
+        box(f"lane_dash_{x}", f"{x} 0 .001", ".06 .005 .001", ".58 .48 .33 1", contype="0", conaffinity="0")
     board = add(world, "body", name="dartboard", pos=f"{BOARD_X} 0 {BULL_Z}")
+    # Timber surround, mounted behind the impact face so the board remains clear.
+    box("cabinet_back", "3.105 0 1.73", ".020 .455 .555", ".30 .19 .10 1")
+    for y in (-.465, .465):
+        box(f"cabinet_side_{y}", "3.075 "+str(y)+" 1.73", ".038 .035 .59", ".42 .27 .15 1")
+    for z in (1.14, 2.32):
+        box(f"cabinet_rail_{z}", f"3.075 0 {z}", ".038 .49 .035", ".48 .32 .18 1")
     add(board, "geom", name="surround", type="cylinder", pos=".04 0 0", quat=".707106781 0 .707106781 0", size=".33 .018", rgba=".038 .055 .06 1")
     add(board, "geom", name="board_collision", type="cylinder", pos=".02 0 0", quat=".707106781 0 .707106781 0", size=".2255 .02", rgba=".12 .14 .14 1")
     add(board, "geom", name="board_art", type="mesh", mesh="board_face", pos="-.0004 0 0", material="dartboard_mat", contype="0", conaffinity="0", mass="0")
@@ -173,17 +193,18 @@ def build():
     for name, pos in (("header", "3.06 0 2.51"), ("panel", "3.06 0 .67")):
         add(world, "geom", name=f"{name}_sign", type="mesh", mesh=f"{name}_mesh", pos=pos, material=f"{name}_mat", contype="0", conaffinity="0", mass="0")
     # Side equipment station; well clear of the throwing lane.
-    box("table_top", ".48 -1.20 .77", ".48 .28 .025", ".24 .29 .28 1")
+    box("table_top", ".48 -1.20 .77", ".48 .28 .025", ".31 .25 .15 1")
     for x in (.08, .88):
         for y in (-1.42, -.98):
-            box(f"table_leg_{x}_{y}", f"{x} {y} .375", ".022 .022 .375", ".07 .12 .13 1")
-    box("dart_tray", ".45 -1.19 .801", ".20 .15 .006", ".06 .10 .11 1")
+            box(f"table_leg_{x}_{y}", f"{x} {y} .375", ".022 .022 .375", ".08 .095 .13 1")
+    box("dart_tray", ".45 -1.19 .801", ".20 .15 .006", ".07 .11 .18 1")
     for i, y in enumerate((-1.28, -1.19, -1.10)):
         add_dart(world, f"spare_dart_{i+1}", f".46 {y} .832", profile, free=(i == 0))
     # Wall-mounted sample dart makes the scale and flight silhouette easy to inspect.
     add_dart(world, "display_dart", "2.985 .080 1.755", profile)
+    add(world, "geom", name="score_panel_sign", type="mesh", mesh="score_panel_mesh", pos="3.055 -.77 1.77", material="score_panel_mat", contype="0", conaffinity="0", mass="0")
     # A subtle equipment shelf below the board.
-    box("board_shelf", "2.94 0 1.18", ".13 .43 .018", ".10 .14 .14 1")
+    box("board_shelf", "2.94 0 1.18", ".13 .43 .018", ".24 .20 .12 1")
     ET.indent(scene, space="  ")
     ET.ElementTree(scene).write(ROOT / "scene.xml", encoding="unicode")
     settings = {

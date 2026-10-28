@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "reference": "https://doi.org/10.1007/s12283-018-0279-9",
+  "mass_g": 26.700000000000003,
+  "com_behind_tip_mm": 48.5,
+  "inertia_kg_m2": [
+    2.4118341225e-07,
+    1.81445652549177e-05,
+    1.81445652549177e-05
+  ],
+  "reference_pitch_derivative_s_2": -249.10003081693293,
+  "reference_pitch_rate_derivative_s_1": -3.23830000521125,
+  "analytic_ballistic_error_m": 3.050023315454946e-14,
+  "dt_halving_position_error_m": 0.00018500909945250965,
+  "dt_halving_orientation_error_deg": 0.04697600459111534,
+  "passive_air_power_checks": 250,
+  "randomization_resets_checked": 50,
+  "transfer_status": "Not validated against project hardware or measured flight trajectories.",
+  "limitations": [
+    "Drag/contact coefficients and parts of geometry remain assumed.",
+    "Pitch stability agreement is analytical consistency with the reference model, not independent experimental validation.",
+    "Large-angle stall extension, rigid flights, and axial inertia remain approximations."
+  ]
+}

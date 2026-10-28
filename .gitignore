@@ -1,3 +1,7 @@
 __pycache__/
 viewer*.log
 *.pid
+*.log
+MUJOCO_LOG.TXT
+progress_videos/_qa/*.png
+d01_retarget/input/

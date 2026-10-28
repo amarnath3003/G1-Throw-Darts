@@ -30,7 +30,7 @@ def validate_profile(p):
                 "stem_rear_diameter_m", "flight_span_m", "flight_root_chord_m",
                 "flight_thickness_m", "flight_taper_ratio", "flight_area_m2",
                 "mean_aerodynamic_chord_m", "normal_force_slope_per_rad",
-                "reference_speed_m_s", "air_density_kg_m3", "stall_angle_rad")
+                "reference_speed_m_s", "air_density_kg_m3", "reference_air_density_kg_m3", "stall_angle_rad")
     for key in positive:
         if not np.isfinite(p[key]) or p[key] <= 0:
             raise ValueError(f"{key} must be finite and positive")
@@ -56,6 +56,12 @@ def validate_profile(p):
             raise ValueError(f"Invalid randomization bounds: {key}")
         if key.endswith("scale") and bounds[0] <= 0:
             raise ValueError(f"Randomization scale must be positive: {key}")
+    inertia=p.get("measured_inertia_kg_m2")
+    if inertia is not None:
+        inertia=np.asarray(inertia,dtype=float)
+        if (inertia.shape!=(3,) or not np.isfinite(inertia).all() or min(inertia)<=0 or
+            2*max(inertia)>sum(inertia)):
+            raise ValueError("Measured diagonal inertia must be positive and satisfy the triangle inequality")
 
 
 def properties(p):
@@ -63,7 +69,7 @@ def properties(p):
     arm = p["aerodynamic_center_behind_tip_m"]-p["com_behind_tip_m"]
     # The reference's analytical pitch derivative fixes transverse inertia independently
     # of the imperfect visible geometry. This reproduces its small-angle stability model.
-    iy = (0.5*p["air_density_kg_m3"]*p["reference_speed_m_s"]**2*
+    iy = (0.5*p["reference_air_density_kg_m3"]*p["reference_speed_m_s"]**2*
           p["flight_area_m2"]*p["normal_force_slope_per_rad"]*arm /
           -p["reference_pitch_derivative_s_2"])
     # Geometry-derived axial inertia: conservative tail split with explicit provenance.
@@ -74,10 +80,11 @@ def properties(p):
     mean_r2 = r*r*(1+3*taper)/(6*(1+taper))
     ix = (.5*p["metal_assembly_mass_kg"]*(p["barrel_diameter_m"]/2)**2 +
           .5*stem_mass*(p["stem_front_diameter_m"]/2)**2 + fin_mass*mean_r2)
+    inertia=p.get("measured_inertia_kg_m2")
     return {"mass_kg": p["mass_kg"], "tip_x_m": tip,
             "com_x_m": tip-p["com_behind_tip_m"],
             "aerodynamic_center_x_m": tip-p["aerodynamic_center_behind_tip_m"],
-            "static_margin_m": arm, "inertia_kg_m2": [ix, iy, iy]}
+            "static_margin_m": arm, "inertia_kg_m2": list(inertia) if inertia is not None else [ix, iy, iy]}
 
 
 def _add(parent, tag, **attrs):
@@ -147,7 +154,7 @@ def add_dart(parent, name, pos, p, free=False, quat="1 0 0 0", color=None):
         _add(body,"freejoint",name=f"{name}_free")
     _add(body,"inertial",pos=f"{prop['com_x_m']} 0 0",mass=prop["mass_kg"],diaginertia=_v(prop["inertia_kg_m2"]))
     collision={"mass":"0", "friction":_v(p["friction"]), "solref":_v(p["contact_solref"]),
-               "solimp":".95 .99 .001", "condim":"4", "margin":"0.00005"}
+               "solimp":".95 .99 .001", "condim":"6", "priority":"1", "margin":"0.00005"}
     # Axisymmetric grip approximation: dense ring segments create actual shallow
     # grooves rather than oversized painted bands. Maximum radius stays on spec.
     length=p["barrel_length_m"]
@@ -186,8 +193,14 @@ class DartDynamics:
     def __init__(self, model, body_names=("spare_dart_1",), profile=None):
         self.model=model
         self.p=deepcopy(profile if profile is not None else load_profile())
+        validate_profile(self.p)
         self.prop=properties(self.p)
         self.ids=[model.body(n).id for n in body_names]
+        for bid in self.ids:
+            if (not np.isclose(model.body_mass[bid],self.prop["mass_kg"],rtol=1e-8) or
+                not np.allclose(model.body_ipos[bid],[self.prop["com_x_m"],0,0],atol=1e-10) or
+                not np.allclose(model.body_inertia[bid],self.prop["inertia_kg_m2"],rtol=1e-8,atol=1e-12)):
+                raise ValueError("Compiled dart differs from profile; rebuild scene before running")
         self.nominal={bid:(model.body_mass[bid],model.body_ipos[bid].copy(),model.body_inertia[bid].copy()) for bid in self.ids}
         self.geoms=np.asarray([g for g in range(model.ngeom) if int(model.geom_bodyid[g]) in self.ids])
         self.nominal_friction=model.geom_friction[self.geoms].copy()

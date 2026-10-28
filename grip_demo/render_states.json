@@ -1,0 +1,47 @@
+{
+  "holding": {
+    "time_s": 2.500000000000002,
+    "com_z_m": 1.1499077228759442,
+    "vz_m_s": -7.355360275540968e-05,
+    "thumb_normal_N": 0.8000065770243583,
+    "index_normal_N": 0.7999939938606926,
+    "contact_vertical_N": 0.26192763551295956,
+    "other_dart_contacts": [],
+    "aperture_m": 0.007278958105523481,
+    "aim_error_deg": 0.14095124073903886,
+    "closed": true,
+    "tip_down_cosine": 0.9999978646585796
+  },
+  "falling": {
+    "time_s": 3.8000000000004364,
+    "com_z_m": 0.7084232639333882,
+    "vz_m_s": -2.9424308204859027,
+    "thumb_normal_N": 0.0,
+    "index_normal_N": 0.0,
+    "contact_vertical_N": 0.0,
+    "other_dart_contacts": [],
+    "aperture_m": 0.07200006947795615,
+    "aim_error_deg": 0.07056927628440081,
+    "closed": false,
+    "tip_down_cosine": 0.9999990927200693
+  },
+  "landed": {
+    "time_s": 5.166999999999856,
+    "com_z_m": 0.03014499852189386,
+    "vz_m_s": 1.418964686043178e-15,
+    "thumb_normal_N": 0.0,
+    "index_normal_N": 0.0,
+    "contact_vertical_N": 0.2619269999999943,
+    "other_dart_contacts": [
+      "drop_mat",
+      "drop_mat",
+      "drop_mat",
+      "drop_mat",
+      "drop_mat"
+    ],
+    "aperture_m": 0.07200000000000373,
+    "aim_error_deg": 0.02261194424036369,
+    "closed": false,
+    "tip_down_cosine": 0.11465014848832125
+  }
+}

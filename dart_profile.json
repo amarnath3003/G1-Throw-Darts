@@ -27,7 +27,9 @@
   "reference_speed_m_s": 6.0,
   "reference_pitch_derivative_s_2": -249.1,
   "reference_pitch_rate_derivative_s_1": -3.24,
+  "measured_inertia_kg_m2": null,
   "air_density_kg_m3": 1.225,
+  "reference_air_density_kg_m3": 1.225,
   "axial_drag_coefficient": 0.8,
   "crossflow_drag_coefficient": 0.8,
   "stall_angle_rad": 0.45,
@@ -43,7 +45,7 @@
   "evidence": {
     "measured_in_reference": ["mass_kg", "metal_assembly_mass_kg", "tail_assembly_mass_kg", "com_behind_tip_m", "barrel_length_m", "barrel_diameter_m", "stem_exposed_length_m", "stem_front_diameter_m", "stem_rear_diameter_m", "flight_span_m", "flight_root_chord_m"],
     "analytical_in_reference": ["flight_taper_ratio", "quarter_chord_sweep_deg", "flight_area_m2", "mean_aerodynamic_chord_m", "aerodynamic_center_behind_tip_m", "normal_force_slope_per_rad", "reference_pitch_derivative_s_2", "reference_pitch_rate_derivative_s_1"],
-    "assumed_not_measured": ["point_exposed_length_m", "point_base_diameter_m", "flight_thickness_m", "air_density_kg_m3", "axial_drag_coefficient", "crossflow_drag_coefficient", "stall_angle_rad", "roll_drag_coefficient", "friction", "contact_solref"],
+    "assumed_not_measured": ["point_exposed_length_m", "point_base_diameter_m", "flight_thickness_m", "air_density_kg_m3", "reference_air_density_kg_m3", "axial_drag_coefficient", "crossflow_drag_coefficient", "stall_angle_rad", "roll_drag_coefficient", "friction", "contact_solref"],
     "transverse_inertia": "Inferred by rearranging the paper's equation 32 using reported M_alpha, static margin, area and normal-force slope; not a direct inertia measurement.",
     "axial_inertia": "Derived from the approximate component geometry and estimated tail mass partition; not measured."
   },

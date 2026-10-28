@@ -1,0 +1,30 @@
+{
+  "id": "yt_KV2XqzIJDgw",
+  "source_url": "https://www.youtube.com/watch?v=KV2XqzIJDgw",
+  "creator": "England Darts Reviews",
+  "title": "How I throw darts in detail and slow motion",
+  "origin": "internet",
+  "retrieved_at": "2026-10-28T11:38:42.709681+00:00",
+  "path": "sources/youtube/KV2XqzIJDgw.mp4",
+  "license": "not declared in metadata",
+  "redistribution": "unverified; local reference only",
+  "playback_speed": "mixed or unverified",
+  "capture_fps": null,
+  "source_session": "yt_KV2XqzIJDgw",
+  "thrower": "unresolved",
+  "status": "awaiting_inspection",
+  "media": {
+    "codec": "h264",
+    "width": 1480,
+    "height": 1080,
+    "avg_frame_rate": "25/1",
+    "r_frame_rate": "25/1",
+    "time_base": "1/12800",
+    "start_time": "0.000000",
+    "duration_s": 410.0,
+    "frames": null,
+    "side_data": [],
+    "bytes": 50252907,
+    "sha256": "d31b451e56461b77dd901e23525cf4f6abefff5138c9037f5691fd3729888837"
+  }
+}

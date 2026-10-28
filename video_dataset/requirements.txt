@@ -1,0 +1,4 @@
+requests>=2.31,<3
+opencv-python>=4.8,<5
+Pillow>=10
+yt-dlp>=2026.10.21
