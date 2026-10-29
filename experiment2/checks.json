@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "synthetic_collision_fixtures": [
+    {
+      "offset_m": 0.0,
+      "valid_release": true,
+      "success": true,
+      "reward": 141.96225123680298
+    },
+    {
+      "offset_m": 0.03,
+      "valid_release": true,
+      "success": false,
+      "reward": 39.338528594402845
+    },
+    {
+      "offset_m": 0.0,
+      "valid_release": false,
+      "success": false,
+      "reward": -15.000129911139604
+    }
+  ],
+  "episodes": [
+    {
+      "is_success": false,
+      "outcome": "bad_grip_contact",
+      "impact_error_m": null,
+      "release": null,
+      "reward_terms": {
+        "smoothness": 0.0,
+        "residual_cost": 0.0,
+        "finger_speed": -0.00016329487046147132,
+        "bad_grip_contact": -15.0
+      },
+      "variant": "legacy",
+      "trajectory": null,
+      "peak_height_m": 1.3926861268591213,
+      "closest_tip_distance_m": null,
+      "board_plane_crossing": null,
+      "max_finger_speed_rad_s": 0.8531230385173975,
+      "max_joint_limit_violation_rad": 0.0
+    },
+    {
+      "is_success": false,
+      "outcome": "bad_grip_contact",
+      "impact_error_m": null,
+      "release": null,
+      "reward_terms": {
+        "smoothness": 0.0,
+        "residual_cost": 0.0,
+        "finger_speed": -0.00016329487046147132,
+        "bad_grip_contact": -15.0
+      },
+      "variant": "legacy",
+      "trajectory": null,
+      "peak_height_m": 1.3926861268591213,
+      "closest_tip_distance_m": null,
+      "board_plane_crossing": null,
+      "max_finger_speed_rad_s": 0.8531230385173975,
+      "max_joint_limit_violation_rad": 0.0
+    }
+  ]
+}
