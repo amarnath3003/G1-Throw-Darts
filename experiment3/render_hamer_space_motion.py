@@ -44,12 +44,20 @@ def main():
         length=np.linalg.norm(direction)
         if length<1e-6:direction=np.array([1.,0.,0.]);length=1
         elbow.append(wrist[i]-direction/length*.24)
-    elbow=np.asarray(elbow)-origin
+    elbow=np.asarray(elbow)
     # Camera display axes: screen X follows image X; screen Y is camera depth;
     # screen Z is image-up. Looking along screen Z gives a fixed top-down view.
     # Keep the original egocentric camera plane horizontal. HaMeR's local Z is
     # distance from the camera, so looking along -Z shows the complete mesh face.
     def coords(v):return np.stack([v[...,0],-v[...,1],v[...,2]],axis=-1)
+    # Pick stable scene bounds from the entire reconstructed trajectory.
+    all_mesh=coords(vertices)
+    all_wrist=coords(wrist)
+    pad=.045
+    xlo,xhi=float(all_mesh[...,0].min()-pad),float(all_mesh[...,0].max()+pad)
+    ylo,yhi=float(all_mesh[...,1].min()-pad),float(all_mesh[...,1].max()+pad)
+    zlo,zhi=float(all_mesh[...,2].min()-.035),float(all_mesh[...,2].max()+.035)
+    tabletop=zlo
     outframes=[];path=[]
     for frame_idx in range(round(FPS*DURATION)):
         t=frame_idx/FPS
@@ -70,15 +78,22 @@ def main():
         trail=np.asarray(path)
         trail_trace=go.Scatter3d(x=trail[:,0],y=trail[:,1],z=trail[:,2],mode='lines',line=dict(color='#ffe27a',width=5),name='wrist path')
         outframes.append(go.Frame(name=f'{t:.3f}s',data=[mesh_trace,arm_trace,trail_trace],traces=[0,1,2]))
-    fig=go.Figure(data=list(outframes[0].data),frames=outframes)
+    data=list(outframes[0].data)
+    # A subtle tabletop plane gives the camera-relative hand a visible scene
+    # reference without implying a calibrated robot table or metric depth.
+    data.append(go.Surface(x=[xlo,xhi],y=[ylo,yhi],z=[[tabletop,tabletop],[tabletop,tabletop]],
+        colorscale=[[0,'#292b30'],[1,'#292b30']],showscale=False,opacity=.65,
+        contours=dict(x=dict(show=True,color='#4b515a',width=1),y=dict(show=True,color='#4b515a',width=1)),
+        name='camera-relative reference plane',hoverinfo='skip'))
+    fig=go.Figure(data=data,frames=outframes)
     fig.update_layout(title='HaMeR 3D hand motion · fixed top-down camera',paper_bgcolor='#10131a',plot_bgcolor='#10131a',
         width=1280,height=800,margin=dict(l=0,r=0,t=60,b=70),
         font=dict(color='white'),scene=dict(aspectmode='manual',aspectratio=dict(x=1,y=1,z=.72),bgcolor='#10131a',
         xaxis_title='camera X · image right',yaxis_title='camera Y · image up',zaxis_title='camera depth',
-        xaxis=dict(range=[-.26,.26],backgroundcolor='#171c25',gridcolor='#485363',zerolinecolor='#7f91a8'),
-        yaxis=dict(range=[-.26,.26],backgroundcolor='#171c25',gridcolor='#485363',zerolinecolor='#7f91a8'),
-        zaxis=dict(range=[7.7,8.3],backgroundcolor='#171c25',gridcolor='#485363',zerolinecolor='#7f91a8'),
-        camera=dict(projection=dict(type='orthographic'),eye=dict(x=.12,y=-.14,z=2.2),up=dict(x=0,y=1,z=0))),
+        xaxis=dict(range=[xlo,xhi],backgroundcolor='#171c25',gridcolor='#485363',zerolinecolor='#7f91a8'),
+        yaxis=dict(range=[ylo,yhi],backgroundcolor='#171c25',gridcolor='#485363',zerolinecolor='#7f91a8'),
+        zaxis=dict(range=[zlo,zhi],backgroundcolor='#171c25',gridcolor='#485363',zerolinecolor='#7f91a8'),
+        camera=dict(projection=dict(type='orthographic'),eye=dict(x=.28,y=-.32,z=2.2),up=dict(x=0,y=1,z=0))),
         annotations=[dict(text='Orange forearm guide is inferred from the hand axis; elbow is not observed. Camera motion/world scale are uncalibrated.',
            x=.5,y=-.06,xref='paper',yref='paper',showarrow=False,font=dict(size=12,color='#d4d9e2'))])
     html=HERE/'research/hamer_hand_space_motion.html'
@@ -91,8 +106,9 @@ def main():
         page.wait_for_function("document.querySelector('.js-plotly-plot') && document.querySelector('.js-plotly-plot')._fullLayout",timeout=120000)
         graph=page.locator('.js-plotly-plot')
         page.evaluate("""() => { const g=document.querySelector('.js-plotly-plot'); return Plotly.relayout(g,{
-          'scene.camera.eye':{x:.12,y:-.14,z:2.2},'scene.camera.up':{x:0,y:1,z:0},
-          'scene.camera.projection.type':'orthographic','scene.aspectmode':'data'}); }""")
+          'scene.camera.eye':{x:.28,y:-.32,z:2.2},'scene.camera.up':{x:0,y:1,z:0},
+          'scene.camera.projection.type':'orthographic','scene.aspectmode':'manual',
+          'scene.aspectratio':{x:1,y:1,z:.72}}); }""")
         for i,fr in enumerate(outframes):
             page.evaluate("""async (name) => { const g=document.querySelector('.js-plotly-plot'); await Plotly.animate(g,[name],{
               mode:'immediate',frame:{duration:0,redraw:true},transition:{duration:0}}); }""",fr.name)
