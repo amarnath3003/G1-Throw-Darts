@@ -1,0 +1,28 @@
+[
+  {
+    "id": "27_snap_stroke_0.30_release_+0.10",
+    "video": "experiment1\\trials\\27_snap_stroke_0.30_release_+0.10\\swing.mp4",
+    "velocity": [
+      2.0498971727362827,
+      -0.8078641265323724,
+      1.3193670221241969
+    ],
+    "speed": 2.568161249765869,
+    "impact": [
+      1.5229936924662892,
+      -0.3228683497201085,
+      0.0328118201905327
+    ]
+  },
+  {
+    "id": "28_snap_stroke_0.30_release_+0.20",
+    "video": "experiment1\\trials\\28_snap_stroke_0.30_release_+0.20\\swing.mp4",
+    "velocity": [
+      2.439318378522587,
+      -0.5944487396100311,
+      -1.3699712630668757
+    ],
+    "speed": 2.860151170384368,
+    "impact": null
+  }
+]

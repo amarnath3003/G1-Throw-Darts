@@ -1,0 +1,1520 @@
+[
+  {
+    "id": "00_stroke_0.20_release_+0.42",
+    "number": 0,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 1.8791043846469628,
+    "release_command_s": 2.184499999999897,
+    "measured_clearance_s": 2.2584999999999216,
+    "first_impact_com": [
+      0.8200355560674976,
+      -0.1543135713889294,
+      0.04741436148629736
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.7142043565338063,
+      -0.4939795882433709,
+      0.00614284113756897
+    ],
+    "peak_grip_drift_mm": 5.451554455215258,
+    "max_joint_limit_violation_rad": 0.00223301488551861,
+    "peak_left_finger_speed_rad_s": 2.2997194595472847,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "01_stroke_0.14_release_-0.15",
+    "number": 1,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 0.31518590458064355,
+    "release_command_s": 2.079499999999862,
+    "measured_clearance_s": 2.106499999999871,
+    "first_impact_com": [
+      0.32627726197751655,
+      0.3010971998800008,
+      0.049217430143949796
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.3226003943125864,
+      0.2846203936393813,
+      0.030144211960075308
+    ],
+    "peak_grip_drift_mm": 1.076044897183913,
+    "max_joint_limit_violation_rad": 0.002167190711946107,
+    "peak_left_finger_speed_rad_s": 4.181957231558368,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "02_stroke_0.14_release_+0.05",
+    "number": 2,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.177624261210505,
+    "release_command_s": 2.107499999999871,
+    "measured_clearance_s": 2.1264999999998775,
+    "first_impact_com": [
+      0.5822270104400125,
+      0.47548645642882964,
+      0.10967614018076241
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.4039919207255292,
+      0.5688430522100034,
+      0.03014441446021291
+    ],
+    "peak_grip_drift_mm": 1.6510982548824171,
+    "max_joint_limit_violation_rad": 0.0021551929072575423,
+    "peak_left_finger_speed_rad_s": 3.994355215282161,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "03_stroke_0.14_release_+0.25",
+    "number": 3,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.1078814948712397,
+    "release_command_s": 2.1354999999998805,
+    "measured_clearance_s": 2.136499999999881,
+    "first_impact_com": [
+      0.579184156698787,
+      0.4764452443895229,
+      0.11245217855638544
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.32133567046845857,
+      0.5504757058854876,
+      0.030145018265796766
+    ],
+    "peak_grip_drift_mm": 42.5339167925656,
+    "max_joint_limit_violation_rad": 0.0021550621769926763,
+    "peak_left_finger_speed_rad_s": 3.7454997857533967,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "04_stroke_0.14_release_+0.45",
+    "number": 4,
+    "status": "Slipped before open command",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": 2.1264999999998775,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": null,
+    "release_command_s": 2.16349999999989,
+    "measured_clearance_s": null,
+    "first_impact_com": [
+      0.579214493800057,
+      0.47641583057853837,
+      0.11243125100404756
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.3248913173731256,
+      0.5515229282339184,
+      0.03014453773525693
+    ],
+    "peak_grip_drift_mm": 130.96946515958686,
+    "max_joint_limit_violation_rad": 0.0021549986421210213,
+    "peak_left_finger_speed_rad_s": 3.7454997857533967,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "05_stroke_0.20_release_-0.15",
+    "number": 5,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 0.41024268139904163,
+    "release_command_s": 2.070499999999859,
+    "measured_clearance_s": 2.118499999999875,
+    "first_impact_com": [
+      0.1814301099956754,
+      0.2522617387870724,
+      0.09436282999414422
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.0900344265183815,
+      0.2864715042639574,
+      0.0061430622834260235
+    ],
+    "peak_grip_drift_mm": 1.075603922954428,
+    "max_joint_limit_violation_rad": 0.002167107118243513,
+    "peak_left_finger_speed_rad_s": 2.5074282317651164,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "06_stroke_0.20_release_+0.05",
+    "number": 6,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.7782391633809596,
+    "release_command_s": 2.110499999999872,
+    "measured_clearance_s": 2.1444999999998835,
+    "first_impact_com": [
+      1.296999470918797,
+      0.3816796492327616,
+      0.027811729437979035
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      1.2810096807885065,
+      0.3885298114172569,
+      0.0061425642758728555
+    ],
+    "peak_grip_drift_mm": 1.3227301552120931,
+    "max_joint_limit_violation_rad": 0.0021564185366639995,
+    "peak_left_finger_speed_rad_s": 2.0155678799832475,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "07_stroke_0.20_release_+0.25",
+    "number": 7,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 2.2951621293204094,
+    "release_command_s": 2.1504999999998855,
+    "measured_clearance_s": 2.2464999999999176,
+    "first_impact_com": [
+      0.7032110371745894,
+      0.03694835443068841,
+      0.07024991563385888
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.6992651799053076,
+      0.038789482247306516,
+      0.03014502089941314
+    ],
+    "peak_grip_drift_mm": 1.988447853142171,
+    "max_joint_limit_violation_rad": 0.002156416875526011,
+    "peak_left_finger_speed_rad_s": 5.034796165974257,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "08_stroke_0.20_release_+0.45",
+    "number": 8,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 1.6584604841705584,
+    "release_command_s": 2.190499999999899,
+    "measured_clearance_s": 2.280499999999929,
+    "first_impact_com": [
+      0.6124900825953642,
+      0.03521308887231496,
+      0.056516128583715596
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.6565472954577255,
+      0.06296094305915281,
+      0.030144248630309484
+    ],
+    "peak_grip_drift_mm": 1.988447853142171,
+    "max_joint_limit_violation_rad": 0.002156416875526011,
+    "peak_left_finger_speed_rad_s": 2.5802395754942187,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "09_stroke_0.28_release_-0.15",
+    "number": 9,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 0.40561391616310855,
+    "release_command_s": 2.058499999999855,
+    "measured_clearance_s": 2.122499999999876,
+    "first_impact_com": [
+      0.1308306654074881,
+      0.4910094840796653,
+      0.05534782865458434
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      0.12792597624225477,
+      0.5147744748614312,
+      0.006142406595399161
+    ],
+    "peak_grip_drift_mm": 1.074921061164835,
+    "max_joint_limit_violation_rad": 0.002171356164795481,
+    "peak_left_finger_speed_rad_s": 2.4252255263803195,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "10_stroke_0.28_release_+0.05",
+    "number": 10,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 1.3157065333211615,
+    "release_command_s": 2.1144999999998735,
+    "measured_clearance_s": 2.148499999999885,
+    "first_impact_com": [
+      0.9352421222727653,
+      0.4999220951001574,
+      0.04048069436671013
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.9150520413056521,
+      0.48925454699854776,
+      0.03014457020755843
+    ],
+    "peak_grip_drift_mm": 1.252897560854786,
+    "max_joint_limit_violation_rad": 0.0021620418644408886,
+    "peak_left_finger_speed_rad_s": 1.8903557776488684,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "11_stroke_0.28_release_+0.25",
+    "number": 11,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 1.9877396239281397,
+    "release_command_s": 2.170499999999892,
+    "measured_clearance_s": 2.286499999999931,
+    "first_impact_com": [
+      0.4010642984245616,
+      -0.09003785264482106,
+      0.11448281103777753
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.3101843184990177,
+      -0.36375963698830177,
+      0.006143061761137804
+    ],
+    "peak_grip_drift_mm": 1.4261058541717697,
+    "max_joint_limit_violation_rad": 0.002162027728323574,
+    "peak_left_finger_speed_rad_s": 2.871485479399722,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "12_stroke_0.28_release_+0.45",
+    "number": 12,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 1.7813478750847462,
+    "release_command_s": 2.226499999999911,
+    "measured_clearance_s": 2.286499999999931,
+    "first_impact_com": [
+      0.7881869887783055,
+      0.05034489294328303,
+      0.10505617150072548
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.6837578499881743,
+      -0.05669588822528547,
+      0.030144823803819946
+    ],
+    "peak_grip_drift_mm": 1.4261058541717697,
+    "max_joint_limit_violation_rad": 0.002162027728323574,
+    "peak_left_finger_speed_rad_s": 2.7532509672090453,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "13_human_stroke_0.18_release_+0.00",
+    "number": 13,
+    "status": "Invalid reset / retained debug run",
+    "invalid_initialization": true,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": false,
+    "finger_recontact": false,
+    "release_speed_m_s": null,
+    "release_command_s": 2.100499999999869,
+    "measured_clearance_s": null,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      -0.07395493364441737,
+      0.2999980937975672,
+      0.006143062025236995
+    ],
+    "peak_grip_drift_mm": 1451.5135788627738,
+    "max_joint_limit_violation_rad": 6.92877157172176e-05,
+    "peak_left_finger_speed_rad_s": 4.985122000183123,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "14_human_stroke_0.18_release_+0.15",
+    "number": 14,
+    "status": "Invalid reset / retained debug run",
+    "invalid_initialization": true,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": false,
+    "finger_recontact": false,
+    "release_speed_m_s": null,
+    "release_command_s": 2.127499999999878,
+    "measured_clearance_s": null,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      -0.07395493364441737,
+      0.2999980937975672,
+      0.006143062025236995
+    ],
+    "peak_grip_drift_mm": 1451.5135788627738,
+    "max_joint_limit_violation_rad": 6.928924664146378e-05,
+    "peak_left_finger_speed_rad_s": 4.985122000183123,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "15_human_stroke_0.24_release_+0.00",
+    "number": 15,
+    "status": "Invalid reset / retained debug run",
+    "invalid_initialization": true,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": false,
+    "finger_recontact": false,
+    "release_speed_m_s": null,
+    "release_command_s": 2.100499999999869,
+    "measured_clearance_s": null,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      -0.07395493364441737,
+      0.2999980937975672,
+      0.006143062025236995
+    ],
+    "peak_grip_drift_mm": 1451.5135788627738,
+    "max_joint_limit_violation_rad": 9.195484898174108e-06,
+    "peak_left_finger_speed_rad_s": 4.985122000183123,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "16_human_stroke_0.24_release_+0.15",
+    "number": 16,
+    "status": "Invalid reset / retained debug run",
+    "invalid_initialization": true,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": false,
+    "finger_recontact": false,
+    "release_speed_m_s": null,
+    "release_command_s": 2.136499999999881,
+    "measured_clearance_s": null,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      -0.07395493364441737,
+      0.2999980937975672,
+      0.006143062025236995
+    ],
+    "peak_grip_drift_mm": 1451.5135788627738,
+    "max_joint_limit_violation_rad": 9.490245623473423e-06,
+    "peak_left_finger_speed_rad_s": 4.985122000183123,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "17_human_stroke_0.32_release_+0.00",
+    "number": 17,
+    "status": "Invalid reset / retained debug run",
+    "invalid_initialization": true,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": false,
+    "finger_recontact": false,
+    "release_speed_m_s": null,
+    "release_command_s": 2.100499999999869,
+    "measured_clearance_s": null,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      -0.07395493364441737,
+      0.2999980937975672,
+      0.006143062025236995
+    ],
+    "peak_grip_drift_mm": 1451.5135788627738,
+    "max_joint_limit_violation_rad": 9.872576501731156e-06,
+    "peak_left_finger_speed_rad_s": 4.985122000183123,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "18_human_stroke_0.32_release_+0.15",
+    "number": 18,
+    "status": "Invalid reset / retained debug run",
+    "invalid_initialization": true,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": false,
+    "finger_recontact": false,
+    "release_speed_m_s": null,
+    "release_command_s": 2.148499999999885,
+    "measured_clearance_s": null,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      -0.07395493364441737,
+      0.2999980937975672,
+      0.006143062025236995
+    ],
+    "peak_grip_drift_mm": 1451.5135788627738,
+    "max_joint_limit_violation_rad": 9.902444308083365e-06,
+    "peak_left_finger_speed_rad_s": 4.985122000183123,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "19_human_stroke_0.18_release_+0.05",
+    "number": 19,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.7583429346576451,
+    "release_command_s": 2.109499999999872,
+    "measured_clearance_s": 2.128499999999878,
+    "first_impact_com": [
+      1.2202643211354771,
+      0.1617184445577594,
+      0.043229063751175384
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      1.5044955215221152,
+      0.027326768487761107,
+      0.006143062101549052
+    ],
+    "peak_grip_drift_mm": 1.627578384529259,
+    "max_joint_limit_violation_rad": 6.928992113515868e-05,
+    "peak_left_finger_speed_rad_s": 2.952526230933945,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "20_human_stroke_0.24_release_+0.05",
+    "number": 20,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 2.5399730913294474,
+    "release_command_s": 2.112499999999873,
+    "measured_clearance_s": 2.1864999999998975,
+    "first_impact_com": [
+      0.4560626209696492,
+      0.2161528131312585,
+      0.04915883508863875
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      0.47403393198476423,
+      0.22325870796667435,
+      0.030144481984447694
+    ],
+    "peak_grip_drift_mm": 0.8994650105686918,
+    "max_joint_limit_violation_rad": 1.1948235455755006e-05,
+    "peak_left_finger_speed_rad_s": 4.978248374297836,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "21_human_stroke_0.24_release_+0.20",
+    "number": 21,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 1.6001703461897818,
+    "release_command_s": 2.148499999999885,
+    "measured_clearance_s": 2.268499999999925,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      0.6538804940871827,
+      0.1455519216198815,
+      1.2971981322106558
+    ],
+    "peak_grip_drift_mm": 2.1302435607656363,
+    "max_joint_limit_violation_rad": 9.697796842207336e-06,
+    "peak_left_finger_speed_rad_s": 6.430548084103196,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "22_human_stroke_0.32_release_+0.20",
+    "number": 22,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 1.6468652797522607,
+    "release_command_s": 2.16449999999989,
+    "measured_clearance_s": 2.2944999999999336,
+    "first_impact_com": [
+      0.8781425357904429,
+      -0.13043709234536088,
+      0.0599869650361247
+    ],
+    "first_impact_geoms": [
+      "hand_drop_mat"
+    ],
+    "final_com": [
+      1.003142548533929,
+      -0.08575224733815826,
+      0.03014435366817241
+    ],
+    "peak_grip_drift_mm": 1.8444672200688341,
+    "max_joint_limit_violation_rad": 9.59915173676866e-06,
+    "peak_left_finger_speed_rad_s": 2.410042574274035,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0
+  },
+  {
+    "id": "23_snap_stroke_0.30_release_+0.10",
+    "number": 23,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.8421679564141784,
+    "release_command_s": 2.130499999999879,
+    "measured_clearance_s": 2.140499999999882,
+    "first_impact_com": [
+      0.5567585824386232,
+      1.0129664618124818,
+      0.02578669006809931
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      0.5575013817802035,
+      1.0140961834605227,
+      0.006143061957819314
+    ],
+    "peak_grip_drift_mm": 1.489979440785646,
+    "max_joint_limit_violation_rad": 9.946562834479374e-05,
+    "peak_left_finger_speed_rad_s": 3.1833047274637236,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0.9
+  },
+  {
+    "id": "24_snap_stroke_0.30_release_+0.18",
+    "number": 24,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.9288717852838724,
+    "release_command_s": 2.154499999999887,
+    "measured_clearance_s": 2.1564999999998875,
+    "first_impact_com": [
+      0.5834372030019759,
+      1.0296383933845958,
+      0.026080028971095078
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      0.5959834591638081,
+      1.0295061390988496,
+      0.00614246743163825
+    ],
+    "peak_grip_drift_mm": 13.655055837715798,
+    "max_joint_limit_violation_rad": 9.981439757947129e-05,
+    "peak_left_finger_speed_rad_s": 3.1858947620357663,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 0.9
+  },
+  {
+    "id": "25_snap_stroke_0.30_release_+0.10",
+    "number": 25,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.8475454937226004,
+    "release_command_s": 2.130499999999879,
+    "measured_clearance_s": 2.140499999999882,
+    "first_impact_com": [
+      0.584455406156855,
+      1.0191961485859515,
+      0.017590042671211874
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      0.6076837862774611,
+      1.0155512860360674,
+      0.006142249276399705
+    ],
+    "peak_grip_drift_mm": 1.5008739818258032,
+    "max_joint_limit_violation_rad": 0.0001746557062311579,
+    "peak_left_finger_speed_rad_s": 3.255120791297204,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 1.15
+  },
+  {
+    "id": "26_snap_stroke_0.30_release_+0.18",
+    "number": 26,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 1.9001961778406016,
+    "release_command_s": 2.154499999999887,
+    "measured_clearance_s": 2.1564999999998875,
+    "first_impact_com": [
+      0.5876124260269356,
+      1.0218896268700204,
+      0.018111200749452216
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      0.5873339591263977,
+      1.024736864814475,
+      0.0061430620243723205
+    ],
+    "peak_grip_drift_mm": 14.253369970880447,
+    "max_joint_limit_violation_rad": 0.00017496096525674649,
+    "peak_left_finger_speed_rad_s": 3.2533418153388594,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": 1.15
+  },
+  {
+    "id": "27_snap_stroke_0.30_release_+0.10",
+    "number": 27,
+    "status": "Released without finger recontact",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": false,
+    "release_speed_m_s": 2.568161249765869,
+    "release_command_s": 2.130499999999879,
+    "measured_clearance_s": 2.158499999999888,
+    "first_impact_com": [
+      1.5229936924662892,
+      -0.3228683497201085,
+      0.0328118201905327
+    ],
+    "first_impact_geoms": [
+      "floor"
+    ],
+    "final_com": [
+      1.4936102108062972,
+      -0.2788527716544834,
+      0.006143062262870327
+    ],
+    "peak_grip_drift_mm": 1.0418690860058206,
+    "max_joint_limit_violation_rad": 6.486990283573113e-05,
+    "peak_left_finger_speed_rad_s": 2.0233406818498945,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": -0.9
+  },
+  {
+    "id": "28_snap_stroke_0.30_release_+0.20",
+    "number": 28,
+    "status": "Finger recontact after opening",
+    "invalid_initialization": false,
+    "premature_contact_loss_s": null,
+    "three_contacts_established": true,
+    "finger_recontact": true,
+    "release_speed_m_s": 2.860151170384368,
+    "release_command_s": 2.160499999999889,
+    "measured_clearance_s": 2.2724999999999262,
+    "first_impact_com": null,
+    "first_impact_geoms": [],
+    "final_com": [
+      0.7893769651235356,
+      0.11363855867741098,
+      1.1753568582549871
+    ],
+    "peak_grip_drift_mm": 5.726803937578891,
+    "max_joint_limit_violation_rad": 6.4738789669872e-05,
+    "peak_left_finger_speed_rad_s": 12.881938115388136,
+    "finite": true,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "video_decode_passed": true,
+    "video_metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 820
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "wrist_snap_rad": -0.9
+  }
+]
