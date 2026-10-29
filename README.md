@@ -7,7 +7,18 @@ The bull is 1.73 m above the floor. The throwing line is 2.37 m from the board f
 Board texture includes the standard sector order, doubles, trebles, and both bulls.
 The scene has named bull, board-frame, oche, dart-tip, and dart-grip sites for later training.
 
-## Progress — 28 October 2026
+## Progress — 29 October 2026
+
+The current grip demo uses the **left five-finger Inspire DFQ hand**, with the
+thumb opposing index and middle on the dart barrel. The wrist turns inward with
+a modest bend. A force controller trained through 144 simulated episodes holds
+the free dart and opens on command. Run `python inspire_grip.py`.
+
+See [INSPIRE_GRIP.md](INSPIRE_GRIP.md) for the hardware model, training method,
+controls and limits; [validation](inspire_grip/validation.json) for measured
+results; and [the close-up video](inspire_grip/left_hand_hold_release.mp4).
+
+### Earlier two-finger prototype
 
 The supported G1 can hold the 26.7 g dart tip-down through finger contact and
 release it by opening a powered two-finger gripper. Arm targets and grip force
@@ -31,10 +42,11 @@ python view_scene.py
 The viewer starts paused at an inspection pose. Press **1–5** for room, board,
 robot, side, and dart cameras; **Space** toggles physics; **R** restores the scene.
 Press **F** for a free camera, then use the MuJoCo mouse controls to orbit and zoom.
-The existing robot has rigid hands and no balance controller, so it falls when
-uncontrolled physics runs. Standing control and finger release are later tasks.
+This room-only viewer retains rigid hands and has no balance controller, so it
+falls when uncontrolled physics runs. Use `python inspire_grip.py` for the
+supported five-finger manipulation demo.
 
-For the new supported **grip-and-release demo**, run `python grip_demo.py`.
+For the earlier supported **two-finger demo**, run `python grip_demo.py`.
 It opens an arm-joint editor and an actuated two-finger gripper: **O** opens and
 drops the dart, **C** closes, **R** reloads, and **D** runs a hold/drop cycle.
 The dart is held through contact friction. See [GRIP_DEMO.md](GRIP_DEMO.md) for

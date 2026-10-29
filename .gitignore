@@ -5,3 +5,5 @@ viewer*.log
 MUJOCO_LOG.TXT
 progress_videos/_qa/*.png
 d01_retarget/input/
+inspire_grip/reference/photos/
+inspire_grip/_work/

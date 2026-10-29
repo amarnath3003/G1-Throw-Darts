@@ -1,0 +1,731 @@
+{
+  "hand": "left",
+  "embodiment": "G1 with five-finger Inspire DFQ",
+  "policy_sha256": "8f7331130d627113ce8bbd238e269edaa5bf5b846ce96a7800a8ff0054288c5f",
+  "long_hold": {
+    "duration_s": 60.0,
+    "timestep_s": 0.0005,
+    "max_hold_drift_m": 0.0005786981192535942,
+    "hold_height_drop_m": 0.0015308835859937364,
+    "minimum_steady_normal_N": 0.7490322892876886,
+    "unwanted_hold_contacts": [],
+    "maximum_penetration_m": 0.0,
+    "peak_motor_torque_Nm": 0.13620703439537918,
+    "peak_actual_joint_speed_rad_s": 0.4289941009356637,
+    "maximum_joint_limit_violation_rad": 0.0,
+    "maximum_coupling_residual_rad": 0.0002169412584527297,
+    "release_clear_s": 0.13550000010511098,
+    "release_drop_at_half_second_m": 0.46789425209450164,
+    "release_peak_joint_speed_rad_s": 0.5175405123365261,
+    "release_self_penetration_m": 0.0,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "finite": true,
+    "final_hold": {
+      "time_s": 60.000000000104464,
+      "normal_N": [
+        2.2375163187313625,
+        1.0764045604586523,
+        0.9222555047564954
+      ],
+      "contact_regions": [
+        [
+          "spare_dart_1_barrel_11",
+          "spare_dart_1_barrel_12"
+        ],
+        [
+          "spare_dart_1_barrel_9"
+        ],
+        [
+          "spare_dart_1_barrel_18"
+        ]
+      ],
+      "vertical_contact_N": 0.26825729892724065,
+      "other_contacts": [],
+      "penetration_m": 0.0,
+      "com": [
+        0.470532622451811,
+        0.19360894641809823,
+        1.34696145530664
+      ],
+      "relative_drift_m": 0.0003929848988826906,
+      "vz": -0.00018855717122751066,
+      "closed": true,
+      "q": [
+        1.228790287507787,
+        0.37299677208878823,
+        0.7881264463798121,
+        0.82894689768388,
+        1.5500274525648734,
+        1.5500229176519364
+      ],
+      "torque_Nm": [
+        0.06575872775349642,
+        -0.027928496198457692,
+        0.07260347858840532,
+        0.06306935216489347,
+        -0.0021878317875413827,
+        -0.0018496329177402223
+      ]
+    },
+    "passed": true
+  },
+  "half_timestep": {
+    "duration_s": 8.0,
+    "timestep_s": 0.00025,
+    "max_hold_drift_m": 0.000567369560356043,
+    "hold_height_drop_m": 0.0007288803158145285,
+    "minimum_steady_normal_N": 0.7473822820901488,
+    "unwanted_hold_contacts": [],
+    "maximum_penetration_m": 0.0,
+    "peak_motor_torque_Nm": 0.13444041397366446,
+    "peak_actual_joint_speed_rad_s": 0.27032970655039185,
+    "maximum_joint_limit_violation_rad": 0.0,
+    "maximum_coupling_residual_rad": 0.0002163996505614163,
+    "release_clear_s": 0.10525000000378526,
+    "release_drop_at_half_second_m": 0.47517908722711677,
+    "release_peak_joint_speed_rad_s": 0.511430132197145,
+    "release_self_penetration_m": 0.0,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "finite": true,
+    "final_hold": {
+      "time_s": 8.00000000000403,
+      "normal_N": [
+        2.1739733750690906,
+        1.122516783686242,
+        0.835315254695054
+      ],
+      "contact_regions": [
+        [
+          "spare_dart_1_barrel_11",
+          "spare_dart_1_barrel_12"
+        ],
+        [
+          "spare_dart_1_barrel_9"
+        ],
+        [
+          "spare_dart_1_barrel_18"
+        ]
+      ],
+      "vertical_contact_N": 0.2619269376723326,
+      "other_contacts": [],
+      "penetration_m": 0.0,
+      "com": [
+        0.4699383785710818,
+        0.19303261234989622,
+        1.3477634585768192
+      ],
+      "relative_drift_m": 0.0004629709666122653,
+      "vz": -4.631081774944028e-06,
+      "closed": true,
+      "q": [
+        1.2294976248362914,
+        0.3660672907277771,
+        0.7876930697114379,
+        0.8133316769587574,
+        1.5500273883461761,
+        1.5500228770667759
+      ],
+      "torque_Nm": [
+        0.06223766353245138,
+        -0.042217176893714764,
+        0.07977203069378762,
+        0.061319212253556916,
+        -0.0021868797913515365,
+        -0.0018490832412950112
+      ]
+    },
+    "passed": true
+  },
+  "unpowered": {
+    "duration_s": 0.6,
+    "timestep_s": 0.0005,
+    "max_hold_drift_m": 0.8546193371536741,
+    "hold_height_drop_m": 0.880283999249703,
+    "minimum_steady_normal_N": 0.0,
+    "unwanted_hold_contacts": [
+      "left_shoulder_yaw_link"
+    ],
+    "maximum_penetration_m": 0.0,
+    "peak_motor_torque_Nm": 0.0,
+    "peak_actual_joint_speed_rad_s": 0.5693538785617333,
+    "maximum_joint_limit_violation_rad": 0.0,
+    "maximum_coupling_residual_rad": 3.8583508657738074e-05,
+    "release_clear_s": 0.005499999999988736,
+    "release_drop_at_half_second_m": 0.43806380205301126,
+    "release_peak_joint_speed_rad_s": 0.36804776088446706,
+    "release_self_penetration_m": 0.0,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "finite": true,
+    "final_hold": {
+      "time_s": 0.5999999999999893,
+      "normal_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "contact_regions": [
+        [],
+        [],
+        []
+      ],
+      "vertical_contact_N": 0.0,
+      "other_contacts": [],
+      "penetration_m": 0.0,
+      "com": [
+        0.6558657942097275,
+        -0.015468113495056626,
+        0.46820833964293074
+      ],
+      "relative_drift_m": 0.9269489570042663,
+      "vz": -3.699719072230856,
+      "closed": true,
+      "q": [
+        1.1798015432623614,
+        0.36692093746171417,
+        0.8377596661377273,
+        1.0077436366318668,
+        1.661265345481015,
+        1.6527713259769086
+      ],
+      "torque_Nm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "passed": false
+  },
+  "initially_open": {
+    "duration_s": 0.4,
+    "timestep_s": 0.0005,
+    "max_hold_drift_m": 0.293223955160757,
+    "hold_height_drop_m": 0.2904916562097035,
+    "minimum_steady_normal_N": 0.0,
+    "unwanted_hold_contacts": [
+      "left_elbow_link"
+    ],
+    "maximum_penetration_m": 0.0001061731078210405,
+    "peak_motor_torque_Nm": 0.033345264457409554,
+    "peak_actual_joint_speed_rad_s": 0.6324315731941116,
+    "maximum_joint_limit_violation_rad": 2.0848957314824774e-05,
+    "maximum_coupling_residual_rad": 5.876412311955903e-05,
+    "release_clear_s": 0.0255000000000003,
+    "release_drop_at_half_second_m": 0.007251460785157038,
+    "release_peak_joint_speed_rad_s": 0.0010622165624039244,
+    "release_self_penetration_m": 0.0,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "finite": true,
+    "final_hold": {
+      "time_s": 0.4000000000000003,
+      "normal_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "contact_regions": [
+        [],
+        [],
+        []
+      ],
+      "vertical_contact_N": 0.33158837296114696,
+      "other_contacts": [
+        "left_elbow_link",
+        "left_shoulder_yaw_link"
+      ],
+      "penetration_m": 5.278231538281603e-05,
+      "com": [
+        0.4751959501172391,
+        0.16820283894036384,
+        1.0580006826829302
+      ],
+      "relative_drift_m": 0.29350062414372446,
+      "vz": -0.05367539618031791,
+      "closed": false,
+      "q": [
+        1.000591252377291,
+        0.39686468326819596,
+        -1.8882997979616755e-05,
+        -1.852934220979414e-05,
+        1.5500280399666955,
+        1.5500234075328914
+      ],
+      "torque_Nm": [
+        -0.0021807093992638614,
+        0.018531152301974003,
+        0.00013932221235381952,
+        0.00012404977037195795,
+        -0.002190980090312381,
+        -0.0018520664730270905
+      ]
+    },
+    "passed": false
+  },
+  "randomization": {
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+    ],
+    "mass_scale": [
+      0.9,
+      1.1
+    ],
+    "friction": [
+      0.55,
+      0.9
+    ],
+    "placement_each_world_axis_m": [
+      -0.00015,
+      0.00015
+    ],
+    "pulse_force_N": 0.06,
+    "pulse_duration_s": 0.15,
+    "duration_s": 6.0,
+    "successes": 24,
+    "total": 24
+  },
+  "random_cases": [
+    {
+      "cost": 0.9976666714894065,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0006392834092537419,
+      "tail_drift_m": 7.16766524471329e-05,
+      "min_normal_N": 0.7317316901922859,
+      "peak_normal_N": 2.774346561064652,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1205,
+      "drop_m": 0.9500987543128585,
+      "seed": 101,
+      "friction": 0.6757973616695506,
+      "mass_scale": 1.0887065011221109,
+      "penetration_m": 3.9451574472667663e-05
+    },
+    {
+      "cost": 0.817095017487311,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000587905050840176,
+      "tail_drift_m": 4.583799332942698e-05,
+      "min_normal_N": 0.738362790276617,
+      "peak_normal_N": 2.7085119779789832,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1205,
+      "drop_m": 0.9551019635986755,
+      "seed": 102,
+      "friction": 0.7550802301940795,
+      "mass_scale": 0.9319982290008608,
+      "penetration_m": 2.1557972332976257e-05
+    },
+    {
+      "cost": 0.7283339455361544,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005384156342485935,
+      "tail_drift_m": 3.7983662257512175e-05,
+      "min_normal_N": 0.7516827287816883,
+      "peak_normal_N": 2.724458351000855,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9222750248087475,
+      "seed": 103,
+      "friction": 0.6285113779191167,
+      "mass_scale": 0.9625366465445896,
+      "penetration_m": 9.728713561327008e-05
+    },
+    {
+      "cost": 0.6867175582766366,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000619461044866583,
+      "tail_drift_m": 1.3451302682010729e-05,
+      "min_normal_N": 0.7274128167454655,
+      "peak_normal_N": 2.6615509594825983,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9389795038661244,
+      "seed": 104,
+      "friction": 0.7922518520195715,
+      "mass_scale": 1.0677129624739072,
+      "penetration_m": 0.0
+    },
+    {
+      "cost": 0.642027141035367,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000574990890967302,
+      "tail_drift_m": 1.3407250013612976e-05,
+      "min_normal_N": 0.7538900367419554,
+      "peak_normal_N": 2.72124518909759,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9517214242470982,
+      "seed": 105,
+      "friction": 0.8970109214184404,
+      "mass_scale": 1.027639066720309,
+      "penetration_m": 1.208062573704499e-05
+    },
+    {
+      "cost": 0.8373621001323752,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0006194778427366754,
+      "tail_drift_m": 4.3576851479139974e-05,
+      "min_normal_N": 0.7068114462857262,
+      "peak_normal_N": 2.715622811497923,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1205,
+      "drop_m": 0.9271626949537807,
+      "seed": 106,
+      "friction": 0.5641400535127801,
+      "mass_scale": 1.0964815710926672,
+      "penetration_m": 0.00013836534041259573
+    },
+    {
+      "cost": 0.654207047574387,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005608230453874365,
+      "tail_drift_m": 1.8676800437390078e-05,
+      "min_normal_N": 0.7596113729806091,
+      "peak_normal_N": 2.7824189515248157,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9393928508262173,
+      "seed": 107,
+      "friction": 0.7171909992626525,
+      "mass_scale": 1.0297071838800516,
+      "penetration_m": 2.0142133424451214e-06
+    },
+    {
+      "cost": 0.7182829099026768,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0006415405678410559,
+      "tail_drift_m": 1.534846841232421e-05,
+      "min_normal_N": 0.733965709295372,
+      "peak_normal_N": 2.6851052765139647,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9331854809738047,
+      "seed": 108,
+      "friction": 0.7712963043443481,
+      "mass_scale": 1.071198763465719,
+      "penetration_m": 0.0
+    },
+    {
+      "cost": 0.8827668365470267,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000582549533376909,
+      "tail_drift_m": 6.004346063402356e-05,
+      "min_normal_N": 0.7482897342226734,
+      "peak_normal_N": 2.7516926237728807,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1205,
+      "drop_m": 0.9551725299291607,
+      "seed": 109,
+      "friction": 0.8444930959529118,
+      "mass_scale": 1.008748449783556,
+      "penetration_m": 1.3458422542002763e-05
+    },
+    {
+      "cost": 0.9873032518427454,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000665409062171708,
+      "tail_drift_m": 6.437883793420747e-05,
+      "min_normal_N": 0.7268799021682718,
+      "peak_normal_N": 2.747724775391161,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9360638466415467,
+      "seed": 110,
+      "friction": 0.729353223431922,
+      "mass_scale": 1.08609856230206,
+      "penetration_m": 3.822109557819575e-05
+    },
+    {
+      "cost": 0.730031732492983,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005408488867304727,
+      "tail_drift_m": 3.783656915250207e-05,
+      "min_normal_N": 0.7463386512728943,
+      "peak_normal_N": 2.733374411243156,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9456443933169286,
+      "seed": 111,
+      "friction": 0.6092561553356387,
+      "mass_scale": 0.9307322711904666,
+      "penetration_m": 5.7008343382262925e-05
+    },
+    {
+      "cost": 1.0256688200154827,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000806086035364467,
+      "tail_drift_m": 4.391655693020312e-05,
+      "min_normal_N": 0.7028992358379267,
+      "peak_normal_N": 2.611235775364726,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9559155635901301,
+      "seed": 112,
+      "friction": 0.8454537505450082,
+      "mass_scale": 0.9232918026015311,
+      "penetration_m": 2.5462924746787223e-05
+    },
+    {
+      "cost": 0.9465974152839353,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000658324199093729,
+      "tail_drift_m": 5.765464323804126e-05,
+      "min_normal_N": 0.7317481946547533,
+      "peak_normal_N": 2.677041432976764,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9233083485181721,
+      "seed": 113,
+      "friction": 0.6028041324614142,
+      "mass_scale": 0.9141156212561117,
+      "penetration_m": 0.0
+    },
+    {
+      "cost": 0.7576791154602068,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005411461144104721,
+      "tail_drift_m": 4.330660020994694e-05,
+      "min_normal_N": 0.7406200432530247,
+      "peak_normal_N": 2.79517550503639,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9500999185743333,
+      "seed": 114,
+      "friction": 0.5997556909948796,
+      "mass_scale": 1.045577654901937,
+      "penetration_m": 1.2984565024179011e-05
+    },
+    {
+      "cost": 0.8256059006213239,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0007361659999977518,
+      "tail_drift_m": 1.7887980124714425e-05,
+      "min_normal_N": 0.7357268161045796,
+      "peak_normal_N": 2.7293711772060507,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9463616415067873,
+      "seed": 115,
+      "friction": 0.7612981750128722,
+      "mass_scale": 1.0404676048377561,
+      "penetration_m": 0.00013157206780709592
+    },
+    {
+      "cost": 0.7894779157762526,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005691240626385087,
+      "tail_drift_m": 4.407077062754878e-05,
+      "min_normal_N": 0.7709358570689644,
+      "peak_normal_N": 2.829019324754554,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9636309850124092,
+      "seed": 116,
+      "friction": 0.8569227401228279,
+      "mass_scale": 0.9344739531742721,
+      "penetration_m": 3.8853503608911425e-05
+    },
+    {
+      "cost": 0.7968319830804607,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005662676446052149,
+      "tail_drift_m": 4.6112867695049175e-05,
+      "min_normal_N": 0.724917814607936,
+      "peak_normal_N": 2.757046216655867,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9590995443089303,
+      "seed": 117,
+      "friction": 0.6052583449973566,
+      "mass_scale": 1.075002352014772,
+      "penetration_m": 0.0
+    },
+    {
+      "cost": 0.662580190550562,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0006225287907339986,
+      "tail_drift_m": 8.010279963312693e-06,
+      "min_normal_N": 0.7420684394546979,
+      "peak_normal_N": 2.6759662479025925,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9469546326321363,
+      "seed": 118,
+      "friction": 0.8781466708806763,
+      "mass_scale": 1.086137928925034,
+      "penetration_m": 9.944372431711025e-06
+    },
+    {
+      "cost": 0.9781778816231038,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0006197465102618113,
+      "tail_drift_m": 7.168627427225849e-05,
+      "min_normal_N": 0.7249133707816429,
+      "peak_normal_N": 2.73165875054629,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9479946106255595,
+      "seed": 119,
+      "friction": 0.8062392743672137,
+      "mass_scale": 1.091248079874922,
+      "penetration_m": 4.5403550824663834e-05
+    },
+    {
+      "cost": 0.7673176975844919,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000549349655553065,
+      "tail_drift_m": 4.359360840628536e-05,
+      "min_normal_N": 0.7129169285563778,
+      "peak_normal_N": 2.7340455394910355,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1305,
+      "drop_m": 0.9269657279961498,
+      "seed": 120,
+      "friction": 0.5699744868526488,
+      "mass_scale": 1.0707483118551169,
+      "penetration_m": 1.4392384253368457e-05
+    },
+    {
+      "cost": 0.8383611021345407,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005569416544589644,
+      "tail_drift_m": 5.628388953511529e-05,
+      "min_normal_N": 0.7397956144517185,
+      "peak_normal_N": 2.770087596630384,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1205,
+      "drop_m": 0.9666668030342624,
+      "seed": 121,
+      "friction": 0.6542658658308975,
+      "mass_scale": 1.0265631617639057,
+      "penetration_m": 0.0
+    },
+    {
+      "cost": 0.8544875345641894,
+      "held": true,
+      "released": true,
+      "drift_m": 0.000651988124345149,
+      "tail_drift_m": 4.049988204380806e-05,
+      "min_normal_N": 0.7040349909270164,
+      "peak_normal_N": 2.669937849962101,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1205,
+      "drop_m": 0.9384591377092911,
+      "seed": 122,
+      "friction": 0.6114684003896382,
+      "mass_scale": 1.0650705153990243,
+      "penetration_m": 8.711171627988566e-05
+    },
+    {
+      "cost": 1.178103520827065,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0009168831657612447,
+      "tail_drift_m": 5.224407101316404e-05,
+      "min_normal_N": 0.6823226500383037,
+      "peak_normal_N": 2.607015228817169,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1205,
+      "drop_m": 0.9262331089815665,
+      "seed": 123,
+      "friction": 0.5688373565807779,
+      "mass_scale": 1.0364703726496287,
+      "penetration_m": 0.0
+    },
+    {
+      "cost": 0.9115070033762009,
+      "held": true,
+      "released": true,
+      "drift_m": 0.0005736664783194085,
+      "tail_drift_m": 6.756810501135847e-05,
+      "min_normal_N": 0.7535022628006718,
+      "peak_normal_N": 2.8169408996103558,
+      "unwanted_contact_samples": 0,
+      "release_clear_s": 0.1405,
+      "drop_m": 0.9627420388546294,
+      "seed": 124,
+      "friction": 0.825050775134174,
+      "mass_scale": 1.0570506228077836,
+      "penetration_m": 9.746741166044212e-06
+    }
+  ],
+  "negative_controls_passed": true,
+  "passed": true
+}

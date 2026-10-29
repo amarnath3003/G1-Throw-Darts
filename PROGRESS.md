@@ -1,4 +1,20 @@
-# Progress — 28 October 2026
+# Progress — 29 October 2026
+
+## Left five-finger grip
+
+- Installed Unitree's official Inspire DFQ hand meshes, inertias and joint
+  descriptions, with six actuators and mechanical finger couplings per hand.
+- Used the user's pen-grip photographs to define thumb opposition to index and
+  middle, with ring and little fingers tucked clear. Refit the actual left hand.
+- Trained seven force-controller parameters using 144 MuJoCo episodes with
+  cross-entropy policy search. This is not PPO or image-to-action learning.
+- Turned the wrist inward and reduced its bend at the user's request. The
+  opening pose avoids thumb/palm collision. The learned force parameters remain
+  active; the adjusted pose has separate validation.
+- Added interactive close/open/reload controls and a two-view physical rollout.
+  See [INSPIRE_GRIP.md](INSPIRE_GRIP.md),
+  [validation](inspire_grip/validation.json), and
+  [video](inspire_grip/left_hand_hold_release.mp4).
 
 ## Completed
 
@@ -53,16 +69,17 @@ jaws after the barrel slips, so release opens far enough to clear the flights.
 2. [Joint and grip controls — 25 s](progress_videos/02_joint_and_grip_controls.mp4)
 3. [Physical hold and gravity release — 17 s](progress_videos/03_physical_hold_and_release.mp4)
 
-These show the current supported manipulation prototype. A successful throw at
-the board has not been implemented. The custom sliding fingers are an initial
-grip mechanism; the chosen five-finger hardware model and unsupported standing
-are later milestones. Sim-to-real accuracy is not established.
+These three earlier recordings show the custom sliding-finger prototype. The
+current five-finger result is linked above. Throwing, unsupported standing, and
+hardware validation remain outstanding.
 
 ## Run
 
 ```powershell
 python -m pip install -r requirements.txt
 python view_scene.py
+python inspire_grip.py
+python inspire_grip.py --check
 python grip_demo.py
 python grip_demo.py --check
 python grip_demo.py --render
@@ -78,7 +95,7 @@ in [DART_PHYSICS.md](DART_PHYSICS.md).
 1. Collect personally recorded footage, as required by the challenge.
 2. Reconstruct and review approved body motion with GVHMR/GMR, resolving physical
    timing before using velocity targets.
-3. Install and calibrate the chosen articulated hand, retaining contact-based
-   hold/release validation.
+3. Calibrate the installed five-finger model against the actual hand and dart,
+   and extend hold/release validation to moving-arm disturbances.
 4. Add moving-arm releases, board impact/scoring, residual PPO and success-rate
    evaluation, then tackle unsupported standing.

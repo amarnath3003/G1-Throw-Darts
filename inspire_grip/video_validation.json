@@ -1,0 +1,12 @@
+{
+  "file": "left_hand_hold_release.mp4",
+  "duration_s": 12,
+  "frames": 360,
+  "size": [
+    1600,
+    760
+  ],
+  "full_decode_passed": true,
+  "hold_and_release_frames_visually_checked": true,
+  "policy_sha256": "8f7331130d627113ce8bbd238e269edaa5bf5b846ce96a7800a8ff0054288c5f"
+}
