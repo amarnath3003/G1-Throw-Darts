@@ -9,6 +9,12 @@ The scene has named bull, board-frame, oche, dart-tip, and dart-grip sites for l
 
 ## Progress — 29 October 2026
 
+**Experiment 2: PPO** now has a contact-based training environment, residual arm
+control, release learning, collision-aware bullseye rewards, checkpoint/resume,
+evaluation and a video of every completed training throw. See
+[experiment2/README.md](experiment2/README.md). The initial short run verifies the
+pipeline; it has not learned a bullseye. Experiment 1's manual sweeps are stopped.
+
 The current grip demo uses the **left five-finger Inspire DFQ hand**, with the
 thumb opposing index and middle on the dart barrel. The wrist turns inward with
 a modest bend. A force controller trained through 144 simulated episodes holds

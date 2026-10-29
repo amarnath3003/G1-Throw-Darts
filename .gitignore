@@ -7,3 +7,20 @@ progress_videos/_qa/*.png
 d01_retarget/input/
 inspire_grip/reference/photos/
 inspire_grip/_work/
+
+# PPO rollouts, checkpoints, videos, and runtime logs are generated locally.
+experiment2/runs/
+experiment2/__pycache__/
+experiment2/analysis/*/eval_*/
+
+# Reconstruction runtimes and downloaded weights/datasets are external assets.
+experiment3/.venv-hamer/
+experiment3/.venv-wilor/
+experiment3/data/
+experiment3/models/
+experiment3/vendor/
+experiment3/__pycache__/
+
+# Python caches created anywhere in this repository.
+__pycache__/
+*.py[cod]

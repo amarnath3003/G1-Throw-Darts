@@ -1,5 +1,46 @@
 # Progress — 29 October 2026
 
+## Experiment 2 — PPO implementation
+
+The original CUDA continuation completed at **200,704 total steps**, with zero
+board hits. Auditing 6,070 training throws and matched-seed evaluations confirmed
+a weak upward release and a nearly-zero trajectory reward. Research, measurements
+and the revised `arc_v2` reward/control setup are in
+[REWARD_REVISION.md](experiment2/REWARD_REVISION.md).
+
+A bounded 12,288-step adaptation completed in
+`experiment2/runs/20261029T154530780570`; reward increased but the trajectory
+gap did not improve. Further diagnosis found action means as large as 2.8
+being clipped to 1, making much of the exploration ineffective.
+
+The calibrated CUDA run is `experiment2/runs/20261029T155558346875`, restarted from
+the original 200,704-step checkpoint for 100,000 additional requested steps,
+with four CPU MuJoCo workers. Actor features and normalization were retained;
+the output layer was explicitly rescaled, exploration restored and critic reset.
+Exact changes are logged in `adaptation.json`. Its first paired checkpoint is
+saved. Early exploration is physically worse than the original policy; no
+improved throwing performance or bullseye is claimed. Physical trajectory
+metrics and every completed swing video are saved. GPU physics is not included.
+
+A later progress check at 251,904 steps found modest physical improvement over
+the original 200k policy on eight matched randomized setups: median upward speed
+0.70 to 1.38 m/s and closest tip-to-bull approach 1.37 to 1.21 m, still zero board
+hits. See [the progress report](experiment2/analysis/progress_20261029T163024122038/REPORT.md).
+The trainer had exited without a final summary; its valid periodic checkpoint
+was resumed in `experiment2/runs/20261029T163135827530` for the remaining 49,152
+steps. CUDA policy/optimizer and four workers were verified. No rewards or
+physics were changed during this monitoring check.
+
+Experiment 1 is stopped at the user's request; all trial recordings remain in
+`experiment1/trials`. Its quiet shoulder/elbow/wrist prior is an initialization,
+not a successful throwing policy. The new `experiment2` environment trains
+bounded residual joint targets and a latched release command with SB3 PPO.
+Actual tip/board contact gates scoring; premature slips, robot hits and hand
+recontact terminate failures. Checkpoints include observation normalization.
+Every completed training/evaluation episode saves physics states and a video.
+The first 256-step PPO smoke run completed with zero bullseyes. Longer training
+and held-out evaluation remain; see `experiment2/README.md`.
+
 ## Left five-finger grip
 
 - Installed Unitree's official Inspire DFQ hand meshes, inertias and joint
