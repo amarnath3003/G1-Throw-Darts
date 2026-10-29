@@ -1,0 +1,16 @@
+{
+  "frames": 30,
+  "full_mesh_frames": 28,
+  "vertices_per_mesh": 778,
+  "triangles_per_mesh": 1538,
+  "corrected_side_times_s": [
+    3.745,
+    4.0,
+    4.255,
+    4.491667,
+    4.745
+  ],
+  "acquisition_mesh_frames": 11,
+  "peak_cuda_allocated_gib": 2.5912609100341797,
+  "checks": "finite meshes, shapes, timestamps, left-side labels, OBJ exports passed"
+}

@@ -1,0 +1,181 @@
+{
+  "timestep_s": 0.0005,
+  "pregrasp": {
+    "joint_positions": {
+      "left_shoulder_pitch_joint": -0.31925751584406914,
+      "left_shoulder_roll_joint": 1.5169551929548493,
+      "left_shoulder_yaw_joint": -0.12022276841893764,
+      "left_elbow_joint": 0.3862345240695376,
+      "left_wrist_roll_joint": 0.05374263852718952,
+      "left_wrist_pitch_joint": 1.2806200058006483,
+      "left_wrist_yaw_joint": -1.5716174807848233
+    },
+    "position_error_m": 2.0353501155445311e-10,
+    "rotation_error_deg": 7.983772883967019e-08,
+    "approach_offset_world_m": [
+      0.0,
+      0.08,
+      0.12
+    ],
+    "minimum_hand_table_distance_m": 0.12436435367804534,
+    "closest_hand_geom": "L_middle_intermediate_collision_0",
+    "fingertip_clearance_m": {
+      "L_thumb_distal": 0.12988417343679837,
+      "L_index_intermediate": 0.06450783792063775,
+      "L_middle_intermediate": 0.05714943095352609
+    },
+    "penetrating_contacts": [],
+    "new_penetrating_contacts": [],
+    "kinematically_reachable": true,
+    "table_clear": true
+  },
+  "terminal_grip_on_table": {
+    "joint_positions": {
+      "left_shoulder_pitch_joint": -0.6632586152969836,
+      "left_shoulder_roll_joint": 0.0892172232140563,
+      "left_shoulder_yaw_joint": 1.3458999510611096,
+      "left_elbow_joint": -0.0024931918653164913,
+      "left_wrist_roll_joint": 1.97221989936016,
+      "left_wrist_pitch_joint": 0.34695235767131444,
+      "left_wrist_yaw_joint": -1.6144298999144173
+    },
+    "position_error_m": 0.009555352044455026,
+    "rotation_error_deg": 10.347252704695235,
+    "approach_offset_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "minimum_hand_table_distance_m": -0.005104377824817652,
+    "closest_hand_geom": "L_middle_intermediate_collision_0",
+    "fingertip_clearance_m": {
+      "L_thumb_distal": 0.001511942897384655,
+      "L_index_intermediate": -0.01367435037340603,
+      "L_middle_intermediate": -0.019383688670116195
+    },
+    "penetrating_contacts": [
+      {
+        "geom1": "table_top",
+        "geom2": "L_index_intermediate_collision_0",
+        "distance_m": -0.0018902338363602
+      },
+      {
+        "geom1": "table_top",
+        "geom2": "L_middle_intermediate_collision_0",
+        "distance_m": -0.005104377375519937
+      }
+    ],
+    "new_penetrating_contacts": [
+      {
+        "geom1": "table_top",
+        "geom2": "L_index_intermediate_collision_0",
+        "distance_m": -0.0018902338363602
+      },
+      {
+        "geom1": "table_top",
+        "geom2": "L_middle_intermediate_collision_0",
+        "distance_m": -0.005104377375519937
+      }
+    ],
+    "kinematically_reachable": false,
+    "table_clear": false
+  },
+  "reset_repeat_max_qpos_difference": 0.0,
+  "reset_pass": true
+}
+{
+  "timestep_s": 0.00025,
+  "pregrasp": {
+    "joint_positions": {
+      "left_shoulder_pitch_joint": -0.3324114767016764,
+      "left_shoulder_roll_joint": 1.5489578428849022,
+      "left_shoulder_yaw_joint": -0.1668173103222602,
+      "left_elbow_joint": 0.3866283273621021,
+      "left_wrist_roll_joint": -0.053887277558086144,
+      "left_wrist_pitch_joint": 1.279563718283984,
+      "left_wrist_yaw_joint": -1.5031743741347057
+    },
+    "position_error_m": 8.129549210500086e-10,
+    "rotation_error_deg": 1.523437287981611e-07,
+    "approach_offset_world_m": [
+      0.0,
+      0.08,
+      0.12
+    ],
+    "minimum_hand_table_distance_m": 0.12441993664308763,
+    "closest_hand_geom": "L_middle_intermediate_collision_0",
+    "fingertip_clearance_m": {
+      "L_thumb_distal": 0.12989705240516103,
+      "L_index_intermediate": 0.064545946964922,
+      "L_middle_intermediate": 0.05718718439380732
+    },
+    "penetrating_contacts": [
+      {
+        "geom1": "floor",
+        "geom2": "",
+        "distance_m": -0.00020118194926252702
+      }
+    ],
+    "new_penetrating_contacts": [],
+    "kinematically_reachable": true,
+    "table_clear": true
+  },
+  "terminal_grip_on_table": {
+    "joint_positions": {
+      "left_shoulder_pitch_joint": -0.6629637275987534,
+      "left_shoulder_roll_joint": 0.08856737172480982,
+      "left_shoulder_yaw_joint": 1.3452767366860958,
+      "left_elbow_joint": -0.003499378240823817,
+      "left_wrist_roll_joint": 1.9722198997903526,
+      "left_wrist_pitch_joint": 0.3471161696874404,
+      "left_wrist_yaw_joint": -1.614429899886731
+    },
+    "position_error_m": 0.009547068138422406,
+    "rotation_error_deg": 10.340100899828615,
+    "approach_offset_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "minimum_hand_table_distance_m": -0.005138483748335365,
+    "closest_hand_geom": "L_middle_intermediate_collision_0",
+    "fingertip_clearance_m": {
+      "L_thumb_distal": 0.0015476371014955248,
+      "L_index_intermediate": -0.013632728378319747,
+      "L_middle_intermediate": -0.019338370420454942
+    },
+    "penetrating_contacts": [
+      {
+        "geom1": "floor",
+        "geom2": "",
+        "distance_m": -0.00020118194926252702
+      },
+      {
+        "geom1": "table_top",
+        "geom2": "L_index_intermediate_collision_0",
+        "distance_m": -0.0019290183336224246
+      },
+      {
+        "geom1": "table_top",
+        "geom2": "L_middle_intermediate_collision_0",
+        "distance_m": -0.005138483298173029
+      }
+    ],
+    "new_penetrating_contacts": [
+      {
+        "geom1": "table_top",
+        "geom2": "L_index_intermediate_collision_0",
+        "distance_m": -0.0019290183336224246
+      },
+      {
+        "geom1": "table_top",
+        "geom2": "L_middle_intermediate_collision_0",
+        "distance_m": -0.005138483298173029
+      }
+    ],
+    "kinematically_reachable": false,
+    "table_clear": false
+  },
+  "reset_repeat_max_qpos_difference": 0.0,
+  "reset_pass": true
+}
