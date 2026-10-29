@@ -86,7 +86,14 @@ class InspireGrip:
 
     def step(self):
         m, d = self.model, self.data
-        torque = self.kp*(self.target[self.rq]-d.qpos[self.rq])-self.kd*d.qvel[self.rv]+d.qfrc_bias[self.rv]
+        velocity = getattr(self, "velocity_target", np.zeros(m.nv))
+        feedforward = d.qfrc_bias.copy()
+        if hasattr(self, "acceleration_target"):
+            inertial = np.zeros(m.nv)
+            mujoco.mj_mulM(m, d, inertial, self.acceleration_target)
+            feedforward += inertial
+        torque = (self.kp*(self.target[self.rq]-d.qpos[self.rq])
+                  +self.kd*(velocity[self.rv]-d.qvel[self.rv])+feedforward[self.rv])
         d.ctrl[self.ra] = np.clip(torque, m.actuator_ctrlrange[self.ra, 0], m.actuator_ctrlrange[self.ra, 1])
         qtarget = np.asarray(self.config["q_grasp"], dtype=float).copy()
         if self.closed:
