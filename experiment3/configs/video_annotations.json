@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "source_sha256": "f94061379323b6315390d855680a3728c8eb29942da30ae024861152031f92cf",
+  "anatomical_hand": "left",
+  "image_mirrored": false,
+  "handedness_evidence": "User confirmed left hand, unmirrored in this chat.",
+  "target_robot_hand": "left",
+  "mapping": "No image/landmark reflection. Fit proper wrist rotations and robot joint constraints later.",
+  "time_basis": "Seconds relative to first original video PTS; sampled visual review at approximately 0.25 s intervals.",
+  "phase_boundaries_are_approximate": true,
+  "phases": [
+    {"name": "initial_object", "start_s": 0.0, "end_s": 1.0, "hand_visibility": "Mostly outside frame", "object_visibility": "Whole pen on tabletop"},
+    {"name": "approach_preshape", "start_s": 1.0, "end_s": 2.25, "hand_visibility": "Increasingly visible; wrist/forearm enter from left", "object_visibility": "Pen mostly visible"},
+    {"name": "acquisition_occluded", "start_s": 2.25, "end_s": 4.75, "hand_visibility": "Back of hand visible; fingertips and thumb contacts partly hidden", "object_visibility": "Pen shaft/end segments visible, contact region hidden"},
+    {"name": "lift_and_wrist_rotation", "start_s": 4.75, "end_s": 5.75, "hand_visibility": "Wrist rolls from dorsum view toward palm view", "object_visibility": "Pen becomes increasingly visible; exact liftoff not verified"},
+    {"name": "held_presentation", "start_s": 5.75, "end_s": 7.135, "hand_visibility": "Palm and curled fingers visible", "object_visibility": "Most of pen visible; grasp interface still partly hidden"}
+  ],
+  "object_axis_observations": [
+    {"frame_index": 0, "time_s": 0.0, "endpoints_px": [[234, 256], [239, 511]], "coordinate_system": "480x854 image; x right, y down; zero-based", "method": "Manual approximate visible endpoints", "estimated_endpoint_uncertainty_px": 5, "directed_tip_identity": "unverified", "metric_scale": null}
+  ],
+  "color_review": {"selected": "original FFmpeg RGB decode", "comparison": "Explicit HLG-to-SDR Hable produces a stronger orange cast; original decode retains usable hand/object detail", "calibration": "Visual preference only; no measured color reference"},
+  "uncertainties": ["Exact finger contact and liftoff times are not visible", "No camera calibration or measured pen dimensions", "Camera moves during lift", "Shoulder/elbow are not observed", "Pen grasp need not match final dart grip"]
+}

@@ -1,0 +1,28 @@
+{
+  "implementation_commit": "3a01849f4148352e9260b69bf28b65d1671a4905",
+  "files": [
+    {
+      "file": "models\\hamer\\_DATA\\hamer_ckpts\\checkpoints\\hamer.ckpt",
+      "sha256": "e5cc06f294d88a92dee24e603480aab04de532b49f0e08200804ee7d90e16f53",
+      "repo": "geopavlakos/HaMeR",
+      "revision": "aabc78ee4fd1f1ccf1a55fdd4225bf84df0e680a"
+    },
+    {
+      "file": "models\\hamer\\_DATA\\hamer_ckpts\\model_config.yaml",
+      "sha256": "2217f6bcf27ae4c074e2a33a3409d822bbfd02931373deedb9f71287adeabe16",
+      "repo": "geopavlakos/HaMeR",
+      "revision": "aabc78ee4fd1f1ccf1a55fdd4225bf84df0e680a"
+    },
+    {
+      "file": "models\\hamer\\_DATA\\data\\mano_mean_params.npz",
+      "sha256": "efc0ec58e4a5cef78f3abfb4e8f91623b8950be9eff8b8e0dbb0d036ebc63988",
+      "repo": "geopavlakos/HaMeR",
+      "revision": "aabc78ee4fd1f1ccf1a55fdd4225bf84df0e680a"
+    },
+    {
+      "file": "models\\hamer\\_DATA\\data\\mano\\MANO_RIGHT.pkl",
+      "sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767",
+      "reused_from": "models\\pretrained_models\\MANO_RIGHT.pkl"
+    }
+  ]
+}
