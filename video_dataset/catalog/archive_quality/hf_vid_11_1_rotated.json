@@ -1,0 +1,25 @@
+{
+  "pass": false,
+  "reasons": [
+    "body_visible_fraction_low",
+    "wrist_visible_fraction_low",
+    "wrist_inside_fraction_low"
+  ],
+  "metrics": {
+    "sampled_frames": 26,
+    "decoded_frames": 511,
+    "sampling_every_n_frames": 20,
+    "body_visible_fraction": 0.8461538461538461,
+    "wrist_visible_fraction": 0.8461538461538461,
+    "wrist_inside_fraction": 0.8461538461538461,
+    "multiple_people_fraction": 0.0,
+    "median_person_height_pixels": 715.0241088867188,
+    "estimated_throwing_wrist_coco_index": 10,
+    "cut_count": 0,
+    "encoded_fps": 20.0
+  },
+  "id": "hf_vid_11_1_rotated",
+  "sha256": "c5db66e96911cacb43f22e5a0efa39b894d43ec416f268fbc244bf28ba7326d8",
+  "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+  "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+}

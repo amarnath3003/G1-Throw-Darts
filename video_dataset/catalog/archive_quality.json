@@ -1,0 +1,2906 @@
+{
+  "sources": [
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 287,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7333333333333333,
+        "wrist_visible_fraction": 0.7333333333333333,
+        "wrist_inside_fraction": 0.7333333333333333,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 714.642333984375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_100_rotated",
+      "sha256": "f6cb85f786f0215183e65db6a6816e62d7bfd2e8d05513524055d88688228c70",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 285,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7333333333333333,
+        "wrist_visible_fraction": 0.7333333333333333,
+        "wrist_inside_fraction": 0.7333333333333333,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 707.23193359375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_101_rotated",
+      "sha256": "f46a4bd61b65e077174b8a264c1c67dbe8e5372de2891f2b3fc6db2e612a16b3",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 253,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7692307692307693,
+        "wrist_visible_fraction": 0.7692307692307693,
+        "wrist_inside_fraction": 0.7692307692307693,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 710.2467041015625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_102_rotated",
+      "sha256": "a11d6824ae0b5f63fa1078f35f18c953b7809a0fce131b3fbc1f825b098bff1b",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 254,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6923076923076923,
+        "wrist_visible_fraction": 0.6923076923076923,
+        "wrist_inside_fraction": 0.6923076923076923,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 709.5164794921875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_103_rotated",
+      "sha256": "5bc1814fa0cfb969c7d745a1a918c07e0671a953ee65b07922cd9a1033579bf8",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 266,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7142857142857143,
+        "wrist_visible_fraction": 0.7857142857142857,
+        "wrist_inside_fraction": 0.7857142857142857,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 711.4296264648438,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_104_rotated",
+      "sha256": "befb793be0723fbf5a481f7df54bdeb5979c9823e24284687f51d53f78dfda67",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 242,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6923076923076923,
+        "wrist_visible_fraction": 0.6923076923076923,
+        "wrist_inside_fraction": 0.6923076923076923,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 716.2003173828125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_105_rotated",
+      "sha256": "744c85b8eda6773716c414bdb928018b802bafe9c776a2c479a0ab3e09004c71",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 266,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7142857142857143,
+        "wrist_visible_fraction": 0.7142857142857143,
+        "wrist_inside_fraction": 0.7142857142857143,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 713.6651611328125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_106_rotated",
+      "sha256": "01f95455cb34ae51e2ed7e3b702c91cd7d096a4011203293bdb6560dcaaa7a11",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 266,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7142857142857143,
+        "wrist_visible_fraction": 0.7142857142857143,
+        "wrist_inside_fraction": 0.7142857142857143,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 716.5228881835938,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_107_rotated",
+      "sha256": "65ab51b6d99999139c7b119582405ab228bd74ddb4d62c690a9d83b4e5210840",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 255,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7692307692307693,
+        "wrist_visible_fraction": 0.7692307692307693,
+        "wrist_inside_fraction": 0.7692307692307693,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 708.166015625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_108_rotated",
+      "sha256": "a3838dcba447f6781c994f5140f9d556692de17699426c70620a332a4bcde684",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 246,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6923076923076923,
+        "wrist_visible_fraction": 0.6923076923076923,
+        "wrist_inside_fraction": 0.6923076923076923,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 704.06298828125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_109_rotated",
+      "sha256": "8c01143deb60f521573464171867a2de6d08a670dfa5f958e357f47ebaa105f3",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 24,
+        "decoded_frames": 476,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9583333333333334,
+        "wrist_visible_fraction": 0.9583333333333334,
+        "wrist_inside_fraction": 0.9166666666666666,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 749.3397216796875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_10_1_rotated",
+      "sha256": "4d4ff4d8e74dc06c6f151746d6c2470ea2546134aef2d884bb372f1305bd2a69",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 250,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7692307692307693,
+        "wrist_visible_fraction": 0.7692307692307693,
+        "wrist_inside_fraction": 0.7692307692307693,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 717.3172607421875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_110_rotated",
+      "sha256": "1655051b9ce701923a67e2406ce9aefb14850f9e4488f4798fe37ee0f62a19f5",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 225,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6666666666666666,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.75,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 704.6712036132812,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_111_rotated",
+      "sha256": "38039e0629b9db548ea4528d32c967422ab76dbb163e4467954fbc9ad31efc70",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 271,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8571428571428571,
+        "wrist_visible_fraction": 0.9285714285714286,
+        "wrist_inside_fraction": 0.9285714285714286,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 692.4874267578125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_112_rotated",
+      "sha256": "d2d4f410ff5b513d6a46f156d7062d024eb34c9486adb3e7996f39fd3b74159d",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 19,
+        "decoded_frames": 372,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6842105263157895,
+        "wrist_visible_fraction": 0.7368421052631579,
+        "wrist_inside_fraction": 0.7368421052631579,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 718.0135498046875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_113_rotated",
+      "sha256": "9ba274c99df15c1f0e8d08c9d62eba5523fd25e5d5c28ce018375ee6c1d9eb87",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 285,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6666666666666666,
+        "wrist_visible_fraction": 0.6666666666666666,
+        "wrist_inside_fraction": 0.6666666666666666,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 669.1456298828125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_114_rotated",
+      "sha256": "160da0de989479aa3040e57c4b2381c857465eb7ce3889dd54afd2d241980d55",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 268,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7142857142857143,
+        "wrist_visible_fraction": 0.7142857142857143,
+        "wrist_inside_fraction": 0.7142857142857143,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 729.2693481445312,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_115_rotated",
+      "sha256": "9906386bbee07ec5101f5dbdb49559a0f9ddf43a8644b001bd84ef345f126fa6",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 238,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.75,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 735.9652709960938,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_116_rotated",
+      "sha256": "9724db342094b361c006c965cbc5087d30bc20df48aba84952b11b1b8678ae36",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 227,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.75,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 731.0214233398438,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_117_rotated",
+      "sha256": "451e3d9323af460f7b49e5636b11563dceaba9dbc0b4fba87ea78a459e6586bb",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 221,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6666666666666666,
+        "wrist_visible_fraction": 0.6666666666666666,
+        "wrist_inside_fraction": 0.6666666666666666,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 727.8154296875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_118_rotated",
+      "sha256": "3084eafb0aca88145791af20e8d741451c5f1e6b4b58d81fdb5a9350bff2a1c3",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 21,
+        "decoded_frames": 402,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7619047619047619,
+        "wrist_visible_fraction": 0.8095238095238095,
+        "wrist_inside_fraction": 0.8095238095238095,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 677.703857421875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_119_rotated",
+      "sha256": "40713acdd5badeac55b437961d530babe327ee2c3ac2f3617f955ce19cb8b90d",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 26,
+        "decoded_frames": 511,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8461538461538461,
+        "wrist_visible_fraction": 0.8461538461538461,
+        "wrist_inside_fraction": 0.8461538461538461,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 715.0241088867188,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_11_1_rotated",
+      "sha256": "c5db66e96911cacb43f22e5a0efa39b894d43ec416f268fbc244bf28ba7326d8",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 26,
+        "decoded_frames": 512,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 0.9615384615384616,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 738.0765991210938,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_12_1_rotated",
+      "sha256": "10f50c39367881ebe1ab7e48ce34cb2b2e6ae053be9fe1468f70f8f964d40931",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 42,
+        "decoded_frames": 831,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9285714285714286,
+        "wrist_visible_fraction": 0.9523809523809523,
+        "wrist_inside_fraction": 0.9523809523809523,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 729.875732421875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_13_1_rotated",
+      "sha256": "bcf809c68f0ed4bee0fe81515f91e528a6cb64328d97625ac8ebf89129b123ba",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 26,
+        "decoded_frames": 506,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9230769230769231,
+        "wrist_visible_fraction": 0.9230769230769231,
+        "wrist_inside_fraction": 0.9230769230769231,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 740.404052734375,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_14_1_rotated",
+      "sha256": "fde71bf0db787cbeade9f1695ad7d8043cf0228977d0c53dffe28dd40bfe6766",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 34,
+        "decoded_frames": 663,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6764705882352942,
+        "wrist_visible_fraction": 0.7352941176470589,
+        "wrist_inside_fraction": 0.7352941176470589,
+        "multiple_people_fraction": 0.029411764705882353,
+        "median_person_height_pixels": 749.701416015625,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_15_1_rotated",
+      "sha256": "18e47e25ead0bf0d7233a21d53ffedc4a0cea3a8f512cd38e0dda01ab451833d",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 55,
+        "decoded_frames": 1090,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8181818181818182,
+        "wrist_visible_fraction": 0.8363636363636363,
+        "wrist_inside_fraction": 0.8181818181818182,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 739.2156982421875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_16_1_rotated",
+      "sha256": "a37e3708bb2e74aff9f93764362be8376f8bfa7653c7b005e1f0e8717cdcfca1",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 26,
+        "decoded_frames": 519,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8461538461538461,
+        "wrist_visible_fraction": 0.8846153846153846,
+        "wrist_inside_fraction": 0.8461538461538461,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 752.7108154296875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_17_1_rotated",
+      "sha256": "69a2c3df96c290449ec4c31f144038e551c1e56c11ce7d5cfc42d783e2c7a9c6",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 25,
+        "decoded_frames": 482,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8,
+        "wrist_visible_fraction": 0.88,
+        "wrist_inside_fraction": 0.88,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 731.6580810546875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_18_1_rotated",
+      "sha256": "cf3f07ffcbdb0a862380ca10499c9c0451b0746c788feb7221cfd3cf304b9304",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 25,
+        "decoded_frames": 489,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.88,
+        "wrist_visible_fraction": 0.96,
+        "wrist_inside_fraction": 0.96,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 755.072998046875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_19_1_rotated",
+      "sha256": "fee1b064173616705dd8c4c208f2371cd65805f32ade528b88a823703ca9ecba",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 19,
+        "decoded_frames": 371,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8947368421052632,
+        "wrist_visible_fraction": 0.9473684210526315,
+        "wrist_inside_fraction": 0.9473684210526315,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 693.8858642578125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_1_1_rotated",
+      "sha256": "cc98022d7bbd0afe043d65e416510e19e0aa1db9f3061f0f92746b2180b06c9f",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 11,
+        "decoded_frames": 216,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 683.22802734375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_20_rotated",
+      "sha256": "dcd5f08761d5927690deffb4b2a768f90108c850cf609a3dfd8ca3a8d99cbbe5",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 29,
+        "decoded_frames": 580,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8620689655172413,
+        "wrist_visible_fraction": 0.896551724137931,
+        "wrist_inside_fraction": 0.896551724137931,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 693.33984375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_21_rotated",
+      "sha256": "154e8e73448dce28c441b09ddb3d50731a5747bd50a90a9bc7c3b373fc0e1708",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 289,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9333333333333333,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 698.1865234375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_22_rotated",
+      "sha256": "f349d913d569115010071d95a7a0e837a1072056dc214a2948fa8bb06d6e37d2",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 20,
+        "decoded_frames": 389,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.8,
+        "wrist_inside_fraction": 0.8,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 697.226318359375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_23_rotated",
+      "sha256": "cc637adb2a99f5373b8b3aafbe2c20a68332096c99085d0e5bf2cdea755d3977",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 292,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 724.0311279296875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_24_rotated",
+      "sha256": "a1388eef99d6c8bc79175e1fa946f27c527b699472be2992cfe50a7925a433ce",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 245,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9230769230769231,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 721.5196533203125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_25_rotated",
+      "sha256": "110e5a5a49fd5a5ae8a5266421d484630160a0d15012213f6f4ec957c40db878",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 256,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 733.3115234375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_26_rotated",
+      "sha256": "e6227250baa37ee00273a5be645fb6a38b313d0d1ab15ba0a6a44fb007943a55",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 440,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 768.0745849609375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_27_rotated",
+      "sha256": "b9158255c2e4de99f520a18838b758d7a487b8f0356b7e9c08437149076755e1",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 282,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 775.5555419921875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_28_rotated",
+      "sha256": "5e03085e48317b3677ec586c9c4f6b01c514b142f6c8cf5f1f5ff4de88b4792e",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 286,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 787.2998046875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_29_rotated",
+      "sha256": "20c50700b1a7920a623f6e496a6189d772fc079bfe806744ab39f99fc8e6e050",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 23,
+        "decoded_frames": 452,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8695652173913043,
+        "wrist_visible_fraction": 0.9130434782608695,
+        "wrist_inside_fraction": 0.9130434782608695,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 693.3795166015625,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_2_1_rotated",
+      "sha256": "f5b276cefdcb78a64e5bcc10c06f94c16e25d5f251e327f2893cc7c23160052b",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 10,
+        "decoded_frames": 188,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 791.7505493164062,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_30_rotated",
+      "sha256": "ce3791d34aa978f763771cde7fa8cc88ffb3af561978823ae5c32bdd7e16d545",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 245,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 786.1923828125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_31_rotated",
+      "sha256": "6475bd4358913b78737f0ea8aeb1684563a7cd31c1ace9197382f3241db5a5c6",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 440,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 725.8084716796875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_32_rotated",
+      "sha256": "d33cac1966103f75fec079db7ced98f426cbb86f4decc23d024fa8c5c36d6e24",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 282,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 734.699951171875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_33_rotated",
+      "sha256": "1cb8e754075f9239c9672c42b890b81682dfb3cb0303ab2747409d9126f780f8",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 286,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 730.20361328125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_34_rotated",
+      "sha256": "dc80d791974ce39c700ac6ba8d597d4660839f0078f6f1a0eda1d71fe94d1db3",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 10,
+        "decoded_frames": 188,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 735.32421875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_35_rotated",
+      "sha256": "e0a077ceeaf72feb2f642b3de78a1bdee948220d84e1fa40f7fbdaacc08e08ea",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 245,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 737.54833984375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_36_rotated",
+      "sha256": "647ea3251ed4fe93fa97c87933e2ab1977e29311c9de48f9e85d721d378a342a",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 260,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 794.490234375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_37_rotated",
+      "sha256": "fb0b49b1f06217f0bfe544fd42810a0a90450e41856bec4f0685eba291493ca9",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 19,
+        "decoded_frames": 362,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 772.99072265625,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_38_rotated",
+      "sha256": "02955d6b3f6c52b0dc2e4cca6412a110e57111777ef92c00db94ca57a7d9e4d6",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 434,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 805.3046875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_39_rotated",
+      "sha256": "2339ea3b324842e82cef9e852aaa9051ca0c548de12f166c480a535af6d1e79e",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 23,
+        "decoded_frames": 456,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8695652173913043,
+        "wrist_visible_fraction": 0.9565217391304348,
+        "wrist_inside_fraction": 0.8695652173913043,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 691.28271484375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_3_1_rotated",
+      "sha256": "76e4398edc70ca6d4a87eec6e4b3bfa63b6b3331ffd620f81be32e0c09bc9b81",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 26,
+        "decoded_frames": 503,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 790.0039672851562,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_40_rotated",
+      "sha256": "b249297f2ca7f0eb011066ad6c3b526e920efbeb77751afe18c2fa642302073d",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 426,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 790.4228515625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_41_rotated",
+      "sha256": "857fe68dcec4ff3a4ccdf4f4de50bc661f112518c276f5384370a2521debe6ef",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 21,
+        "decoded_frames": 412,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8095238095238095,
+        "wrist_visible_fraction": 0.8571428571428571,
+        "wrist_inside_fraction": 0.8571428571428571,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 723.4617919921875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_42_rotated",
+      "sha256": "4335d877be2497db215f3cec9fb6d379dd60420dff090962c4c1649208a25f55",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 430,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8181818181818182,
+        "wrist_visible_fraction": 0.8636363636363636,
+        "wrist_inside_fraction": 0.8636363636363636,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 676.9901123046875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_43_rotated",
+      "sha256": "517c2ea0e57c2f7698de88637e076f34faca0b551cba82a4baa3f7c190105978",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 26,
+        "decoded_frames": 511,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8846153846153846,
+        "wrist_visible_fraction": 0.8846153846153846,
+        "wrist_inside_fraction": 0.8846153846153846,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 684.1912231445312,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_44_rotated",
+      "sha256": "0655f532a65d6b263c71b7194f9f6b2fd472bacea9c1501fde95675ab6a576d6",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 439,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7727272727272727,
+        "wrist_visible_fraction": 0.7727272727272727,
+        "wrist_inside_fraction": 0.7727272727272727,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 692.8138427734375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_45_rotated",
+      "sha256": "97946df02a33a785464ede1c4f013167bf1ff9b3df69e0f82810b7e17c1fdf85",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 19,
+        "decoded_frames": 362,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7894736842105263,
+        "wrist_visible_fraction": 0.7894736842105263,
+        "wrist_inside_fraction": 0.7894736842105263,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 707.9271240234375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_46_rotated",
+      "sha256": "e323c364055318bd0efcfe0e0e9380a1ce38c61f19a2e79aba14aa3ed4c5304a",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 253,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7692307692307693,
+        "wrist_visible_fraction": 0.7692307692307693,
+        "wrist_inside_fraction": 0.7692307692307693,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 703.0709228515625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_47_rotated",
+      "sha256": "85608dd53c280e1287611176f8622b9d2d55fe4ba60c0795c09cc54d0fb4bb77",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 236,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.75,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 712.9093017578125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_48_rotated",
+      "sha256": "af9f69fddf06e103a355a51023e9e8bd64475c4379e47c923584f7e01c60ed14",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 249,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6923076923076923,
+        "wrist_visible_fraction": 0.6923076923076923,
+        "wrist_inside_fraction": 0.6923076923076923,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 705.1507568359375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_49_rotated",
+      "sha256": "3f8cb476019ec0d494b1e0879dcedb8bb3d532f4d332a6a2ffae509f2d821297",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 23,
+        "decoded_frames": 443,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8695652173913043,
+        "wrist_visible_fraction": 0.8695652173913043,
+        "wrist_inside_fraction": 0.8695652173913043,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 694.014892578125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_4_1_rotated",
+      "sha256": "ca14ac32dbf3c33db2f0cd8a18b7a587678379c3414922c3bcb1ab4e2d3422d5",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 19,
+        "decoded_frames": 362,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7894736842105263,
+        "wrist_visible_fraction": 0.8421052631578947,
+        "wrist_inside_fraction": 0.7894736842105263,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 703.7889404296875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_50_rotated",
+      "sha256": "3b2ed8c614c16b1757af557d67468b4c6d88aac7e717a6b036dfa87de203b7e0",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 18,
+        "decoded_frames": 351,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8333333333333334,
+        "wrist_visible_fraction": 0.7777777777777778,
+        "wrist_inside_fraction": 0.7777777777777778,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 727.9451904296875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_51_rotated",
+      "sha256": "76f418ee676691017bf528b2bf7c67a0d061740fc7fb40bc090453d84951cd5e",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 18,
+        "decoded_frames": 341,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7777777777777778,
+        "wrist_visible_fraction": 0.7777777777777778,
+        "wrist_inside_fraction": 0.7777777777777778,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 696.4407958984375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_52_rotated",
+      "sha256": "1325d87f03986d9630ca031884d227fa91f26df0bc9cd47efd5f0242ac1c29b2",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 16,
+        "decoded_frames": 320,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8125,
+        "wrist_visible_fraction": 0.8125,
+        "wrist_inside_fraction": 0.8125,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 709.9044799804688,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_53_rotated",
+      "sha256": "35a73b8cbd13ebe2e1ab52b3b3c1bd9092573c8fa3aee510aa5ba762b8c49906",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 19,
+        "decoded_frames": 369,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7894736842105263,
+        "wrist_visible_fraction": 0.7894736842105263,
+        "wrist_inside_fraction": 0.7894736842105263,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 706.802001953125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_54_rotated",
+      "sha256": "67ddadf37f8b6f1b4cb9f429a35af1a61943a04cd1b2907af73ae4677c4076b4",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 18,
+        "decoded_frames": 343,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7222222222222222,
+        "wrist_visible_fraction": 0.7777777777777778,
+        "wrist_inside_fraction": 0.7777777777777778,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 691.74365234375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_55_rotated",
+      "sha256": "dca8a04b72ed8cbbd9cc0366dee6f95da48620ad26348ba2cf1f6fedb5e80bf6",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 18,
+        "decoded_frames": 353,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7222222222222222,
+        "wrist_visible_fraction": 0.7777777777777778,
+        "wrist_inside_fraction": 0.7777777777777778,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 677.8710327148438,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_56_rotated",
+      "sha256": "10cb3cac52a4fed6f6c6659df66caa82ad8777e0bc394a2127fa21678f3edd3c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 428,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8181818181818182,
+        "wrist_visible_fraction": 0.8181818181818182,
+        "wrist_inside_fraction": 0.8181818181818182,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 701.88427734375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_57_rotated",
+      "sha256": "3f41efd49cd11a02a7d507b76f64178d32409df7f86163a1ed43950e1c669a84",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 21,
+        "decoded_frames": 407,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8095238095238095,
+        "wrist_visible_fraction": 0.8095238095238095,
+        "wrist_inside_fraction": 0.8095238095238095,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 722.8038330078125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_58_rotated",
+      "sha256": "57e59395a3aa4a493c4566b4a223d5c4b23c23afd7f045af723312ecb98b171d",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 21,
+        "decoded_frames": 413,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8095238095238095,
+        "wrist_visible_fraction": 0.8095238095238095,
+        "wrist_inside_fraction": 0.8095238095238095,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 721.4056396484375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_59_rotated",
+      "sha256": "fcf7d191b5559d5fb5719261d794db757a52372990cc6b810e943a6bcac6d7c7",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "multiple_people",
+        "possible_cut_or_camera_change"
+      ],
+      "metrics": {
+        "sampled_frames": 67,
+        "decoded_frames": 1333,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9850746268656716,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.11940298507462686,
+        "median_person_height_pixels": 775.8695068359375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 3,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_5_1_rotated",
+      "sha256": "314c2a8bd72051a3274d2f262af7d42803b0f861320ec330224a5f8dc7868a40",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 22,
+        "decoded_frames": 438,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8181818181818182,
+        "wrist_visible_fraction": 0.8636363636363636,
+        "wrist_inside_fraction": 0.8636363636363636,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 727.8707275390625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_60_rotated",
+      "sha256": "872b6537a3cb058de37064b508dde5b5ecc257fa6068af3446db1e1bf5aa6c1c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 26,
+        "decoded_frames": 505,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8461538461538461,
+        "wrist_visible_fraction": 0.8846153846153846,
+        "wrist_inside_fraction": 0.8461538461538461,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 711.04248046875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_61_rotated",
+      "sha256": "f4b309f00b99e3e82ab5a4de634276c5e8b6c3ac311cda9bf5b79501e4c8f33c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 23,
+        "decoded_frames": 454,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7391304347826086,
+        "wrist_visible_fraction": 0.6956521739130435,
+        "wrist_inside_fraction": 0.6956521739130435,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 698.45361328125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_62_rotated",
+      "sha256": "bd55acc1e8a6f86515dd0c450f03788bb745e469c23c28d85c27a8e347964693",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low",
+        "possible_cut_or_camera_change"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 275,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8571428571428571,
+        "wrist_visible_fraction": 0.9285714285714286,
+        "wrist_inside_fraction": 0.9285714285714286,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 798.6381225585938,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 1,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_63_rotated",
+      "sha256": "ca970a7b4493b2f371009d2fa28bde07018d36b8da4332e6700cef0e09d7de80",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 280,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8571428571428571,
+        "wrist_visible_fraction": 0.9285714285714286,
+        "wrist_inside_fraction": 0.9285714285714286,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 816.6180419921875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_64_rotated",
+      "sha256": "388c1684f4020d9d6a63c3c54204f51710ff651edc52b31bf198c2589d67d5d7",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 11,
+        "decoded_frames": 213,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 814.080078125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_65_rotated",
+      "sha256": "467f440841a4fba361b97917023fc11ec80b22c317d295363505913d3a134e79",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low",
+        "possible_cut_or_camera_change"
+      ],
+      "metrics": {
+        "sampled_frames": 20,
+        "decoded_frames": 388,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6,
+        "wrist_visible_fraction": 0.7,
+        "wrist_inside_fraction": 0.7,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 811.7750854492188,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 1,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_66_rotated",
+      "sha256": "34397d1729806bd2794637c388e2907e45c5d2d6e9afdcdc62c694eb4accd708",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 236,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 809.9085083007812,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_67_rotated",
+      "sha256": "751bb69155b6250a3cdb02d1387dec78f8044fb6abfe3f0f61570cf85dc574f5",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 282,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9333333333333333,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 815.47119140625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_68_rotated",
+      "sha256": "5197b3a0d95504f206b6f617315a10733317fecd98295546998b0ae2be4bf876",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 289,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 805.741455078125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_69_rotated",
+      "sha256": "ffed2e2ddb8d69e4e891641f79e0ee1508639a5e6ed0bb7a951cada352288c63",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 84,
+        "decoded_frames": 1666,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7857142857142857,
+        "wrist_visible_fraction": 0.7738095238095238,
+        "wrist_inside_fraction": 0.7738095238095238,
+        "multiple_people_fraction": 0.011904761904761904,
+        "median_person_height_pixels": 778.4034423828125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_6_1_rotated",
+      "sha256": "17334df796e10eb07934b3b9f974219b429d3e16657bfc22fb0e2b148f3075b4",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 9,
+        "decoded_frames": 176,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 797.4873046875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_70_rotated",
+      "sha256": "b28794cd1fb046b5b28034a8536be24e2b354da6fc3a88fdf22849b1086fefb2",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 7,
+        "decoded_frames": 134,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 810.62255859375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_71_rotated",
+      "sha256": "0fb9bdbeeeb8eafa4a6b7682c22f4611c86c1bf80fca280a327d1ade826b3d9f",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low",
+        "possible_cut_or_camera_change"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 300,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8666666666666667,
+        "wrist_visible_fraction": 0.8,
+        "wrist_inside_fraction": 0.8,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 805.77001953125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 1,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_72_rotated",
+      "sha256": "e7ccffee6599ce3337f60e2118f88383d922d6789e171150032cf60cc64f6aef",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 16,
+        "decoded_frames": 301,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.8125,
+        "wrist_inside_fraction": 0.8125,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 647.734130859375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_73_rotated",
+      "sha256": "725106309c23d0236b3f8d397bfd99b1c9165024ffbcd9496f80b2490570ce6c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 18,
+        "decoded_frames": 341,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6666666666666666,
+        "wrist_visible_fraction": 0.7777777777777778,
+        "wrist_inside_fraction": 0.7777777777777778,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 691.4176635742188,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_74_rotated",
+      "sha256": "b9c931903593d1eaca8535bbaa5a0a09db4a82d89cf1f6cfd4c3f0782286d0df",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 299,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8,
+        "wrist_visible_fraction": 0.8,
+        "wrist_inside_fraction": 0.8,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 679.8642578125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_75_rotated",
+      "sha256": "6cab24e3c658b1566790cf4d65f929cf94dbbdae63d4624968b8fc00915e4b2c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 16,
+        "decoded_frames": 303,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.75,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 707.3912963867188,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_76_rotated",
+      "sha256": "e9d34d5cad503c14228e091590e5ca8cda3e733af8261e20bbd45a6a98af0738",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 16,
+        "decoded_frames": 314,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8125,
+        "wrist_visible_fraction": 0.875,
+        "wrist_inside_fraction": 0.875,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 673.8389892578125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_77_rotated",
+      "sha256": "0701b43455ead8b46fab143c3ae56b9e6a6fb0872b043b3e6acdb10674f0f2a7",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 16,
+        "decoded_frames": 301,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.75,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 687.380615234375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_78_rotated",
+      "sha256": "fddabe83a99d934e2ef279327578237ada3a4008190b3811f5356ec0a626ecea",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 252,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8461538461538461,
+        "wrist_visible_fraction": 0.7692307692307693,
+        "wrist_inside_fraction": 0.7692307692307693,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 675.115478515625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_79_rotated",
+      "sha256": "8b6eb03098c9ac2a5352454f27686208ee610aea9b32d28279a933e1a633ce1c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 32,
+        "decoded_frames": 636,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 812.001953125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_7_1_rotated",
+      "sha256": "ce822f8bb04cc67c4f3d58cdda6a1259eb5c8351bdcc8cccae2e1444867b2fba",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 238,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8333333333333334,
+        "wrist_visible_fraction": 0.8333333333333334,
+        "wrist_inside_fraction": 0.8333333333333334,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 700.423583984375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_80_rotated",
+      "sha256": "2078af8723d729ed88ff278f9b4a54bc88d0e7fb1009d5b3ca93c04ccad39b07",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 287,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7333333333333333,
+        "wrist_visible_fraction": 0.7333333333333333,
+        "wrist_inside_fraction": 0.7333333333333333,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 689.0997314453125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_81_rotated",
+      "sha256": "9e95a81135444b248c028b9e255d489ea449b04f02c210c43cae76a3c79395f0",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 268,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7142857142857143,
+        "wrist_visible_fraction": 0.7857142857142857,
+        "wrist_inside_fraction": 0.7857142857142857,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 684.4133911132812,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_82_rotated",
+      "sha256": "b3545963609c90f0fd34463d25158b559b372e66442ff09c64a46f87003fc135",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 12,
+        "decoded_frames": 238,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.75,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.75,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 693.235595703125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_83_rotated",
+      "sha256": "3a009c0bf980e370dd615e5c4993eea277a5a834a910508841908f6f9149f899",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 268,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7857142857142857,
+        "wrist_visible_fraction": 0.7857142857142857,
+        "wrist_inside_fraction": 0.7857142857142857,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 702.6854248046875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_84_rotated",
+      "sha256": "ce5279def39da42617694a6cc71a25aaa073d3f9bcdbf2a2c119cfdb890d75fd",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 243,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6153846153846154,
+        "wrist_visible_fraction": 0.6923076923076923,
+        "wrist_inside_fraction": 0.6153846153846154,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 696.456787109375,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_85_rotated",
+      "sha256": "80cadd8ee6334098b8ef2fc691f8f6eb88ee43461db9673cc7074066a019a9af",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 290,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8666666666666667,
+        "wrist_visible_fraction": 0.8666666666666667,
+        "wrist_inside_fraction": 0.8666666666666667,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 691.41162109375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_86_rotated",
+      "sha256": "30af4beba620c704f5a7d7e0a29527f9e9233b6e5ed2d1ab6fb0b6b1c3bd4d6b",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 284,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8,
+        "wrist_visible_fraction": 0.8,
+        "wrist_inside_fraction": 0.8,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 697.03369140625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_87_rotated",
+      "sha256": "9f9687b47fbc867dc191cf964db131cc27cd000a96ec4bec6311f931a8d489c5",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 294,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8,
+        "wrist_visible_fraction": 0.8,
+        "wrist_inside_fraction": 0.8,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 706.1175537109375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_88_rotated",
+      "sha256": "b2d79667e720ea9e8d8f22230c0442fdf0963771ce7987c085b412f46e37b409",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 264,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7857142857142857,
+        "wrist_visible_fraction": 0.8571428571428571,
+        "wrist_inside_fraction": 0.8571428571428571,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 716.3762817382812,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_89_rotated",
+      "sha256": "d859626fce970bb060066d2ad41dbbab43c6c88e9b4d3c0ebc4b3e6ee10f1099",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 34,
+        "decoded_frames": 677,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.8529411764705882,
+        "wrist_visible_fraction": 0.8823529411764706,
+        "wrist_inside_fraction": 0.8823529411764706,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 742.7142333984375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_8_1_rotated",
+      "sha256": "e263d4cb46f9d2ffa26a01c778460659a9d18aae204a58a9fe7e8fca536d459c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 13,
+        "decoded_frames": 255,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6923076923076923,
+        "wrist_visible_fraction": 0.6923076923076923,
+        "wrist_inside_fraction": 0.6923076923076923,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 704.892822265625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_90_rotated",
+      "sha256": "e149d59b22b064ef816a65330545ba6b4f5f9465678ee10debf0369ec13c5f31",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 24,
+        "decoded_frames": 470,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.5416666666666666,
+        "wrist_visible_fraction": 0.5833333333333334,
+        "wrist_inside_fraction": 0.5833333333333334,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 696.3333129882812,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_91_rotated",
+      "sha256": "a0076d81b7b8a97ef0e11c72676de22d1d72e26aa5d802cec89ca55196b39b85",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 291,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7333333333333333,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 710.3687744140625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_92_rotated",
+      "sha256": "4b27098f258f3642ef0891d3fcabf820c0396146308d1b7de0b5535febe1c8ab",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 283,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6666666666666666,
+        "wrist_visible_fraction": 0.6666666666666666,
+        "wrist_inside_fraction": 0.6666666666666666,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 703.765380859375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_93_rotated",
+      "sha256": "e6c82d7d423ee8171c188aa450efc8d6926f006db3f702adcbcad15fb5de35e5",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 283,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6666666666666666,
+        "wrist_visible_fraction": 0.7333333333333333,
+        "wrist_inside_fraction": 0.7333333333333333,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 704.126220703125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_94_rotated",
+      "sha256": "9ae088e662431105ded7a66386b0375f6760194190213b164699c4e61e725582",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 290,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6666666666666666,
+        "wrist_visible_fraction": 0.7333333333333333,
+        "wrist_inside_fraction": 0.7333333333333333,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 709.90625,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_95_rotated",
+      "sha256": "6c943056d8edc8691f63fda49ff37f2c474a4fd1562345ba28a9066f23f01fe3",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 266,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7142857142857143,
+        "wrist_visible_fraction": 0.7142857142857143,
+        "wrist_inside_fraction": 0.7142857142857143,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 706.5703125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_96_rotated",
+      "sha256": "0aef6275130d8be3e7593b79cd738974b7f1b7b8ffbc2b9fa9cc758e4730d290",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 14,
+        "decoded_frames": 266,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6428571428571429,
+        "wrist_visible_fraction": 0.7142857142857143,
+        "wrist_inside_fraction": 0.7142857142857143,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 697.4615478515625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_97_rotated",
+      "sha256": "3e86716925b20e3839aeef1aed80bcb3263f2c4582c1e03460f2ed3e8916986c",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 16,
+        "decoded_frames": 301,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.6875,
+        "wrist_visible_fraction": 0.75,
+        "wrist_inside_fraction": 0.6875,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 707.3854370117188,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_98_rotated",
+      "sha256": "d1a03bd4fedd64361a277a5386907bc30274bdf3d043caa43d8acb8a5bf4d3f4",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 15,
+        "decoded_frames": 286,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.7333333333333333,
+        "wrist_visible_fraction": 0.7333333333333333,
+        "wrist_inside_fraction": 0.7333333333333333,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 712.59423828125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_99_rotated",
+      "sha256": "72bacfdba382a8eb12f86e6cd24e4bf9e4a3ae71d3baf45c9dd71001da80df81",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "wrist_inside_fraction_low"
+      ],
+      "metrics": {
+        "sampled_frames": 19,
+        "decoded_frames": 379,
+        "sampling_every_n_frames": 20,
+        "body_visible_fraction": 0.9473684210526315,
+        "wrist_visible_fraction": 0.9473684210526315,
+        "wrist_inside_fraction": 0.9473684210526315,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 756.81591796875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "hf_vid_9_1_rotated",
+      "sha256": "8727674e233fd7ed89b1e794c4fba4413ce0f229282fb1d41a2de7d51041c358",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_inside_fraction_low",
+        "multiple_people",
+        "possible_cut_or_camera_change"
+      ],
+      "metrics": {
+        "sampled_frames": 55,
+        "decoded_frames": 1372,
+        "sampling_every_n_frames": 25,
+        "body_visible_fraction": 0.0,
+        "wrist_visible_fraction": 0.9454545454545454,
+        "wrist_inside_fraction": 0.9454545454545454,
+        "multiple_people_fraction": 0.8,
+        "median_person_height_pixels": 741.593017578125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 4,
+        "encoded_fps": 25.0
+      },
+      "id": "yt_KdbdYeST2fE",
+      "sha256": "f1023845e6996887a492443204076e291fdac0f28c2f5900e7ebacc288630952",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low",
+        "possible_cut_or_camera_change"
+      ],
+      "metrics": {
+        "sampled_frames": 410,
+        "decoded_frames": 10250,
+        "sampling_every_n_frames": 25,
+        "body_visible_fraction": 0.0,
+        "wrist_visible_fraction": 0.6804878048780488,
+        "wrist_inside_fraction": 0.6780487804878049,
+        "multiple_people_fraction": 0.03170731707317073,
+        "median_person_height_pixels": 702.6047973632812,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 20,
+        "encoded_fps": 25.0
+      },
+      "id": "yt_KV2XqzIJDgw",
+      "sha256": "d31b451e56461b77dd901e23525cf4f6abefff5138c9037f5691fd3729888837",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "body_visible_fraction_low",
+        "wrist_visible_fraction_low",
+        "wrist_inside_fraction_low",
+        "multiple_people",
+        "possible_cut_or_camera_change"
+      ],
+      "metrics": {
+        "sampled_frames": 253,
+        "decoded_frames": 6060,
+        "sampling_every_n_frames": 24,
+        "body_visible_fraction": 0.0,
+        "wrist_visible_fraction": 0.21739130434782608,
+        "wrist_inside_fraction": 0.21739130434782608,
+        "multiple_people_fraction": 0.23715415019762845,
+        "median_person_height_pixels": 787.419189453125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 16,
+        "encoded_fps": 24.0
+      },
+      "id": "yt_NRcxlA_eyeQ",
+      "sha256": "a40787f618dd5ef152f17504fd286abbd564900e0bcc20e4b907cbfc47208dc1",
+      "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+      "note": "Sparse 1 FPS source screen only. Full-frame throw segmentation/QA still needed."
+    }
+  ],
+  "counts": {
+    "held": 92,
+    "promising": 30
+  },
+  "note": "Sparse source screening. Passing does not certify every throw or approve any source."
+}
