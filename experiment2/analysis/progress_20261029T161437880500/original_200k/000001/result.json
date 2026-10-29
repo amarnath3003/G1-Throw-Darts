@@ -1,0 +1,52 @@
+{
+  "is_success": false,
+  "outcome": "environment_hit",
+  "impact_error_m": null,
+  "release": {
+    "time_s": 0.08350000000000007,
+    "position": [
+      0.4884155008518409,
+      0.14599374896589193,
+      1.410819930809644
+    ],
+    "velocity": [
+      3.1349431225442954,
+      -0.3375713656327069,
+      1.0934929790506622
+    ]
+  },
+  "reward_terms": {
+    "smoothness": -0.04048756104521497,
+    "residual_cost": -0.059956469130162046,
+    "finger_speed": -0.009997510350072068,
+    "clean_release": 2.0,
+    "release_prediction": 8.121275490927983e-05,
+    "forward_flight": 1.6009515376519126,
+    "environment_hit": -8.0
+  },
+  "variant": "legacy",
+  "trajectory": {
+    "velocity_gap_m_s": 2.595033009351124,
+    "velocity_quality": 0.3726408462166897,
+    "desired_velocity_m_s": [
+      4.330318101979585,
+      -0.25171336028602054,
+      3.3952104641213037
+    ],
+    "desired_flight_time_s": 0.5800000000000001,
+    "minimum_ballistic_speed_m_s": 5.292373880842736,
+    "predicted_board_yz_m": [
+      -0.12445422285928201,
+      -0.8614134148491583
+    ],
+    "predicted_board_error_m": 2.594400188916059,
+    "required_vz_at_current_vx_m_s": 4.3280780249871,
+    "vertical_velocity_deficit_m_s": 3.234585045936438,
+    "command_to_detach_s": 0.06350000000000006
+  },
+  "peak_height_m": 1.4695329848253986,
+  "closest_tip_distance_m": 1.4171093050861416,
+  "board_plane_crossing": null,
+  "max_finger_speed_rad_s": 1.886625165854274,
+  "max_joint_limit_violation_rad": 0.0
+}
