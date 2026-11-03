@@ -1,8 +1,8 @@
-# G1 Darts Lab
+# G1 Throw Labs
+
+![G1 Throw Labs banner illustration showing a Unitree G1 throwing a dart into the bullseye](lab/previews/g1-throw-labs-banner.png)
 
 **A simulated Unitree G1 learns to throw a free dart with a five-finger Inspire hand.**
-
-![The G1 and dartboard in the MuJoCo throwing room](lab/previews/room.png)
 
 [Watch a recorded bullseye](lab/progress_videos/12_ppo_bullseye_training_throw.mp4) ·
 [Watch the first reproducible board hit](lab/experiment2/milestones/first_board_hit/swing.mp4) ·
@@ -75,6 +75,7 @@ The [board-hit bundle](lab/experiment2/milestones/first_board_hit/README.md) exp
 
 ## More footage
 
+[Simulator screenshot](lab/previews/room.png) ·
 [Room tour](lab/progress_videos/01_room_and_environment.mp4) ·
 [Two-finger hold and drop](lab/progress_videos/03_physical_hold_and_release.mp4) ·
 [HaMeR hand reconstruction](lab/progress_videos/06_hamer_full_3d_hand.mp4) ·
