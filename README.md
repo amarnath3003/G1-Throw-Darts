@@ -28,15 +28,12 @@ All results use a supported robot in MuJoCo.
 
 ## How it works
 
-```mermaid
-flowchart LR
-    A[Scripted or video-derived arm motion] --> B[Joint reference]
-    B --> C[Bounded PPO corrections]
-    C --> D[Torque-limited G1 and Inspire hand]
-    D --> E[Contact release and free dart flight]
-    E --> F[Measured tip impact and scoring]
-    F --> G[Evaluation and swing recordings]
-```
+[![Two architecture tracks show a tabletop pen pickup through HaMeR and G1 arm retargeting, and a pen throw through GVHMR and G1 throw retargeting. Both converge on MuJoCo, residual PPO, and physical checks.](lab/previews/g1-throw-labs-architecture.jpg)](lab/previews/g1-throw-labs-architecture.jpg)
+
+The panels use stills from the original demonstrations, reconstructed meshes,
+and simulator replays. [Pickup](lab/experiment3/README.md) and
+[video-guided throwing](lab/experiment4/README.md) were evaluated separately in
+the shared simulation stack.
 
 The dart weighs 26.7 g. Finger contacts hold it until the hand opens.
 After release, gravity and modeled aerodynamic loads govern the free flight.
