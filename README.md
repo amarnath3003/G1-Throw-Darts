@@ -28,13 +28,14 @@ All results use a supported robot in MuJoCo.
 
 ## Architecture
 
-[![Animated architecture tracks show a tabletop pen pickup with HaMeR hand landmarks and G1 arm retargeting, and a pen throw through GVHMR and G1 throw retargeting. Both converge on MuJoCo, residual PPO, and physical checks.](lab/previews/g1-throw-labs-architecture.gif)](lab/previews/g1-throw-labs-architecture.gif)
+[![Animated architecture tracks show a tabletop pen pickup with HaMeR hand landmarks and G1 arm retargeting, and a pen throw through GVHMR and G1 throw retargeting. The final panel shows a slow-motion bullseye from a separate PPO training rollout.](lab/previews/g1-throw-labs-architecture.gif)](lab/previews/g1-throw-labs-architecture.gif)
 
 The loop combines the original demonstrations, reconstructed meshes, and
 simulator replays. The pickup overlay interpolates between sampled HaMeR
 hand landmarks. [Pickup](lab/experiment3/README.md) and
 [video-guided throwing](lab/experiment4/README.md) were evaluated separately in
-the shared simulation stack.
+the shared simulation stack. The bullseye panel replays the separate
+[Experiment 2 training throw](lab/progress_videos/12_ppo_bullseye_training_throw.mp4).
 
 The dart weighs 26.7 g. Finger contacts hold it until the hand opens.
 After release, gravity and modeled aerodynamic loads govern the free flight.
