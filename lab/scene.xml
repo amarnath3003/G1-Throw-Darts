@@ -32,31 +32,22 @@
     <mesh name="lane_mesh" inertia="shell" vertex="0 -0.425 -0.10625 0 0.425 -0.10625 0 0.425 0.10625 0 -0.425 0.10625" face="0 2 1 0 3 2" texcoord="1 1 0 1 0 0 1 0" />
     <mesh name="panel_mesh" inertia="shell" vertex="0 -0.75 -0.1875 0 0.75 -0.1875 0 0.75 0.1875 0 -0.75 0.1875" face="0 2 1 0 3 2" texcoord="1 1 0 1 0 0 1 0" />
     <mesh name="score_panel_mesh" inertia="shell" vertex="0 -0.27 -0.18 0 0.27 -0.18 0 0.27 0.18 0 -0.27 0.18" face="0 2 1 0 3 2" texcoord="1 1 0 1 0 0 1 0" />
+    <material name="board_wall_light" rgba="1 .69 .36 1" emission=".75" />
   </asset>
   <worldbody>
     <light name="key" pos=".2 -1.2 3" dir=".3 .1 -1" diffuse=".85 .83 .75" castshadow="true" />
     <light name="fill" pos="1.7 1.8 2.7" dir="0 -.3 -1" diffuse=".45 .58 .62" castshadow="false" />
-    <light name="board_light" pos="2.65 0 2.45" dir=".4 0 -1" diffuse=".7 .65 .52" castshadow="false" />
+    <light name="board_light" pos="2.65 0 2.45" dir=".4 0 -1" diffuse=".88 .72 .55" castshadow="false" />
     <camera name="room" pos="-2.65 -4.2 2.65" xyaxes=".64 -.77 0 .22 .18 .96" fovy="49" />
     <camera name="board" pos="1.65 0 1.73" xyaxes="0 -1 0 0 0 1" fovy="36" />
     <camera name="robot" pos="1.65 -2.0 1.65" xyaxes=".83 .56 0 -.13 .19 .97" fovy="44" />
     <camera name="side" pos="1.2 -4.2 1.75" xyaxes="1 0 0 0 0 1" fovy="51" />
     <camera name="darts" pos=".46 -1.75 1.16" xyaxes="1 0 0 0 .52 .85" fovy="38" />
     <geom name="floor" type="plane" size="6 6 .05" material="floor_mat" friction=".9 .01 .001" />
-    <geom name="front_wall" type="box" pos="3.14 0 1.6" size=".06 2.45 1.6" rgba=".82 .82 .77 1" />
-    <geom name="left_wall" type="box" pos=".65 2.46 1.6" size="2.55 .05 1.6" rgba=".90 .89 .85 1" />
-    <geom name="right_wall_low" type="box" pos=".65 -2.46 .19" size="2.55 .05 .19" rgba=".90 .89 .85 1" />
-    <geom name="wall_base" type="box" pos="3.069 0 .06" size=".012 2.45 .06" rgba=".12 .14 .18 1" />
-    <geom name="wall_rib_-2.2" type="box" pos="3.075 -2.2 1.63" size=".018 .018 1.53" rgba=".64 .66 .61 1" contype="0" conaffinity="0" />
-    <geom name="wall_rib_-1.72" type="box" pos="3.075 -1.72 1.63" size=".018 .018 1.53" rgba=".64 .66 .61 1" contype="0" conaffinity="0" />
-    <geom name="wall_rib_1.72" type="box" pos="3.075 1.72 1.63" size=".018 .018 1.53" rgba=".64 .66 .61 1" contype="0" conaffinity="0" />
-    <geom name="wall_rib_2.2" type="box" pos="3.075 2.2 1.63" size=".018 .018 1.53" rgba=".64 .66 .61 1" contype="0" conaffinity="0" />
-    <geom name="wall_inset_-1.25" type="box" pos="3.071 -1.25 1.73" size=".012 .23 .86" rgba=".72 .73 .69 1" contype="0" conaffinity="0" />
-    <geom name="wall_inset_edge_-1.25" type="box" pos="3.055 -1.25 1.73" size=".01 .012 .86" rgba=".62 .60 .50 1" contype="0" conaffinity="0" />
-    <geom name="wall_inset_1.25" type="box" pos="3.071 1.25 1.73" size=".012 .23 .86" rgba=".72 .73 .69 1" contype="0" conaffinity="0" />
-    <geom name="wall_inset_edge_1.25" type="box" pos="3.055 1.25 1.73" size=".01 .012 .86" rgba=".62 .60 .50 1" contype="0" conaffinity="0" />
-    <geom name="accent_left" type="box" pos="3.065 -1.01 1.65" size=".012 .012 1.18" rgba=".78 .61 .30 1" contype="0" conaffinity="0" />
-    <geom name="accent_right" type="box" pos="3.065 1.01 1.65" size=".012 .012 1.18" rgba=".78 .61 .30 1" contype="0" conaffinity="0" />
+    <geom name="front_wall" type="box" pos="3.14 0 1.6" size=".06 2.45 1.6" rgba=".12 .18 .23 1" />
+    <geom name="left_wall" type="box" pos=".65 2.46 1.6" size="2.55 .05 1.6" rgba=".18 .27 .33 1" />
+    <geom name="right_wall_low" type="box" pos=".65 -2.46 .19" size="2.55 .05 .19" rgba=".18 .27 .33 1" />
+    <geom name="wall_base" type="box" pos="3.069 0 .06" size=".012 2.45 .06" rgba=".12 .18 .23 1" />
     <geom name="lane_mat" type="box" pos="-.22 0 .004" size="1.0 .53 .004" rgba=".045 .085 .15 1" contype="0" conaffinity="0" />
     <geom name="oche" type="box" pos="0.6299999999999999 0 .009" size=".012 .61 .009" rgba=".78 .61 .30 1" contype="0" conaffinity="0" />
     <geom name="lane_border_-0.54" type="box" pos="-.22 -0.54 .009" size="1.0 .006 .001" rgba=".53 .58 .44 1" contype="0" conaffinity="0" />
@@ -74,14 +65,15 @@
       <site name="bullseye" pos="-.0005 0 0" size=".00635" rgba="1 0 0 0" />
       <site name="board_frame" pos="0 0 0" size=".005" rgba="0 1 0 0" />
     </body>
-    <geom name="cabinet_back" type="box" pos="3.105 0 1.73" size=".020 .455 .555" rgba=".30 .19 .10 1" />
-    <geom name="cabinet_side_-0.465" type="box" pos="3.075 -0.465 1.73" size=".038 .035 .59" rgba=".42 .27 .15 1" />
-    <geom name="cabinet_side_0.465" type="box" pos="3.075 0.465 1.73" size=".038 .035 .59" rgba=".42 .27 .15 1" />
-    <geom name="cabinet_rail_1.14" type="box" pos="3.075 0 1.14" size=".038 .49 .035" rgba=".48 .32 .18 1" />
-    <geom name="cabinet_rail_2.32" type="box" pos="3.075 0 2.32" size=".038 .49 .035" rgba=".48 .32 .18 1" />
+    <geom name="cabinet_back" type="box" pos="3.105 0 1.73" size=".020 .455 .555" rgba="0 0 0 0" />
+    <geom name="cabinet_side_-0.465" type="box" pos="3.075 -0.465 1.73" size=".038 .035 .59" rgba="0 0 0 0" />
+    <geom name="cabinet_side_0.465" type="box" pos="3.075 0.465 1.73" size=".038 .035 .59" rgba="0 0 0 0" />
+    <geom name="cabinet_rail_1.14" type="box" pos="3.075 0 1.14" size=".038 .49 .035" rgba="0 0 0 0" />
+    <geom name="cabinet_rail_2.32" type="box" pos="3.075 0 2.32" size=".038 .49 .035" rgba="0 0 0 0" />
+    <geom name="board_mount_trim" type="box" pos="3.072 0 1.73" size=".014 .49 .58" rgba=".52 .27 .14 1" contype="0" conaffinity="0" />
+    <geom name="board_mount_panel" type="box" pos="3.054 0 1.73" size=".018 .475 .565" rgba=".16 .29 .35 1" contype="0" conaffinity="0" />
+    <geom name="board_light_diffuser" type="box" pos="3.029 0 2.20" size=".012 .30 .011" rgba="1 .69 .36 1" material="board_wall_light" contype="0" conaffinity="0" />
     <site name="oche_center" pos="0.6299999999999999 0 0" size=".005" rgba="0 1 0 0" />
-    <geom name="header_sign" type="mesh" mesh="header_mesh" pos="3.06 0 2.51" material="header_mat" contype="0" conaffinity="0" mass="0" />
-    <geom name="panel_sign" type="mesh" mesh="panel_mesh" pos="3.06 0 .67" material="panel_mat" contype="0" conaffinity="0" mass="0" />
     <geom name="table_top" type="box" pos=".48 -1.20 .77" size=".48 .28 .025" rgba=".31 .25 .15 1" />
     <geom name="table_leg_0.08_-1.42" type="box" pos="0.08 -1.42 .375" size=".022 .022 .375" rgba=".08 .095 .13 1" />
     <geom name="table_leg_0.08_-0.98" type="box" pos="0.08 -0.98 .375" size=".022 .022 .375" rgba=".08 .095 .13 1" />
@@ -237,7 +229,6 @@
       <site name="display_dart_com" pos="0.006199999999999997 0 0" size="0.002" rgba="0 1 0 0" />
       <site name="display_dart_aero_center" pos="-0.0718 0 0" size="0.002" rgba="0 1 0 0" />
     </body>
-    <geom name="score_panel_sign" type="mesh" mesh="score_panel_mesh" pos="3.055 -.77 1.77" material="score_panel_mat" contype="0" conaffinity="0" mass="0" />
-    <geom name="board_shelf" type="box" pos="2.94 0 1.18" size=".13 .43 .018" rgba=".24 .20 .12 1" />
+    <geom name="board_shelf" type="box" pos="2.94 0 1.18" size=".13 .43 .018" rgba="0 0 0 0" />
   </worldbody>
 </mujoco>

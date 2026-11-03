@@ -149,7 +149,7 @@ def build():
     world = add(scene, "worldbody")
     add(world, "light", name="key", pos=".2 -1.2 3", dir=".3 .1 -1", diffuse=".85 .83 .75", castshadow="true")
     add(world, "light", name="fill", pos="1.7 1.8 2.7", dir="0 -.3 -1", diffuse=".45 .58 .62", castshadow="false")
-    add(world, "light", name="board_light", pos="2.65 0 2.45", dir=".4 0 -1", diffuse=".7 .65 .52", castshadow="false")
+    add(world, "light", name="board_light", pos="2.65 0 2.45", dir=".4 0 -1", diffuse=".88 .72 .55", castshadow="false")
     add(world, "camera", name="room", pos="-2.65 -4.2 2.65", xyaxes=".64 -.77 0 .22 .18 .96", fovy="49")
     add(world, "camera", name="board", pos="1.65 0 1.73", xyaxes="0 -1 0 0 0 1", fovy="36")
     add(world, "camera", name="robot", pos="1.65 -2.0 1.65", xyaxes=".83 .56 0 -.13 .19 .97", fovy="44")
@@ -158,19 +158,11 @@ def build():
     def box(name, pos, size, rgba, **extra):
         return add(world, "geom", name=name, type="box", pos=pos, size=size, rgba=rgba, **extra)
     add(world, "geom", name="floor", type="plane", size="6 6 .05", material="floor_mat", friction=".9 .01 .001")
-    box("front_wall", "3.14 0 1.6", ".06 2.45 1.6", ".82 .82 .77 1")
-    box("left_wall", ".65 2.46 1.6", "2.55 .05 1.6", ".90 .89 .85 1")
+    box("front_wall", "3.14 0 1.6", ".06 2.45 1.6", ".12 .18 .23 1")
+    box("left_wall", ".65 2.46 1.6", "2.55 .05 1.6", ".18 .27 .33 1")
     # Open camera-side wall and ceiling for an unobstructed inspection view.
-    box("right_wall_low", ".65 -2.46 .19", "2.55 .05 .19", ".90 .89 .85 1")
-    box("wall_base", "3.069 0 .06", ".012 2.45 .06", ".12 .14 .18 1")
-    # Slim architectural ribs and warm wall panels dress the practice bay.
-    for y in (-2.20, -1.72, 1.72, 2.20):
-        box(f"wall_rib_{y}", "3.075 "+str(y)+" 1.63", ".018 .018 1.53", ".64 .66 .61 1", contype="0", conaffinity="0")
-    for y in (-1.25, 1.25):
-        box(f"wall_inset_{y}", "3.071 "+str(y)+" 1.73", ".012 .23 .86", ".72 .73 .69 1", contype="0", conaffinity="0")
-        box(f"wall_inset_edge_{y}", "3.055 "+str(y)+" 1.73", ".01 .012 .86", ".62 .60 .50 1", contype="0", conaffinity="0")
-    box("accent_left", "3.065 -1.01 1.65", ".012 .012 1.18", ".78 .61 .30 1", contype="0", conaffinity="0")
-    box("accent_right", "3.065 1.01 1.65", ".012 .012 1.18", ".78 .61 .30 1", contype="0", conaffinity="0")
+    box("right_wall_low", ".65 -2.46 .19", "2.55 .05 .19", ".18 .27 .33 1")
+    box("wall_base", "3.069 0 .06", ".012 2.45 .06", ".12 .18 .23 1")
     box("lane_mat", "-.22 0 .004", "1.0 .53 .004", ".045 .085 .15 1", contype="0", conaffinity="0")
     box("oche", f"{OCHE_X} 0 .009", ".012 .61 .009", ".78 .61 .30 1", contype="0", conaffinity="0")
     for y in (-.54, .54):
@@ -178,20 +170,23 @@ def build():
     for x in (.95, 1.25, 1.55, 1.85, 2.15, 2.45):
         box(f"lane_dash_{x}", f"{x} 0 .001", ".06 .005 .001", ".58 .48 .33 1", contype="0", conaffinity="0")
     board = add(world, "body", name="dartboard", pos=f"{BOARD_X} 0 {BULL_Z}")
-    # Timber surround, mounted behind the impact face so the board remains clear.
-    box("cabinet_back", "3.105 0 1.73", ".020 .455 .555", ".30 .19 .10 1")
+    # Preserve the calibrated environment contacts behind the new visual wall treatment.
+    box("cabinet_back", "3.105 0 1.73", ".020 .455 .555", "0 0 0 0")
     for y in (-.465, .465):
-        box(f"cabinet_side_{y}", "3.075 "+str(y)+" 1.73", ".038 .035 .59", ".42 .27 .15 1")
+        box(f"cabinet_side_{y}", f"3.075 {y} 1.73", ".038 .035 .59", "0 0 0 0")
     for z in (1.14, 2.32):
-        box(f"cabinet_rail_{z}", f"3.075 0 {z}", ".038 .49 .035", ".48 .32 .18 1")
+        box(f"cabinet_rail_{z}", f"3.075 0 {z}", ".038 .49 .035", "0 0 0 0")
+    box("board_mount_trim", "3.072 0 1.73", ".014 .49 .58", ".52 .27 .14 1", contype="0", conaffinity="0")
+    box("board_mount_panel", "3.054 0 1.73", ".018 .475 .565", ".16 .29 .35 1", contype="0", conaffinity="0")
+    add(asset, "material", name="board_wall_light", rgba="1 .69 .36 1", emission=".75")
+    box("board_light_diffuser", "3.029 0 2.20", ".012 .30 .011", "1 .69 .36 1",
+        material="board_wall_light", contype="0", conaffinity="0")
     add(board, "geom", name="surround", type="cylinder", pos=".04 0 0", quat=".707106781 0 .707106781 0", size=".33 .018", rgba=".038 .055 .06 1")
     add(board, "geom", name="board_collision", type="cylinder", pos=".02 0 0", quat=".707106781 0 .707106781 0", size=".2255 .02", rgba=".12 .14 .14 1")
     add(board, "geom", name="board_art", type="mesh", mesh="board_face", pos="-.0004 0 0", material="dartboard_mat", contype="0", conaffinity="0", mass="0")
     add(board, "site", name="bullseye", pos="-.0005 0 0", size=".00635", rgba="1 0 0 0")
     add(board, "site", name="board_frame", pos="0 0 0", size=".005", rgba="0 1 0 0")
     add(world, "site", name="oche_center", pos=f"{OCHE_X} 0 0", size=".005", rgba="0 1 0 0")
-    for name, pos in (("header", "3.06 0 2.51"), ("panel", "3.06 0 .67")):
-        add(world, "geom", name=f"{name}_sign", type="mesh", mesh=f"{name}_mesh", pos=pos, material=f"{name}_mat", contype="0", conaffinity="0", mass="0")
     # Side equipment station; well clear of the throwing lane.
     box("table_top", ".48 -1.20 .77", ".48 .28 .025", ".31 .25 .15 1")
     for x in (.08, .88):
@@ -202,9 +197,8 @@ def build():
         add_dart(world, f"spare_dart_{i+1}", f".46 {y} .832", profile, free=(i == 0))
     # Wall-mounted sample dart makes the scale and flight silhouette easy to inspect.
     add_dart(world, "display_dart", "2.985 .080 1.755", profile)
-    add(world, "geom", name="score_panel_sign", type="mesh", mesh="score_panel_mesh", pos="3.055 -.77 1.77", material="score_panel_mat", contype="0", conaffinity="0", mass="0")
-    # A subtle equipment shelf below the board.
-    box("board_shelf", "2.94 0 1.18", ".13 .43 .018", ".24 .20 .12 1")
+    # Preserve the original shelf contact footprint beneath the visual panel.
+    box("board_shelf", "2.94 0 1.18", ".13 .43 .018", "0 0 0 0")
     ET.indent(scene, space="  ")
     ET.ElementTree(scene).write(ROOT / "scene.xml", encoding="unicode")
     settings = {

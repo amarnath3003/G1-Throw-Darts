@@ -2,7 +2,7 @@
   "model_nq": 43,
   "model_nv": 41,
   "actuators": 29,
-  "geoms": 238,
+  "geoms": 228,
   "bull_world_m": [
     2.9995,
     0.0,
