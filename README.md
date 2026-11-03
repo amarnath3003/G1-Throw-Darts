@@ -2,17 +2,11 @@
 
 ![G1 Throw Labs banner rendered in Blender from the project’s Unitree G1 model](lab/previews/g1-throw-labs-3d.jpg)
 
-[Compare the 2D-style banner](lab/previews/g1-throw-labs-2d.jpg) ·
-[Watch a recorded bullseye](lab/progress_videos/12_ppo_bullseye_training_throw.mp4)
+[![Animated preview of the G1 Throw Labs film](lab/previews/g1-throw-labs-film.gif)](lab/progress_videos/g1-throw-labs-intro.mp4)
 
-*Banner render uses a saved G1 follow-through pose with the dart staged at the bullseye.*
+[Watch the full film (5:41)](lab/progress_videos/g1-throw-labs-intro.mp4)
 
-**A simulated Unitree G1 learns to throw a free dart with a five-finger Inspire hand.**
-
-[Watch the first reproducible board hit](lab/experiment2/milestones/first_board_hit/swing.mp4) ·
-[Watch the five-finger grip and release](lab/inspire_grip/left_hand_hold_release.mp4)
-
-[Watch the narrated project film (5:41)](lab/progress_videos/g1-throw-labs-intro.mp4)
+A simulated Unitree G1 learns to throw a dart with a five-finger Inspire hand.
 
 ## Results at a glance
 
