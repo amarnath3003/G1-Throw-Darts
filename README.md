@@ -12,6 +12,8 @@
 [Watch the first reproducible board hit](lab/experiment2/milestones/first_board_hit/swing.mp4) ·
 [Watch the five-finger grip and release](lab/inspire_grip/left_hand_hold_release.mp4)
 
+[Watch the narrated project film (5:41)](lab/progress_videos/g1-throw-labs-intro.mp4)
+
 ## Results at a glance
 
 | Experiment | What we built | What the evidence shows |
