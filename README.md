@@ -26,12 +26,13 @@ The **1.17 mm** bullseye in the featured clip is one training rollout. See the
 for board hits, inner bulls, collision counts and target error across checkpoints.
 All results use a supported robot in MuJoCo.
 
-## How it works
+## Architecture
 
-[![Two architecture tracks show a tabletop pen pickup through HaMeR and G1 arm retargeting, and a pen throw through GVHMR and G1 throw retargeting. Both converge on MuJoCo, residual PPO, and physical checks.](lab/previews/g1-throw-labs-architecture.jpg)](lab/previews/g1-throw-labs-architecture.jpg)
+[![Animated architecture tracks show a tabletop pen pickup with HaMeR hand landmarks and G1 arm retargeting, and a pen throw through GVHMR and G1 throw retargeting. Both converge on MuJoCo, residual PPO, and physical checks.](lab/previews/g1-throw-labs-architecture.gif)](lab/previews/g1-throw-labs-architecture.gif)
 
-The panels use stills from the original demonstrations, reconstructed meshes,
-and simulator replays. [Pickup](lab/experiment3/README.md) and
+The loop combines the original demonstrations, reconstructed meshes, and
+simulator replays. The pickup overlay interpolates between sampled HaMeR
+hand landmarks. [Pickup](lab/experiment3/README.md) and
 [video-guided throwing](lab/experiment4/README.md) were evaluated separately in
 the shared simulation stack.
 
