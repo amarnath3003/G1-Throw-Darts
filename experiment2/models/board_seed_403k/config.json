@@ -1,0 +1,18 @@
+{
+  "variant": "arc_v7",
+  "throw_profile": {
+    "elbow_back": -0.1805704723652246,
+    "shoulder_finish": 0.2856199519120309,
+    "rate_scale": 1.2028074197364196,
+    "roll_finish": 0.41710727084230415,
+    "elbow_finish": 0.5075265635157611,
+    "aim_yaw": -0.1156668160201529,
+    "flight_autopilot": true,
+    "target_reward_weight": 1.0
+  },
+  "freeze_normalization": true,
+  "randomize": true,
+  "source_checkpoint": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\runs\\20261030T125811941261\\checkpoints\\rl_model_403564_steps.zip",
+  "source_calibration": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\analysis\\round400k\\calibration_aim\\best.json",
+  "note": "403564-step PPO weights with optimizer-selected physical joint-reference profile. Calibration trials are not PPO updates."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "source_videos": 122,
+  "candidate_clips": 24,
+  "fully_decoded_files": 146,
+  "approval_tests": "isolated temporary directory; no actual selections made",
+  "checks": [
+    "complete video decode",
+    "candidate hashes",
+    "monotonic source frame maps",
+    "30 FPS nearest-frame export",
+    "body/reference routing",
+    "approval/rejection/reset manifest eligibility",
+    "unknown-ID rejection"
+  ],
+  "limitations": [
+    "no automatic full-body pose validation",
+    "no capture-speed verification",
+    "no confirmed dart separation labels",
+    "exact file hashes only; perceptual/session deduplication incomplete"
+  ]
+}

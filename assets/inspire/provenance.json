@@ -1,0 +1,116 @@
+{
+  "repository": "https://github.com/unitreerobotics/unitree_ros",
+  "revision": "deeb607f3a8945a394f53068c28b3a88dde7ff06",
+  "meshes_sha256": [
+    [
+      "meshes/L_hand_base_link.STL",
+      "33ab4e97801bd5421903a78f5977a44e477ae8653eaf32358d35633e465411e0"
+    ],
+    [
+      "meshes/Link11_L.STL",
+      "d87cb704d80de840555d0a393117d32f9bd5e91425e0458363e0a799aa4e5339"
+    ],
+    [
+      "meshes/Link11_R.STL",
+      "b49b6463f801f0402bac9c65bb989c4097f6d2c1fa1597ba560aedd640561778"
+    ],
+    [
+      "meshes/Link12_L.STL",
+      "9f35b78a9cab1007ac8b73023a5862ed055d33951b5742f9a783997d38e99551"
+    ],
+    [
+      "meshes/Link12_R.STL",
+      "347212bdb22d80fb364dd889de934d6fbb935e38d1f24c682caed84f7b6ea8cb"
+    ],
+    [
+      "meshes/Link13_L.STL",
+      "7e93b55f2ae73fe0f62cd27e81d8a4620211068cb1c9b25e6414e802a37541ee"
+    ],
+    [
+      "meshes/Link13_R.STL",
+      "c157dfe5b666efb1c3d51342e56f5caad2fc350930ac21ee1e02d956c1034ca3"
+    ],
+    [
+      "meshes/Link14_L.STL",
+      "b677bcdcddcd90ff4b005f83daa9e50eb4003d5e67ea4eeefbf857718716c164"
+    ],
+    [
+      "meshes/Link14_R.STL",
+      "564aa8c3d2ff0e51b75736a8b01b4c309c7098582a424ea1391ccb75125519d8"
+    ],
+    [
+      "meshes/Link15_L.STL",
+      "8c601e7aa8e1c91310a75190dfb6b95a8dc981b707e5f104f9ca9ecbea118b34"
+    ],
+    [
+      "meshes/Link15_R.STL",
+      "09c120f7fb7761aa97d89240cd8cb8e30c40ee60093cbb8b1c2e13a68a8e3845"
+    ],
+    [
+      "meshes/Link16_L.STL",
+      "7d8508c65db44e2349f37e8ab4c057d204a40093d4733897ae5b51075b00f5e9"
+    ],
+    [
+      "meshes/Link16_R.STL",
+      "6942ada1189cdf442124c6b8935f3e3a3ae310092a3a1414fdeb0bd6d23578bb"
+    ],
+    [
+      "meshes/Link17_L.STL",
+      "ca2a68fed635eca290b234fbdc649779036ba5bac753addcb7ce6a086ad95949"
+    ],
+    [
+      "meshes/Link17_R.STL",
+      "36fc62c609800ce6d4521ae6f3c4c9b8a732be28654f32f04893696c17e6930c"
+    ],
+    [
+      "meshes/Link18_L.STL",
+      "9425aea7ebbf6d1dfb2eb0714fb44dfaea6b6a81c71d6e96c8d3950f636dfa62"
+    ],
+    [
+      "meshes/Link18_R.STL",
+      "9711fac7df0c09a372e1529f74b9d506d37abf3ebc3241d976ad45e5ee7e2d69"
+    ],
+    [
+      "meshes/Link19_L.STL",
+      "cbb256a70c17e21c995df66807f0755dc136d0312df245112d6d4bfcd29c43a4"
+    ],
+    [
+      "meshes/Link19_R.STL",
+      "46619bd6a887615d7dfe850d39a6f5d8f8c5ecfa9429c567338f3a659a5d4d75"
+    ],
+    [
+      "meshes/Link20_L.STL",
+      "e9145af7a515bce4c1c06d16b5be8900ec3f8375fc8e34d371315ce76f600877"
+    ],
+    [
+      "meshes/Link20_R.STL",
+      "a517debff6b924c22ae0f87dbb6aac199a1f130c7fef353a7d659e365f30b1f4"
+    ],
+    [
+      "meshes/Link21_L.STL",
+      "180ab4ac01dab60407d0b33819883eb0ec869e4d4f349f786972135c7114fc0d"
+    ],
+    [
+      "meshes/Link21_R.STL",
+      "ed0a29d2376e8874f724bc2c20384eeec93d8268e59bb8c45628335f7ab6742e"
+    ],
+    [
+      "meshes/Link22_L.STL",
+      "5e64ea976ecf08c46e8cb80a5dd56ee3e8c5f36a0573ab3c69160d9337f941e1"
+    ],
+    [
+      "meshes/Link22_R.STL",
+      "1aa3fb46f689251ee38f5262b71364c680f70d1ad1dd9c6f1cae8c098b0e8422"
+    ],
+    [
+      "meshes/R_hand_base_link.STL",
+      "b4d84504242a99fa915c4ed5195ce4724c67cb94d9217cd4c254cfb5937ecf5c"
+    ]
+  ],
+  "source_files_sha256": {
+    "DFQ_left_hand.urdf": "c0b18c100d82e3080241edde91034fe66c3ee0883a227e1eeb310f49387cccbb",
+    "DFQ_right_hand.urdf": "b985adba45a2d765c2df53c9c798d5aee1b9e521f942f0b921404b904092dc13",
+    "upstream_g1.urdf": "e2b2d6bfe58f6b8d57b9f28df9ad9e5e5d0ea728f562e925b8b1482a902b6ff3",
+    "LICENSE": "84aac59fd3246e3ddc49d1387644e8fcf43b0def4f0b9fe687f372e90446df2d"
+  }
+}

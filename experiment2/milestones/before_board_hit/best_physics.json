@@ -1,0 +1,17 @@
+{
+  "evaluation": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\runs\\20261030T125811941261\\evaluations\\000409356",
+  "summary": {
+    "episodes": 12,
+    "bullseyes": 0,
+    "valid_board_hits": 0,
+    "clean_flight_rate": 1.0,
+    "mean_penalized_closest_distance_m": 0.5954090442545819,
+    "selection_score": [
+      1,
+      0,
+      0,
+      -0.5954090442545819
+    ]
+  },
+  "checkpoint": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\runs\\20261030T125811941261\\best_physics\\policy.zip"
+}

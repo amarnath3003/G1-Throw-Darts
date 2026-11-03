@@ -1,0 +1,19 @@
+{
+  "experiment1": "stopped; recordings retained",
+  "smoke_run": "experiment2\\runs\\20261029T131905437183",
+  "training_steps": 256,
+  "completed_episodes": 32,
+  "videos_decoded": 32,
+  "bullseyes": 0,
+  "outcomes": {
+    "environment_hit": 3,
+    "premature_slip": 16,
+    "recontact": 6,
+    "robot_hit": 2,
+    "backward_or_drop": 5
+  },
+  "checkpoint_reload_evaluation": "runs/20261029T132255015568/evaluation.json",
+  "multiprocess_training": "runs/20261029T132305365537",
+  "checks": "checks.json",
+  "performance_claim": "Pipeline validation only; task not solved"
+}

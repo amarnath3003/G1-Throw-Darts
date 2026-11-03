@@ -1,0 +1,9 @@
+configs/*.mjb
+configs/scene.xml
+__pycache__/
+runs/
+data/
+.venv-wilor/
+.venv-hamer/
+vendor/
+models/

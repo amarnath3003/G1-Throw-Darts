@@ -1,0 +1,1437 @@
+{
+  "repo": "pratikshapai/human-motion-tracking-deeplabcut",
+  "revision": "202b971078b1b1be719bab211bfdc7b9848bed71",
+  "listing": [
+    {
+      "type": "file",
+      "oid": "632e28810673fc641fbd9cc1a48140a7ffccceff",
+      "size": 2376302,
+      "lfs": {
+        "oid": "cc98022d7bbd0afe043d65e416510e19e0aa1db9f3061f0f92746b2180b06c9f",
+        "size": 2376302,
+        "pointerSize": 132
+      },
+      "xetHash": "9afd22ca2c77a6d0b7f788be908d60c74325cd7b55acf0676a9008cb1e9c6ad5",
+      "path": "videos/vid_1_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e7e56ec5d8686b5e522bcf7e81d095d0c8c81541",
+      "size": 2640979,
+      "lfs": {
+        "oid": "f5b276cefdcb78a64e5bcc10c06f94c16e25d5f251e327f2893cc7c23160052b",
+        "size": 2640979,
+        "pointerSize": 132
+      },
+      "xetHash": "a25e7d59eed12631cfcf5172d8202aa8c3a7c6dfa1f8dd3dad3cf6df6641fb32",
+      "path": "videos/vid_2_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "a781597ef232f38b587f275803e3fa5236a9ad5f",
+      "size": 2790598,
+      "lfs": {
+        "oid": "76e4398edc70ca6d4a87eec6e4b3bfa63b6b3331ffd620f81be32e0c09bc9b81",
+        "size": 2790598,
+        "pointerSize": 132
+      },
+      "xetHash": "dfea6e57482b157bf454fc8214b1b7fbae939c4b3a181272c6c4d982622d5c16",
+      "path": "videos/vid_3_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "389b72c8996c8c9fb9c1354d233d2c68dac79772",
+      "size": 2752010,
+      "lfs": {
+        "oid": "ca14ac32dbf3c33db2f0cd8a18b7a587678379c3414922c3bcb1ab4e2d3422d5",
+        "size": 2752010,
+        "pointerSize": 132
+      },
+      "xetHash": "8d4393ef14b98819efa0647d139ffe0c9bf30ff029e17bb8924690de81679dbc",
+      "path": "videos/vid_4_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "436ec26770e063894dcbb8f2c348daa75a949825",
+      "size": 13066282,
+      "lfs": {
+        "oid": "314c2a8bd72051a3274d2f262af7d42803b0f861320ec330224a5f8dc7868a40",
+        "size": 13066282,
+        "pointerSize": 133
+      },
+      "xetHash": "790b80f716ff48c5be4eb8f9808868f5b2ccb127672f9f08c108a91195858ee5",
+      "path": "videos/vid_5_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "5ca9a35669bf47e412159d9cd872cd41a2ec8b5d",
+      "size": 15762358,
+      "lfs": {
+        "oid": "17334df796e10eb07934b3b9f974219b429d3e16657bfc22fb0e2b148f3075b4",
+        "size": 15762358,
+        "pointerSize": 133
+      },
+      "xetHash": "85f384ca873d0618e01d086e7261629ee5c3e95a545cff26787782b4331c14db",
+      "path": "videos/vid_6_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "3ef18193787b82fbce5d3c69f1215711fd7cf9bc",
+      "size": 6115751,
+      "lfs": {
+        "oid": "ce822f8bb04cc67c4f3d58cdda6a1259eb5c8351bdcc8cccae2e1444867b2fba",
+        "size": 6115751,
+        "pointerSize": 132
+      },
+      "xetHash": "ab0ddc860b601d722e6aaebb52ffced6106838bc078f3816dce53f06e3265e7d",
+      "path": "videos/vid_7_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "06f1d1b2d1aa81c2f2ab5c3d9b44f4ed937158fa",
+      "size": 6330111,
+      "lfs": {
+        "oid": "e263d4cb46f9d2ffa26a01c778460659a9d18aae204a58a9fe7e8fca536d459c",
+        "size": 6330111,
+        "pointerSize": 132
+      },
+      "xetHash": "e48bb3e6a00e3485811af30c4130c6f902e69e629cfe054848f3b84de8c43ea2",
+      "path": "videos/vid_8_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "65c8df639087abdf7577ce43217f8eee2ffcea57",
+      "size": 3662088,
+      "lfs": {
+        "oid": "8727674e233fd7ed89b1e794c4fba4413ce0f229282fb1d41a2de7d51041c358",
+        "size": 3662088,
+        "pointerSize": 132
+      },
+      "xetHash": "5ecdf1ead114fd8f68b550961fd0f05a91dac8e149871ea7834745b43aa6fe3f",
+      "path": "videos/vid_9_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "416833b2bd00cd0f9c1a41c5a6084ee72ecf1dee",
+      "size": 4440293,
+      "lfs": {
+        "oid": "4d4ff4d8e74dc06c6f151746d6c2470ea2546134aef2d884bb372f1305bd2a69",
+        "size": 4440293,
+        "pointerSize": 132
+      },
+      "xetHash": "3e7f51d39f3207d864b48427663f91d1845c7965b4491561fbb9aab37e08478a",
+      "path": "videos/vid_10_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "6aca828c91de6723b19e07c058eb028dcba60e14",
+      "size": 5001381,
+      "lfs": {
+        "oid": "c5db66e96911cacb43f22e5a0efa39b894d43ec416f268fbc244bf28ba7326d8",
+        "size": 5001381,
+        "pointerSize": 132
+      },
+      "xetHash": "ab1a7d1ce5e7872247eec815f1d4d4a8181662013816cecab9343266a4dcf706",
+      "path": "videos/vid_11_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "9ac209222837d13b32f3ccd8948b5e851af5aefc",
+      "size": 5303332,
+      "lfs": {
+        "oid": "10f50c39367881ebe1ab7e48ce34cb2b2e6ae053be9fe1468f70f8f964d40931",
+        "size": 5303332,
+        "pointerSize": 132
+      },
+      "xetHash": "1e26ac89a2db12d968574759600334f57499e6b0a914b122acd3cd771f3c1183",
+      "path": "videos/vid_12_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "efaa6561698513d3b11c0f57113c6d9b5c17af0c",
+      "size": 8016137,
+      "lfs": {
+        "oid": "bcf809c68f0ed4bee0fe81515f91e528a6cb64328d97625ac8ebf89129b123ba",
+        "size": 8016137,
+        "pointerSize": 132
+      },
+      "xetHash": "08783b837aef2fd33b5ef9a3216fb9feb122d6b2d7429247059fdc08c6d87272",
+      "path": "videos/vid_13_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "9d37dbe5eab6c4835c564972f2bac9b88cc29519",
+      "size": 4988903,
+      "lfs": {
+        "oid": "fde71bf0db787cbeade9f1695ad7d8043cf0228977d0c53dffe28dd40bfe6766",
+        "size": 4988903,
+        "pointerSize": 132
+      },
+      "xetHash": "ba0fecd737421ac15f7a9147f43c14964bc793dbdc7061fe4c1e4abe65cedb42",
+      "path": "videos/vid_14_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "9dad14d54b8f263b65dc7377cbe97017097f785a",
+      "size": 6080692,
+      "lfs": {
+        "oid": "18e47e25ead0bf0d7233a21d53ffedc4a0cea3a8f512cd38e0dda01ab451833d",
+        "size": 6080692,
+        "pointerSize": 132
+      },
+      "xetHash": "549af461ac1ef298fe4cda1df69e02b2b695f5f16c8771a4bd52e7076148822f",
+      "path": "videos/vid_15_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "42d4ae97595816955f303b5bd1fc049245b4518d",
+      "size": 10847072,
+      "lfs": {
+        "oid": "a37e3708bb2e74aff9f93764362be8376f8bfa7653c7b005e1f0e8717cdcfca1",
+        "size": 10847072,
+        "pointerSize": 133
+      },
+      "xetHash": "1b30ca1285ba53c281b513a9757968b306fed669a4b49e191edc950416ab65d0",
+      "path": "videos/vid_16_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "6bb684f6c6f93f7eeb071220daa2b48d2082e82d",
+      "size": 4954225,
+      "lfs": {
+        "oid": "69a2c3df96c290449ec4c31f144038e551c1e56c11ce7d5cfc42d783e2c7a9c6",
+        "size": 4954225,
+        "pointerSize": 132
+      },
+      "xetHash": "68cb9b5f75ef65cd52a507f7a123dfa8142bfcdcc80370b7c5de93f2540fce68",
+      "path": "videos/vid_17_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "5656c9b0331fd83de46736434862563168455490",
+      "size": 4671544,
+      "lfs": {
+        "oid": "cf3f07ffcbdb0a862380ca10499c9c0451b0746c788feb7221cfd3cf304b9304",
+        "size": 4671544,
+        "pointerSize": 132
+      },
+      "xetHash": "611962b7464c56b247acdc2e4de16b53fc8dad06bd98448ca49835c205e3237a",
+      "path": "videos/vid_18_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "17f8116bb379fc324137778db57cebd039c9a787",
+      "size": 4581201,
+      "lfs": {
+        "oid": "fee1b064173616705dd8c4c208f2371cd65805f32ade528b88a823703ca9ecba",
+        "size": 4581201,
+        "pointerSize": 132
+      },
+      "xetHash": "a773a5d7ac75b889931a88d519920cc4bda2cc14f581f3eb6c091668e05b0cfb",
+      "path": "videos/vid_19_1_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "cb0311551a47c3b26fbaed874ca6e20b0a178c9f",
+      "size": 804216,
+      "lfs": {
+        "oid": "dcd5f08761d5927690deffb4b2a768f90108c850cf609a3dfd8ca3a8d99cbbe5",
+        "size": 804216,
+        "pointerSize": 131
+      },
+      "xetHash": "4c64d4cd42a98505b8e5b89d04748465fed63d73c42fa77826d44e48e55dd933",
+      "path": "videos/vid_20_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "71e74413d244ebdc3da97ea087ab8acfcd2313a8",
+      "size": 3246490,
+      "lfs": {
+        "oid": "154e8e73448dce28c441b09ddb3d50731a5747bd50a90a9bc7c3b373fc0e1708",
+        "size": 3246490,
+        "pointerSize": 132
+      },
+      "xetHash": "0da90bb131c217ca619b74f48a40f931ccbc2ed76eaf2e975e237c496cf1dde3",
+      "path": "videos/vid_21_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "9cd1cbd04610120a0275f114420dd5844ec025f9",
+      "size": 1930044,
+      "lfs": {
+        "oid": "f349d913d569115010071d95a7a0e837a1072056dc214a2948fa8bb06d6e37d2",
+        "size": 1930044,
+        "pointerSize": 132
+      },
+      "xetHash": "410c19f5a9e8e2234b7a4731fb91504c37e9d90007461706b0005beed30ae385",
+      "path": "videos/vid_22_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "9bc00f2fa0d2a42e673428653bd3e5e5ef0f53be",
+      "size": 2370704,
+      "lfs": {
+        "oid": "cc637adb2a99f5373b8b3aafbe2c20a68332096c99085d0e5bf2cdea755d3977",
+        "size": 2370704,
+        "pointerSize": 132
+      },
+      "xetHash": "9d6e3e28d1bb16386af6e1ce1072fbbc47c7d30f1a7deae038ba418f26af350c",
+      "path": "videos/vid_23_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "dfdd6bacab706054d96f1a335853c54ebe96f8ab",
+      "size": 2615500,
+      "lfs": {
+        "oid": "a1388eef99d6c8bc79175e1fa946f27c527b699472be2992cfe50a7925a433ce",
+        "size": 2615500,
+        "pointerSize": 132
+      },
+      "xetHash": "6b22691167900df03dc099cd9f59edd953606346a696fa172d79214d92732d8c",
+      "path": "videos/vid_24_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e3b0c69c507d44083fd0b373963e92558fd7a65d",
+      "size": 2196960,
+      "lfs": {
+        "oid": "110e5a5a49fd5a5ae8a5266421d484630160a0d15012213f6f4ec957c40db878",
+        "size": 2196960,
+        "pointerSize": 132
+      },
+      "xetHash": "9405061d8f445cd698a4c581487044dce85004654a2f6cb58420eb76d3040be1",
+      "path": "videos/vid_25_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "22e74598fd813364017dfe6198211aa83d180272",
+      "size": 2268547,
+      "lfs": {
+        "oid": "e6227250baa37ee00273a5be645fb6a38b313d0d1ab15ba0a6a44fb007943a55",
+        "size": 2268547,
+        "pointerSize": 132
+      },
+      "xetHash": "d93c4ef3a30e2de04dca816cd96e5e4105af6d7ccaeb371f01350f8dc7916a29",
+      "path": "videos/vid_26_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e695584ad25abd9a3033ab7dd8f29a08fed59107",
+      "size": 4453724,
+      "lfs": {
+        "oid": "b9158255c2e4de99f520a18838b758d7a487b8f0356b7e9c08437149076755e1",
+        "size": 4453724,
+        "pointerSize": 132
+      },
+      "xetHash": "e08387ea51335e9b2c7745484db64fa16bfd83ef03b323a5282d4af4e083f938",
+      "path": "videos/vid_27_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "3376f7095c64abb40c3da3de34326c95bb8ea554",
+      "size": 3142568,
+      "lfs": {
+        "oid": "5e03085e48317b3677ec586c9c4f6b01c514b142f6c8cf5f1f5ff4de88b4792e",
+        "size": 3142568,
+        "pointerSize": 132
+      },
+      "xetHash": "f22c197f9e63a98681d2d8cddb053bd0132e1fb335867386e9050d0cc8a27e5a",
+      "path": "videos/vid_28_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "854c32fcaf15ec78713579235094423cb2fd5718",
+      "size": 3123768,
+      "lfs": {
+        "oid": "20c50700b1a7920a623f6e496a6189d772fc079bfe806744ab39f99fc8e6e050",
+        "size": 3123768,
+        "pointerSize": 132
+      },
+      "xetHash": "393bcdab1f9380378ef24534cc21ae56923ab52695509346f029e0c43da08eac",
+      "path": "videos/vid_29_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "2b67b6e79a23b706d4640daa052819f1fb9374e8",
+      "size": 2130350,
+      "lfs": {
+        "oid": "ce3791d34aa978f763771cde7fa8cc88ffb3af561978823ae5c32bdd7e16d545",
+        "size": 2130350,
+        "pointerSize": 132
+      },
+      "xetHash": "308a84bec867c87b76e3ae96234f1881e359c16266af728e25f92899d7a9df5a",
+      "path": "videos/vid_30_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "6c841c2e96727bc9e34e1ca4e20c9772abb1fe54",
+      "size": 2874265,
+      "lfs": {
+        "oid": "6475bd4358913b78737f0ea8aeb1684563a7cd31c1ace9197382f3241db5a5c6",
+        "size": 2874265,
+        "pointerSize": 132
+      },
+      "xetHash": "71afa682f18ebd6bf08b075a01c8964a5b071918f74c503b1e20ccb6b9b0a02f",
+      "path": "videos/vid_31_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "2dfaa6b7cf91013156e3720b6e2166d5d97cea5e",
+      "size": 4580141,
+      "lfs": {
+        "oid": "d33cac1966103f75fec079db7ced98f426cbb86f4decc23d024fa8c5c36d6e24",
+        "size": 4580141,
+        "pointerSize": 132
+      },
+      "xetHash": "5d6c27e02fb28de132e18b1688df8a3ec61aa7e9a703aed6d236d364328c11cb",
+      "path": "videos/vid_32_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "4f244b40193113b29f17a2d754ab0b2a88ef30e5",
+      "size": 3170720,
+      "lfs": {
+        "oid": "1cb8e754075f9239c9672c42b890b81682dfb3cb0303ab2747409d9126f780f8",
+        "size": 3170720,
+        "pointerSize": 132
+      },
+      "xetHash": "8291a44d5ce97eb3e15ec03c216422918a4cefd9ddba48cc32c31d614666b6c7",
+      "path": "videos/vid_33_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "2480d0c9f424c1dfa58008eb544796ab8ba820d6",
+      "size": 3193609,
+      "lfs": {
+        "oid": "dc80d791974ce39c700ac6ba8d597d4660839f0078f6f1a0eda1d71fe94d1db3",
+        "size": 3193609,
+        "pointerSize": 132
+      },
+      "xetHash": "2120f6d3b513b32a27b304559d62251cc2580adf0ca7942db04c653e082864b3",
+      "path": "videos/vid_34_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "8a01592a87f914c1fbfae96c3ae917264637b27c",
+      "size": 2251062,
+      "lfs": {
+        "oid": "e0a077ceeaf72feb2f642b3de78a1bdee948220d84e1fa40f7fbdaacc08e08ea",
+        "size": 2251062,
+        "pointerSize": 132
+      },
+      "xetHash": "231a49b22fa18819c41f305c7f3274b032e0ebccdc619aeac4ed2ae54f51252e",
+      "path": "videos/vid_35_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "8986a6db5a4a0e4d3a6424cc8e465b670d09fba4",
+      "size": 2861075,
+      "lfs": {
+        "oid": "647ea3251ed4fe93fa97c87933e2ab1977e29311c9de48f9e85d721d378a342a",
+        "size": 2861075,
+        "pointerSize": 132
+      },
+      "xetHash": "6d7470e171b1f162e6d105bcbee1a8fe270608367d1dc1cbfad10947a612d5f6",
+      "path": "videos/vid_36_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "b36a64571172aa718b893d50c0446b87aa8df322",
+      "size": 2720381,
+      "lfs": {
+        "oid": "fb0b49b1f06217f0bfe544fd42810a0a90450e41856bec4f0685eba291493ca9",
+        "size": 2720381,
+        "pointerSize": 132
+      },
+      "xetHash": "f20c52760ed6015d4214333f9c1be25894e6a44c3bd186cf6339bf0863fe1455",
+      "path": "videos/vid_37_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "f7b60a0c38e47015104cf101fbc950a664308490",
+      "size": 3489830,
+      "lfs": {
+        "oid": "02955d6b3f6c52b0dc2e4cca6412a110e57111777ef92c00db94ca57a7d9e4d6",
+        "size": 3489830,
+        "pointerSize": 132
+      },
+      "xetHash": "7bdf050a731ee6894a7150f250b47837a1f093ee59ba66e7cf43a4cb34429823",
+      "path": "videos/vid_38_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "2bc20c6d4e1b0add5e432a5e64e9155f8b197869",
+      "size": 4149040,
+      "lfs": {
+        "oid": "2339ea3b324842e82cef9e852aaa9051ca0c548de12f166c480a535af6d1e79e",
+        "size": 4149040,
+        "pointerSize": 132
+      },
+      "xetHash": "aaea1c8d45495555daa905035d473bc121a2bc97077cef3fdb89d012d70eb5cf",
+      "path": "videos/vid_39_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "465e08f3066b6034a97dfa809dd9da189048a54d",
+      "size": 4476907,
+      "lfs": {
+        "oid": "b249297f2ca7f0eb011066ad6c3b526e920efbeb77751afe18c2fa642302073d",
+        "size": 4476907,
+        "pointerSize": 132
+      },
+      "xetHash": "61c4926c37e53f964b3c53b8a337bf2c89db5266a42a47f32cb2e8524998ca9c",
+      "path": "videos/vid_40_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "b93c0a63aab0b66bd27ee2f388f72a274e7b85c4",
+      "size": 4140701,
+      "lfs": {
+        "oid": "857fe68dcec4ff3a4ccdf4f4de50bc661f112518c276f5384370a2521debe6ef",
+        "size": 4140701,
+        "pointerSize": 132
+      },
+      "xetHash": "1d3847ae8075f8878f91effff5f3f02403b2ed356523ae0878428818a53fb0d3",
+      "path": "videos/vid_41_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "fde97945c563a2f85d990e44abb7a1549a25ab2f",
+      "size": 3100997,
+      "lfs": {
+        "oid": "4335d877be2497db215f3cec9fb6d379dd60420dff090962c4c1649208a25f55",
+        "size": 3100997,
+        "pointerSize": 132
+      },
+      "xetHash": "caf55495b2a72b11e8179c5392d97cb8ba81d320625f923b939ebf1bd9520a7a",
+      "path": "videos/vid_42_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "86822f70393e6ed2df3270be9aedb35e13a5433e",
+      "size": 3366774,
+      "lfs": {
+        "oid": "517c2ea0e57c2f7698de88637e076f34faca0b551cba82a4baa3f7c190105978",
+        "size": 3366774,
+        "pointerSize": 132
+      },
+      "xetHash": "b8b26e2e04b98afbc2cbb6dab5633ae1d2ab5ceb8552cfb1dc7a88002b3615ff",
+      "path": "videos/vid_43_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "5549692f53999d3a7b1861d7e93eac288fa8d712",
+      "size": 3985602,
+      "lfs": {
+        "oid": "0655f532a65d6b263c71b7194f9f6b2fd472bacea9c1501fde95675ab6a576d6",
+        "size": 3985602,
+        "pointerSize": 132
+      },
+      "xetHash": "62d9a42c704cf6c18c4d23a3a03b0848a9f205be8741258ed7db16ca01c9ccb3",
+      "path": "videos/vid_44_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "d445292577028e2d122aa9a6bdbd78f478eb8631",
+      "size": 3189065,
+      "lfs": {
+        "oid": "97946df02a33a785464ede1c4f013167bf1ff9b3df69e0f82810b7e17c1fdf85",
+        "size": 3189065,
+        "pointerSize": 132
+      },
+      "xetHash": "4c39fa502da084deadc2c92593e2355244c2a0e3386304e6111bd6f9e9f6b4d6",
+      "path": "videos/vid_45_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "1621f890c6da116ccadd7b08daef17335a3d6998",
+      "size": 2619920,
+      "lfs": {
+        "oid": "e323c364055318bd0efcfe0e0e9380a1ce38c61f19a2e79aba14aa3ed4c5304a",
+        "size": 2619920,
+        "pointerSize": 132
+      },
+      "xetHash": "305f58c8adb5f639fe941cc6c0a426f5529cb9c1abdead15b2a7960c6df9b4ee",
+      "path": "videos/vid_46_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "3873f81e9529dc99276c81586fea62b32d404339",
+      "size": 1918098,
+      "lfs": {
+        "oid": "85608dd53c280e1287611176f8622b9d2d55fe4ba60c0795c09cc54d0fb4bb77",
+        "size": 1918098,
+        "pointerSize": 132
+      },
+      "xetHash": "8cbb218b8c5c014986ea00dee295d424bb6f62ec70a4a898d9fb8a19c2e82147",
+      "path": "videos/vid_47_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "339d6066d9fd00670b668f1a550ccf4a77d0b57a",
+      "size": 1804348,
+      "lfs": {
+        "oid": "af9f69fddf06e103a355a51023e9e8bd64475c4379e47c923584f7e01c60ed14",
+        "size": 1804348,
+        "pointerSize": 132
+      },
+      "xetHash": "92df24b60a01418a71af20d9ee4016bfad4ed1bef46db78329b66364aab90d97",
+      "path": "videos/vid_48_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "5387bd8fb774e700e2d96bd260e66925dfeb1a32",
+      "size": 1815387,
+      "lfs": {
+        "oid": "3f8cb476019ec0d494b1e0879dcedb8bb3d532f4d332a6a2ffae509f2d821297",
+        "size": 1815387,
+        "pointerSize": 132
+      },
+      "xetHash": "644e6895f7457de78bd1ffb7fe17413d3083dc917d6fec63dcbbeb93d9530871",
+      "path": "videos/vid_49_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "cd69c7708ab11a80a03912340ebb515ed9c82088",
+      "size": 2809153,
+      "lfs": {
+        "oid": "3b2ed8c614c16b1757af557d67468b4c6d88aac7e717a6b036dfa87de203b7e0",
+        "size": 2809153,
+        "pointerSize": 132
+      },
+      "xetHash": "10be2c0affc2d67ea1a477cd494d9d7a3ddc577ede439b016c9a1fabbab17dee",
+      "path": "videos/vid_50_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "3acd7c4b1c9570865a700937867196852d3389e7",
+      "size": 2697224,
+      "lfs": {
+        "oid": "76f418ee676691017bf528b2bf7c67a0d061740fc7fb40bc090453d84951cd5e",
+        "size": 2697224,
+        "pointerSize": 132
+      },
+      "xetHash": "46d238993f20110a935331d41197dfcc280bc9d0ebad9df53c4da10825029d1a",
+      "path": "videos/vid_51_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "6bf031201108b68f17f2fd42ca9bf23c7e43c6d2",
+      "size": 2631184,
+      "lfs": {
+        "oid": "1325d87f03986d9630ca031884d227fa91f26df0bc9cd47efd5f0242ac1c29b2",
+        "size": 2631184,
+        "pointerSize": 132
+      },
+      "xetHash": "6d1782d172625042af9e1c564fd0c41558aa9c352eacf08105334b11185f51e7",
+      "path": "videos/vid_52_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "91e015b13fea2f0d2a0f439b175b2127f08b6e56",
+      "size": 2450062,
+      "lfs": {
+        "oid": "35a73b8cbd13ebe2e1ab52b3b3c1bd9092573c8fa3aee510aa5ba762b8c49906",
+        "size": 2450062,
+        "pointerSize": 132
+      },
+      "xetHash": "353a092443773ca4e10ca3621dc75ecdd2ebf3e3f91b18d55ec694f616170090",
+      "path": "videos/vid_53_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "4842fee6a4910da7d6304a2bfd193e284f6da4c8",
+      "size": 2798177,
+      "lfs": {
+        "oid": "67ddadf37f8b6f1b4cb9f429a35af1a61943a04cd1b2907af73ae4677c4076b4",
+        "size": 2798177,
+        "pointerSize": 132
+      },
+      "xetHash": "0979e21248d05208c854601ad857865e39c741093e7457ec6f59ac82a1e97cf0",
+      "path": "videos/vid_54_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "97e5c7da89a242a13ca6477734e4d75a06978ef7",
+      "size": 2739958,
+      "lfs": {
+        "oid": "dca8a04b72ed8cbbd9cc0366dee6f95da48620ad26348ba2cf1f6fedb5e80bf6",
+        "size": 2739958,
+        "pointerSize": 132
+      },
+      "xetHash": "644f26680657b84683c1c9c651f6ad282a41b9c9240420126667c7edd1faf712",
+      "path": "videos/vid_55_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "a0010f91ec7673f073cba2f69d7205566fe2998a",
+      "size": 2574443,
+      "lfs": {
+        "oid": "10cb3cac52a4fed6f6c6659df66caa82ad8777e0bc394a2127fa21678f3edd3c",
+        "size": 2574443,
+        "pointerSize": 132
+      },
+      "xetHash": "b36ab68d757b14388610f37c4f661d63e6566b3bb60ad17b858373e6d80b3578",
+      "path": "videos/vid_56_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "a2228e888a590a58ebc6e0d4378b45b530c0f2df",
+      "size": 3287274,
+      "lfs": {
+        "oid": "3f41efd49cd11a02a7d507b76f64178d32409df7f86163a1ed43950e1c669a84",
+        "size": 3287274,
+        "pointerSize": 132
+      },
+      "xetHash": "678d7bd6abd4bdae5120924c85579e3593abe1f7fdfee57b3ad795e7bf8cf732",
+      "path": "videos/vid_57_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "bd4a58885ec420e8065e4c16e334dbeaac0d1340",
+      "size": 3027916,
+      "lfs": {
+        "oid": "57e59395a3aa4a493c4566b4a223d5c4b23c23afd7f045af723312ecb98b171d",
+        "size": 3027916,
+        "pointerSize": 132
+      },
+      "xetHash": "5397f03737acb01b86d94536902db4beeeb4ce3cb55fc231b1c0611ce1b0a010",
+      "path": "videos/vid_58_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "8d99bd99ad1bec3f7109fd058477e990945053f2",
+      "size": 3093111,
+      "lfs": {
+        "oid": "fcf7d191b5559d5fb5719261d794db757a52372990cc6b810e943a6bcac6d7c7",
+        "size": 3093111,
+        "pointerSize": 132
+      },
+      "xetHash": "9553b729e67e19dc99e8071acaab6f9ccf2e78c1efb1819eee522d9936d809ab",
+      "path": "videos/vid_59_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "3912215f0a6317a9b6e66cab604bd2280d0936fb",
+      "size": 3150892,
+      "lfs": {
+        "oid": "872b6537a3cb058de37064b508dde5b5ecc257fa6068af3446db1e1bf5aa6c1c",
+        "size": 3150892,
+        "pointerSize": 132
+      },
+      "xetHash": "e7d021959f017ba466cd1f58d7c7d79cd1b134499f22f1c7882e1d30ad0be077",
+      "path": "videos/vid_60_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "89355edaf021ee76250f5ba87e33133b67df8104",
+      "size": 3787311,
+      "lfs": {
+        "oid": "f4b309f00b99e3e82ab5a4de634276c5e8b6c3ac311cda9bf5b79501e4c8f33c",
+        "size": 3787311,
+        "pointerSize": 132
+      },
+      "xetHash": "69f19c040d53ab7a6c2e6e5dd282f948d164edb09953c6221726848c56cbae77",
+      "path": "videos/vid_61_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "bdf251f966810252864f5d99f60ca99897758b6d",
+      "size": 3399524,
+      "lfs": {
+        "oid": "bd55acc1e8a6f86515dd0c450f03788bb745e469c23c28d85c27a8e347964693",
+        "size": 3399524,
+        "pointerSize": 132
+      },
+      "xetHash": "1c9810e67a2022d94bffff8c6eecd01e28fe48d460c3e9f4aeb16f894a81267f",
+      "path": "videos/vid_62_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "b6eaeca79bd5eb67473efa26c4ca7436bb49b4f5",
+      "size": 2400567,
+      "lfs": {
+        "oid": "ca970a7b4493b2f371009d2fa28bde07018d36b8da4332e6700cef0e09d7de80",
+        "size": 2400567,
+        "pointerSize": 132
+      },
+      "xetHash": "d23cd18cd326aa9c682510e94e89ed33080bf4b00706fa2eb5f6dbb186eb3c1f",
+      "path": "videos/vid_63_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "67eede613acff7263bf00b496ae2d4ed32af18a9",
+      "size": 2434128,
+      "lfs": {
+        "oid": "388c1684f4020d9d6a63c3c54204f51710ff651edc52b31bf198c2589d67d5d7",
+        "size": 2434128,
+        "pointerSize": 132
+      },
+      "xetHash": "8a5a334f27d77196bfbfa7dc9b233fdd0bd60fbfa681a4c5f5b321fd93d4078e",
+      "path": "videos/vid_64_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "c9d30e2d6a8fb3cc4f5c4fc17a4ec16352553ce5",
+      "size": 1796052,
+      "lfs": {
+        "oid": "467f440841a4fba361b97917023fc11ec80b22c317d295363505913d3a134e79",
+        "size": 1796052,
+        "pointerSize": 132
+      },
+      "xetHash": "dd263409cb35ed71516dfbdfde54cfd05556e2ddcd6271f92ce58c21bd39c4bb",
+      "path": "videos/vid_65_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "0cb7f928eb7d02a710f001c9712b4254f2c63bec",
+      "size": 3066502,
+      "lfs": {
+        "oid": "34397d1729806bd2794637c388e2907e45c5d2d6e9afdcdc62c694eb4accd708",
+        "size": 3066502,
+        "pointerSize": 132
+      },
+      "xetHash": "aec23f31023d725069acf7bbe4f13a52962195a6201bc6562fceb87bd932bf5f",
+      "path": "videos/vid_66_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "ee6b67b05b55f9c5adb1e014d56c60290b07dbe6",
+      "size": 1856218,
+      "lfs": {
+        "oid": "751bb69155b6250a3cdb02d1387dec78f8044fb6abfe3f0f61570cf85dc574f5",
+        "size": 1856218,
+        "pointerSize": 132
+      },
+      "xetHash": "b9c040a37b88a3f17fabf9a148f0c5af60030cb3d15bb73c019fdc0c63b60ce9",
+      "path": "videos/vid_67_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "7d2e66e75ab3a69d9e66947f7a850a84da48c44a",
+      "size": 2287202,
+      "lfs": {
+        "oid": "5197b3a0d95504f206b6f617315a10733317fecd98295546998b0ae2be4bf876",
+        "size": 2287202,
+        "pointerSize": 132
+      },
+      "xetHash": "95c89d44b407b0903ff239f669e21485e4c5ae959bb6869304c41424a573aff7",
+      "path": "videos/vid_68_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "b15594892470c018aa904cdfbf018bb39a3cbb65",
+      "size": 2440980,
+      "lfs": {
+        "oid": "ffed2e2ddb8d69e4e891641f79e0ee1508639a5e6ed0bb7a951cada352288c63",
+        "size": 2440980,
+        "pointerSize": 132
+      },
+      "xetHash": "82281bd7a3ff924d6e2e1f80609225565a535ca1cbc68dffa8d9273e3215c4f3",
+      "path": "videos/vid_69_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "cae6af7e52d51aaf144340f879f0add331db2ac3",
+      "size": 1405805,
+      "lfs": {
+        "oid": "b28794cd1fb046b5b28034a8536be24e2b354da6fc3a88fdf22849b1086fefb2",
+        "size": 1405805,
+        "pointerSize": 132
+      },
+      "xetHash": "31bf68d3689a1a3a3ad6500d08d8a67312a5725142eb1318f67c65b599308baf",
+      "path": "videos/vid_70_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "494230b52c3b2bd5441b3b813750abd3596132fe",
+      "size": 1113063,
+      "lfs": {
+        "oid": "0fb9bdbeeeb8eafa4a6b7682c22f4611c86c1bf80fca280a327d1ade826b3d9f",
+        "size": 1113063,
+        "pointerSize": 132
+      },
+      "xetHash": "8afd85f372c72e4196c4dda0ffeb17ea8c270b2e8325dcf50e9a3f0dc9fcdac1",
+      "path": "videos/vid_71_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "d26d25a230fb30c81b927142af60eb196f15e6da",
+      "size": 2752211,
+      "lfs": {
+        "oid": "e7ccffee6599ce3337f60e2118f88383d922d6789e171150032cf60cc64f6aef",
+        "size": 2752211,
+        "pointerSize": 132
+      },
+      "xetHash": "6169b7e160729b8d4b069a015e8d388835763e8f116a2d209c8a8ebd24e542b4",
+      "path": "videos/vid_72_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "7ea9cf0a7d32564d89b53210bd86153ad8d5cd86",
+      "size": 2302635,
+      "lfs": {
+        "oid": "725106309c23d0236b3f8d397bfd99b1c9165024ffbcd9496f80b2490570ce6c",
+        "size": 2302635,
+        "pointerSize": 132
+      },
+      "xetHash": "eaff3d92f70699d073d667a41afdf6a0b63c6b3a0c46dd343735f01a515568c3",
+      "path": "videos/vid_73_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "873200f1d4e7be7df2ec0e3a5d333dedb845952a",
+      "size": 2535248,
+      "lfs": {
+        "oid": "b9c931903593d1eaca8535bbaa5a0a09db4a82d89cf1f6cfd4c3f0782286d0df",
+        "size": 2535248,
+        "pointerSize": 132
+      },
+      "xetHash": "5efab0d92866e34e17af0ab996d6dac0a32fa048d907308ff238077c3eb099c8",
+      "path": "videos/vid_74_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "495b336fe0c577d388b549909beaed5b50bae916",
+      "size": 2168033,
+      "lfs": {
+        "oid": "6cab24e3c658b1566790cf4d65f929cf94dbbdae63d4624968b8fc00915e4b2c",
+        "size": 2168033,
+        "pointerSize": 132
+      },
+      "xetHash": "7c0a474948c4d3c68b6a287a7c0952b9a922bcef2aeee2abe22dfe229af2c698",
+      "path": "videos/vid_75_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "4369c1805827605f7303dfe9b6d53c685500b523",
+      "size": 2255050,
+      "lfs": {
+        "oid": "e9d34d5cad503c14228e091590e5ca8cda3e733af8261e20bbd45a6a98af0738",
+        "size": 2255050,
+        "pointerSize": 132
+      },
+      "xetHash": "453b6f7ce5d0cc43e2705975f469afcac3d756b0cfa5e5161bcb6a8808816cb6",
+      "path": "videos/vid_76_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "47acada2d68ce805e4b38842248230f3a27dd6f5",
+      "size": 2393719,
+      "lfs": {
+        "oid": "0701b43455ead8b46fab143c3ae56b9e6a6fb0872b043b3e6acdb10674f0f2a7",
+        "size": 2393719,
+        "pointerSize": 132
+      },
+      "xetHash": "ff30c179dc4de3ffeb326f9a876ebabfedc6f6501007cf8b098194d7ea0d3a20",
+      "path": "videos/vid_77_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "32e7971e602c5b682f7d8330e6af1f4a81c82895",
+      "size": 2330045,
+      "lfs": {
+        "oid": "fddabe83a99d934e2ef279327578237ada3a4008190b3811f5356ec0a626ecea",
+        "size": 2330045,
+        "pointerSize": 132
+      },
+      "xetHash": "28fd95c16c027aca276747167987a07e7845897fbc6584f076a16a3b184c2614",
+      "path": "videos/vid_78_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "f08778618235d543c3eb42ed6dd6f0288f7d3bcd",
+      "size": 1938239,
+      "lfs": {
+        "oid": "8b6eb03098c9ac2a5352454f27686208ee610aea9b32d28279a933e1a633ce1c",
+        "size": 1938239,
+        "pointerSize": 132
+      },
+      "xetHash": "fb8864a222da10f44898217a9a845705d7c08cb04c73cddd023266728f37731d",
+      "path": "videos/vid_79_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "623307948b02fc41b8315c43eb2426aa27769a60",
+      "size": 1834754,
+      "lfs": {
+        "oid": "2078af8723d729ed88ff278f9b4a54bc88d0e7fb1009d5b3ca93c04ccad39b07",
+        "size": 1834754,
+        "pointerSize": 132
+      },
+      "xetHash": "87f1d316321a72a4785bc0d6ac042393e7b71942067e9bb59d2e7fcc9bd8e3f7",
+      "path": "videos/vid_80_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "8c0dd0ff7224df16826f4e74b882d9f14861dd1e",
+      "size": 2138580,
+      "lfs": {
+        "oid": "9e95a81135444b248c028b9e255d489ea449b04f02c210c43cae76a3c79395f0",
+        "size": 2138580,
+        "pointerSize": 132
+      },
+      "xetHash": "f4d50986dba8167593c8a72395ab599e9dfb437a79e1957d1fe3d0de6be7e50b",
+      "path": "videos/vid_81_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e859aee797c84f9cf8e804a4b7bb75b4de43f2c6",
+      "size": 2002803,
+      "lfs": {
+        "oid": "b3545963609c90f0fd34463d25158b559b372e66442ff09c64a46f87003fc135",
+        "size": 2002803,
+        "pointerSize": 132
+      },
+      "xetHash": "cf551957707950a1f1a4d69c8c8c0c3d0026ef6ff233bbd2d2032db70e4092da",
+      "path": "videos/vid_82_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "bd6c4143ca20ed552436ca32a3e6b2bd5536a1e3",
+      "size": 1740421,
+      "lfs": {
+        "oid": "3a009c0bf980e370dd615e5c4993eea277a5a834a910508841908f6f9149f899",
+        "size": 1740421,
+        "pointerSize": 132
+      },
+      "xetHash": "4cd22b441ab9ffa00a50132f700d1da524a367c4c041cce1c8706a7599281828",
+      "path": "videos/vid_83_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e0b8ecde0a8de1876a618b36dcd695ddc0b316f6",
+      "size": 2039896,
+      "lfs": {
+        "oid": "ce5279def39da42617694a6cc71a25aaa073d3f9bcdbf2a2c119cfdb890d75fd",
+        "size": 2039896,
+        "pointerSize": 132
+      },
+      "xetHash": "4b5c86303fbdfbb7e106ae06c36890f3eb9d318407b563df1007c81ea68e1255",
+      "path": "videos/vid_84_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "94538a81ebdc0161e3a812a534d282698e582bff",
+      "size": 1762993,
+      "lfs": {
+        "oid": "80cadd8ee6334098b8ef2fc691f8f6eb88ee43461db9673cc7074066a019a9af",
+        "size": 1762993,
+        "pointerSize": 132
+      },
+      "xetHash": "05b5401f8bcac4002c8bd7574d29e1863bfaa27258cbaf16f136f12b66b309fd",
+      "path": "videos/vid_85_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "c5294ff58dc964a25fd72fff261b5dea0202b703",
+      "size": 2170190,
+      "lfs": {
+        "oid": "30af4beba620c704f5a7d7e0a29527f9e9233b6e5ed2d1ab6fb0b6b1c3bd4d6b",
+        "size": 2170190,
+        "pointerSize": 132
+      },
+      "xetHash": "19a0248a29caafac6ea1c4b2ff19e99075e12d26eb89d94209d5b5f207bb5ea3",
+      "path": "videos/vid_86_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "cdca959005c52967b10f0c4a156ddd1a5853e02e",
+      "size": 2087435,
+      "lfs": {
+        "oid": "9f9687b47fbc867dc191cf964db131cc27cd000a96ec4bec6311f931a8d489c5",
+        "size": 2087435,
+        "pointerSize": 132
+      },
+      "xetHash": "c541542e9d6d9d1c72480f7b8215a83e25688818dcdf46cdb6222d121fb5975f",
+      "path": "videos/vid_87_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "26596decb694d5121ba00996840a357983117d89",
+      "size": 2119853,
+      "lfs": {
+        "oid": "b2d79667e720ea9e8d8f22230c0442fdf0963771ce7987c085b412f46e37b409",
+        "size": 2119853,
+        "pointerSize": 132
+      },
+      "xetHash": "bc7df819debefae5288bd78c6b32e3a93ba2c0f5409de6ba172d2b37a7247b32",
+      "path": "videos/vid_88_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "f36e40a4d929db3210ad0e692783811e3026753d",
+      "size": 1993462,
+      "lfs": {
+        "oid": "d859626fce970bb060066d2ad41dbbab43c6c88e9b4d3c0ebc4b3e6ee10f1099",
+        "size": 1993462,
+        "pointerSize": 132
+      },
+      "xetHash": "68521ceb5a77cc7c95c84f39567b8d83832d8c0574dc152b9e74202289bbf59e",
+      "path": "videos/vid_89_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "861c33498c85b42da3b8e72cdb504d5f96602ee7",
+      "size": 1752000,
+      "lfs": {
+        "oid": "e149d59b22b064ef816a65330545ba6b4f5f9465678ee10debf0369ec13c5f31",
+        "size": 1752000,
+        "pointerSize": 132
+      },
+      "xetHash": "289e539f5b4d0c3efa15d27a9c5f2a191324dba1a53537ec0cf43e01fc594540",
+      "path": "videos/vid_90_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "4d004a35c4c0a2e40a1a43d7f92250e6d7cfc7a6",
+      "size": 3019797,
+      "lfs": {
+        "oid": "a0076d81b7b8a97ef0e11c72676de22d1d72e26aa5d802cec89ca55196b39b85",
+        "size": 3019797,
+        "pointerSize": 132
+      },
+      "xetHash": "ec54d6af3a48593f4fcf7333b8179ad8afbf67a1594b5ee1f35e047060697c5a",
+      "path": "videos/vid_91_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e71f324ac1f84be4fc551b239fb2e1aca88c2390",
+      "size": 2054519,
+      "lfs": {
+        "oid": "4b27098f258f3642ef0891d3fcabf820c0396146308d1b7de0b5535febe1c8ab",
+        "size": 2054519,
+        "pointerSize": 132
+      },
+      "xetHash": "462faa295dadbfb0f49a4de6203f8d878706594b16067b94672bb09824e2a596",
+      "path": "videos/vid_92_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "b49bec9becbaf2689462d8e03f1def2ff82bd52e",
+      "size": 1965593,
+      "lfs": {
+        "oid": "e6c82d7d423ee8171c188aa450efc8d6926f006db3f702adcbcad15fb5de35e5",
+        "size": 1965593,
+        "pointerSize": 132
+      },
+      "xetHash": "4e175467528ac81d7d8a506def7c1f84895156105624a3f537ed9cafdcf67866",
+      "path": "videos/vid_93_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "32c8bcec02ff6fec4b447ab7b463b5a7fb045489",
+      "size": 2028149,
+      "lfs": {
+        "oid": "9ae088e662431105ded7a66386b0375f6760194190213b164699c4e61e725582",
+        "size": 2028149,
+        "pointerSize": 132
+      },
+      "xetHash": "2a1af73ebae9fe0683afb284f0a979d5a7a4f8c8189e2f203f9d561abd9717df",
+      "path": "videos/vid_94_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "15b2d7ed1a7a5471a9ea8199862f5231f4978166",
+      "size": 2048902,
+      "lfs": {
+        "oid": "6c943056d8edc8691f63fda49ff37f2c474a4fd1562345ba28a9066f23f01fe3",
+        "size": 2048902,
+        "pointerSize": 132
+      },
+      "xetHash": "8d2c81eba2fdab027ada7c5c811742b5bacac0fff942d4608a05fc21953c4bda",
+      "path": "videos/vid_95_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "a7fc0c8c3485cabf8d9636903bca08e026414d76",
+      "size": 1945384,
+      "lfs": {
+        "oid": "0aef6275130d8be3e7593b79cd738974b7f1b7b8ffbc2b9fa9cc758e4730d290",
+        "size": 1945384,
+        "pointerSize": 132
+      },
+      "xetHash": "be918fe4df24dfc84520c341bec2ae4187ae76e59bcb49100d78cf706f9de810",
+      "path": "videos/vid_96_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "dbe1c18fb434b8f06adb36bab32670ff765906ab",
+      "size": 1859054,
+      "lfs": {
+        "oid": "3e86716925b20e3839aeef1aed80bcb3263f2c4582c1e03460f2ed3e8916986c",
+        "size": 1859054,
+        "pointerSize": 132
+      },
+      "xetHash": "780f334f0f6e8d7cf78fa11bc524d0b7e0826a3bd925ce95c4ad0d2b47404964",
+      "path": "videos/vid_97_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "15ce55730da8c94ec407a682cb15c56bb1f9ab54",
+      "size": 2238919,
+      "lfs": {
+        "oid": "d1a03bd4fedd64361a277a5386907bc30274bdf3d043caa43d8acb8a5bf4d3f4",
+        "size": 2238919,
+        "pointerSize": 132
+      },
+      "xetHash": "432396545662e9eed73808ea98411dfd5b6d7b102cd16327de85845398da1b3c",
+      "path": "videos/vid_98_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "dcfb3eb5410f6d4ab5761f9a56e5bcad2db3e7cd",
+      "size": 2032129,
+      "lfs": {
+        "oid": "72bacfdba382a8eb12f86e6cd24e4bf9e4a3ae71d3baf45c9dd71001da80df81",
+        "size": 2032129,
+        "pointerSize": 132
+      },
+      "xetHash": "186ed7ef15aa04ff12051172c8b3f5a305cd65804dcdc141e4db3d6b7211b3f3",
+      "path": "videos/vid_99_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "3bed1c7de5979f5d071a0528213e2a313c3a99aa",
+      "size": 2027818,
+      "lfs": {
+        "oid": "f6cb85f786f0215183e65db6a6816e62d7bfd2e8d05513524055d88688228c70",
+        "size": 2027818,
+        "pointerSize": 132
+      },
+      "xetHash": "4dce6d4a3aa651d757b841f85c43dd64e13e03ba7623e5820c6890eb14d37061",
+      "path": "videos/vid_100_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "84490b68cc5be6bc13b31b9b45260db34d812c3e",
+      "size": 2089707,
+      "lfs": {
+        "oid": "f46a4bd61b65e077174b8a264c1c67dbe8e5372de2891f2b3fc6db2e612a16b3",
+        "size": 2089707,
+        "pointerSize": 132
+      },
+      "xetHash": "92a2bc06a04ccb4d4691f17ed0fecafe4e94e2000a6c2e8c4ab83910cac34dec",
+      "path": "videos/vid_101_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "4ec36e116c4fdf9a0ffc5653fd7539a76fa84a81",
+      "size": 1852304,
+      "lfs": {
+        "oid": "a11d6824ae0b5f63fa1078f35f18c953b7809a0fce131b3fbc1f825b098bff1b",
+        "size": 1852304,
+        "pointerSize": 132
+      },
+      "xetHash": "7688dbf3481dfec10d97141c57b2222e38f141066637591e45747b734dd94686",
+      "path": "videos/vid_102_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "86f84cea781377f87962022ced3e16d8d0a035b9",
+      "size": 1760660,
+      "lfs": {
+        "oid": "5bc1814fa0cfb969c7d745a1a918c07e0671a953ee65b07922cd9a1033579bf8",
+        "size": 1760660,
+        "pointerSize": 132
+      },
+      "xetHash": "b981a97fb6a99ab81bad18ab34b01551cb7adfa76f5c38ba81839f396e417564",
+      "path": "videos/vid_103_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "2617efed8c03b51475195a58b3ed4c0e2ea5f551",
+      "size": 1935728,
+      "lfs": {
+        "oid": "befb793be0723fbf5a481f7df54bdeb5979c9823e24284687f51d53f78dfda67",
+        "size": 1935728,
+        "pointerSize": 132
+      },
+      "xetHash": "be016d7dc73f2b5a8b2aafd692a5c6da04215fc6fc42f83427deab979f2f0c90",
+      "path": "videos/vid_104_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "857a06ec525dde004384d1adc8f61c665dcff7c9",
+      "size": 1736929,
+      "lfs": {
+        "oid": "744c85b8eda6773716c414bdb928018b802bafe9c776a2c479a0ab3e09004c71",
+        "size": 1736929,
+        "pointerSize": 132
+      },
+      "xetHash": "ae052157891e54c007ba96bd239a8203d5f7347b8f0adadba6b6a2a5e77af38a",
+      "path": "videos/vid_105_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "0e4068cf51be7882bef4f5f782dc6f866a328a37",
+      "size": 1944915,
+      "lfs": {
+        "oid": "01f95455cb34ae51e2ed7e3b702c91cd7d096a4011203293bdb6560dcaaa7a11",
+        "size": 1944915,
+        "pointerSize": 132
+      },
+      "xetHash": "7e145dd3b70075810252b88ba4f222b36fe9d720054563ebd794b5317bac8814",
+      "path": "videos/vid_106_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e91f170ad089ee0509d1a41ae8c0479d9a7dba50",
+      "size": 1949105,
+      "lfs": {
+        "oid": "65ab51b6d99999139c7b119582405ab228bd74ddb4d62c690a9d83b4e5210840",
+        "size": 1949105,
+        "pointerSize": 132
+      },
+      "xetHash": "b80e2e4a124ae460959f4e75993e879a3eb78634b6d69130a640b457db28a9b8",
+      "path": "videos/vid_107_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "f95bee7605d3a0138ae01fe29946349aa768dceb",
+      "size": 1833849,
+      "lfs": {
+        "oid": "a3838dcba447f6781c994f5140f9d556692de17699426c70620a332a4bcde684",
+        "size": 1833849,
+        "pointerSize": 132
+      },
+      "xetHash": "f25661de3e62092c18a6c92b0e792c835e984c93ef2b86300cf35d913cb41065",
+      "path": "videos/vid_108_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "a7c2bc52a3233115467996080e29876254220072",
+      "size": 1729795,
+      "lfs": {
+        "oid": "8c01143deb60f521573464171867a2de6d08a670dfa5f958e357f47ebaa105f3",
+        "size": 1729795,
+        "pointerSize": 132
+      },
+      "xetHash": "a8e62b534d52bdd3d54c586ef888ed9f6eefa07b376f054c33148cad3b134ed6",
+      "path": "videos/vid_109_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "55825771d4e47bafe4162ccd9e3ebb6c3f1c2a05",
+      "size": 1810397,
+      "lfs": {
+        "oid": "1655051b9ce701923a67e2406ce9aefb14850f9e4488f4798fe37ee0f62a19f5",
+        "size": 1810397,
+        "pointerSize": 132
+      },
+      "xetHash": "aaf7a3726db999d5b3af468002ecb8813384065b1eec862d5eaebce81338a8c2",
+      "path": "videos/vid_110_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "3240b729b66f5fc3b5d7a2115d9e772795cabb75",
+      "size": 1575036,
+      "lfs": {
+        "oid": "38039e0629b9db548ea4528d32c967422ab76dbb163e4467954fbc9ad31efc70",
+        "size": 1575036,
+        "pointerSize": 132
+      },
+      "xetHash": "359da8ec727e9d48b0d81338c6658df1734001d2510f6d352c8a9ab550629703",
+      "path": "videos/vid_111_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "1c9d91523711fec1cbc4979b1f2b1c6da37e167d",
+      "size": 2404878,
+      "lfs": {
+        "oid": "d2d4f410ff5b513d6a46f156d7062d024eb34c9486adb3e7996f39fd3b74159d",
+        "size": 2404878,
+        "pointerSize": 132
+      },
+      "xetHash": "539277eaaa6babf95c6367cd1f6e76df78107470ac82fa19bb2554897b28dd05",
+      "path": "videos/vid_112_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "86e332b209e315e69259563cd75fe540c1da31e1",
+      "size": 3134941,
+      "lfs": {
+        "oid": "9ba274c99df15c1f0e8d08c9d62eba5523fd25e5d5c28ce018375ee6c1d9eb87",
+        "size": 3134941,
+        "pointerSize": 132
+      },
+      "xetHash": "8e41b9ea5be032c6e34d1fd6a931474efd4fd7868eeb965d94b158f323bc5a8b",
+      "path": "videos/vid_113_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "64ae485eff1489038e5d35f63856785c260f0de8",
+      "size": 2272749,
+      "lfs": {
+        "oid": "160da0de989479aa3040e57c4b2381c857465eb7ce3889dd54afd2d241980d55",
+        "size": 2272749,
+        "pointerSize": 132
+      },
+      "xetHash": "36dee114256577cf0312481ac3b3e18d880db89d9604c0d46e650e3a48dfb2d7",
+      "path": "videos/vid_114_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "4133e7f1897242f2fad4e298c0def163dccba02b",
+      "size": 2195308,
+      "lfs": {
+        "oid": "9906386bbee07ec5101f5dbdb49559a0f9ddf43a8644b001bd84ef345f126fa6",
+        "size": 2195308,
+        "pointerSize": 132
+      },
+      "xetHash": "c62e025d5f5e30d64f14f739bd24ee173cef0315e21f113745de9f1a6bc5a2b7",
+      "path": "videos/vid_115_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "de333f1c9f56586d6c9033eaba46973a3ae6655e",
+      "size": 1896085,
+      "lfs": {
+        "oid": "9724db342094b361c006c965cbc5087d30bc20df48aba84952b11b1b8678ae36",
+        "size": 1896085,
+        "pointerSize": 132
+      },
+      "xetHash": "f0ffd05867315ccac56889e6b13dcf918fae7bac928d4a962a2f19f447d1f022",
+      "path": "videos/vid_116_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "836b15cd5a40960a1b3f7f00956ac7b31f1a9c56",
+      "size": 1834979,
+      "lfs": {
+        "oid": "451e3d9323af460f7b49e5636b11563dceaba9dbc0b4fba87ea78a459e6586bb",
+        "size": 1834979,
+        "pointerSize": 132
+      },
+      "xetHash": "082e74b1db4fef3ff9287e623c4e8d54409c5bc12e77a879ea64088daf656424",
+      "path": "videos/vid_117_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "e8ad3e7c247d53ec380c834b13449e5192c48a1f",
+      "size": 1758912,
+      "lfs": {
+        "oid": "3084eafb0aca88145791af20e8d741451c5f1e6b4b58d81fdb5a9350bff2a1c3",
+        "size": 1758912,
+        "pointerSize": 132
+      },
+      "xetHash": "bc82ca09f9a34d8f7fb8fbf6b90141ab3dc21664d0c34a3571cedcb480e481c2",
+      "path": "videos/vid_118_rotated.mp4"
+    },
+    {
+      "type": "file",
+      "oid": "0a90e00fb6217423202305f3b8dbcfa0d131f30e",
+      "size": 3536286,
+      "lfs": {
+        "oid": "40713acdd5badeac55b437961d530babe327ee2c3ac2f3617f955ce19cb8b90d",
+        "size": 3536286,
+        "pointerSize": 132
+      },
+      "xetHash": "c56ea630f36393a484be2aa302c1a1556ff0e18a1cf5c6774f8134bec02587e0",
+      "path": "videos/vid_119_rotated.mp4"
+    }
+  ],
+  "dataset_card": null,
+  "retrieved_at": "2026-10-28T11:36:08.645688+00:00",
+  "rights": "No license declared in dataset card. Permissions unverified; exclude media from public redistribution."
+}

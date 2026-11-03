@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "videos": [
+    {
+      "file": "01_room_and_environment.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 880,
+          "avg_frame_rate": "572/23",
+          "nb_frames": "572"
+        }
+      ],
+      "format": {
+        "duration": "23.000000"
+      }
+    },
+    {
+      "file": "02_joint_and_grip_controls.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 880,
+          "avg_frame_rate": "622/25",
+          "nb_frames": "622"
+        }
+      ],
+      "format": {
+        "duration": "25.000000"
+      }
+    },
+    {
+      "file": "03_physical_hold_and_release.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 880,
+          "avg_frame_rate": "10525/424",
+          "nb_frames": "421"
+        }
+      ],
+      "format": {
+        "duration": "16.960000"
+      }
+    }
+  ]
+}

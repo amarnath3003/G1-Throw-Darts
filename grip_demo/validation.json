@@ -1,0 +1,207 @@
+{
+  "passed": true,
+  "mujoco_version": "3.10.0",
+  "dart_mass_kg": 0.0267,
+  "weight_N": 0.261927,
+  "hold_duration_s": 10,
+  "maximum_hold_height_change_m": 0.0011247655708401805,
+  "hold": {
+    "time_s": 10.00000000000073,
+    "com_z_m": 1.1496463029391821,
+    "vz_m_s": -1.8002536921893656e-05,
+    "thumb_normal_N": 0.8000189980677478,
+    "index_normal_N": 0.7999848842434546,
+    "contact_vertical_N": 0.2619270432797005,
+    "other_dart_contacts": [],
+    "aperture_m": 0.007278971331012938,
+    "aim_error_deg": 0.16326122786968675,
+    "closed": true,
+    "tip_down_cosine": 0.9999972276071789
+  },
+  "after_0_3s_release": {
+    "time_s": 10.300000000001097,
+    "com_z_m": 0.7082364631977985,
+    "vz_m_s": -2.9423936596239986,
+    "thumb_normal_N": 0.0,
+    "index_normal_N": 0.0,
+    "contact_vertical_N": 0.0,
+    "other_dart_contacts": [],
+    "aperture_m": 0.07200006947765876,
+    "aim_error_deg": 0.084577097324246,
+    "closed": false,
+    "tip_down_cosine": 0.9999989361761277
+  },
+  "free_flight_acceleration_m_s2": -9.808113852553538,
+  "landed": {
+    "time_s": 11.300000000002319,
+    "com_z_m": 0.030144998734864953,
+    "vz_m_s": 2.104143675342481e-15,
+    "thumb_normal_N": 0.0,
+    "index_normal_N": 0.0,
+    "contact_vertical_N": 0.26192700000000246,
+    "other_dart_contacts": [
+      "drop_mat",
+      "drop_mat",
+      "drop_mat",
+      "drop_mat",
+      "drop_mat"
+    ],
+    "aperture_m": 0.0720000000000122,
+    "aim_error_deg": 0.03690824557626741,
+    "closed": false,
+    "tip_down_cosine": 0.1146501457447468
+  },
+  "attachment_constraints": 0,
+  "pelvis_support": "fixed physical test fixture",
+  "gripper": "custom two slide-joint fingers; not a calibrated commercial hand",
+  "negative_controls": {
+    "no_squeeze": {
+      "drop_in_0_3s_m": 0.04884076816101701,
+      "state": {
+        "time_s": 0.3000000000000002,
+        "com_z_m": 1.1019304714436364,
+        "vz_m_s": -0.013631419233213274,
+        "thumb_normal_N": 0.22782588381009694,
+        "index_normal_N": 0.0,
+        "contact_vertical_N": 0.2760357532968115,
+        "other_dart_contacts": [],
+        "aperture_m": 0.015260796560929438,
+        "aim_error_deg": 0.15523190190518285,
+        "closed": true,
+        "tip_down_cosine": 0.9997271632196303
+      },
+      "criterion": "barrel loses its grip; flight may catch on closed jaws"
+    },
+    "frictionless": {
+      "drop_in_0_3s_m": 0.05236069906785357,
+      "state": {
+        "time_s": 0.3000000000000002,
+        "com_z_m": 1.0984105405367999,
+        "vz_m_s": 1.2235410882357124e-05,
+        "thumb_normal_N": 0.0,
+        "index_normal_N": 0.0,
+        "contact_vertical_N": 0.26200300425545275,
+        "other_dart_contacts": [
+          "pinch_thumb_link",
+          "pinch_thumb_link",
+          "pinch_index_link",
+          "pinch_index_link"
+        ],
+        "aperture_m": 0.0009165342530620226,
+        "aim_error_deg": 0.14607577861199686,
+        "closed": true,
+        "tip_down_cosine": 0.9912559285170546
+      },
+      "criterion": "barrel loses its grip; flight may catch on closed jaws"
+    },
+    "initially_open": {
+      "drop_in_0_3s_m": 0.4414032305905523,
+      "state": {
+        "time_s": 0.3000000000000002,
+        "com_z_m": 0.7093680090141011,
+        "vz_m_s": -2.9423759419657602,
+        "thumb_normal_N": 0.0,
+        "index_normal_N": 0.0,
+        "contact_vertical_N": 0.0,
+        "other_dart_contacts": [],
+        "aperture_m": 0.072,
+        "aim_error_deg": 0.0,
+        "closed": false,
+        "tip_down_cosine": 1.0000000000000002
+      },
+      "criterion": "free fall"
+    }
+  },
+  "robustness": [
+    {
+      "timestep_s": 0.00025,
+      "command_per_finger_N": 0.8,
+      "hold": {
+        "time_s": 2.0000000000002514,
+        "com_z_m": 1.1499480996801545,
+        "vz_m_s": -8.926750015937262e-05,
+        "thumb_normal_N": 0.800005125598435,
+        "index_normal_N": 0.7999955031791225,
+        "contact_vertical_N": 0.26192807810669816,
+        "other_dart_contacts": [],
+        "aperture_m": 0.007278958122743979,
+        "aim_error_deg": 0.13635087659208112,
+        "closed": true,
+        "tip_down_cosine": 0.9999979917233964
+      },
+      "released": {
+        "time_s": 2.300000000000085,
+        "com_z_m": 0.7085178790423089,
+        "vz_m_s": -2.9424641649784284,
+        "thumb_normal_N": 0.0,
+        "index_normal_N": 0.0,
+        "contact_vertical_N": 0.0,
+        "other_dart_contacts": [],
+        "aperture_m": 0.07200006967189496,
+        "aim_error_deg": 0.060381626012010005,
+        "closed": false,
+        "tip_down_cosine": 0.9999992061674124
+      }
+    },
+    {
+      "timestep_s": 0.0005,
+      "command_per_finger_N": 0.4,
+      "hold": {
+        "time_s": 1.9999999999998352,
+        "com_z_m": 1.1499480778006566,
+        "vz_m_s": -8.927055270170316e-05,
+        "thumb_normal_N": 0.4000049638296092,
+        "index_normal_N": 0.39999534101954043,
+        "contact_vertical_N": 0.2619280622162992,
+        "other_dart_contacts": [],
+        "aperture_m": 0.007279453290726784,
+        "aim_error_deg": 0.13635204828056482,
+        "closed": true,
+        "tip_down_cosine": 0.999997990908263
+      },
+      "released": {
+        "time_s": 2.2999999999999354,
+        "com_z_m": 0.7085168585537067,
+        "vz_m_s": -2.9424649489617063,
+        "thumb_normal_N": 0.0,
+        "index_normal_N": 0.0,
+        "contact_vertical_N": 0.0,
+        "other_dart_contacts": [],
+        "aperture_m": 0.07200006947776849,
+        "aim_error_deg": 0.06036561246053658,
+        "closed": false,
+        "tip_down_cosine": 0.9999992047045774
+      }
+    },
+    {
+      "timestep_s": 0.0005,
+      "command_per_finger_N": 1.2,
+      "hold": {
+        "time_s": 1.9999999999998352,
+        "com_z_m": 1.1499480882215949,
+        "vz_m_s": -8.927054720122981e-05,
+        "thumb_normal_N": 1.2000052880144159,
+        "index_normal_N": 1.1999956646859844,
+        "contact_vertical_N": 0.2619280622162551,
+        "other_dart_contacts": [],
+        "aperture_m": 0.007278462955366399,
+        "aim_error_deg": 0.1363520500580905,
+        "closed": true,
+        "tip_down_cosine": 0.9999979924941217
+      },
+      "released": {
+        "time_s": 2.2999999999999354,
+        "com_z_m": 0.7085168689640288,
+        "vz_m_s": -2.942464949137607,
+        "thumb_normal_N": 0.0,
+        "index_normal_N": 0.0,
+        "contact_vertical_N": 0.0,
+        "other_dart_contacts": [],
+        "aperture_m": 0.07200006947814858,
+        "aim_error_deg": 0.060365613034110734,
+        "closed": false,
+        "tip_down_cosine": 0.9999992054292596
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "zero-profile equivalence",
+    "unchanged physical parameters",
+    "reference derivatives",
+    "invalid-contact reward exclusion",
+    "monotonic actual aim reward",
+    "terminal flight credit and control archive"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "clips": [
+    {
+      "id": "D02",
+      "role": "gvhmr_body_reference",
+      "path": "D02/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_gallery",
+        "at": "2026-10-28T12:01:19.979442+00:00",
+        "candidate_sha256": "273f5fcecd0c0bc24bd685f4d8ac2cd4634cb0a737af8734eaf0dff303d2929a"
+      }
+    },
+    {
+      "id": "D01",
+      "role": "gvhmr_body_reference",
+      "path": "D01/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_gallery",
+        "at": "2026-10-28T12:01:28.544456+00:00",
+        "candidate_sha256": "0bc5341e22920b592afbee6a77d85afd0c354c8d5dcd88bfd7c47339a97c8615"
+      }
+    },
+    {
+      "id": "D03",
+      "role": "gvhmr_body_reference",
+      "path": "D03/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_chat_group_a_and_gary_side_videos",
+        "at": "2026-10-28T12:03:45.717609+00:00",
+        "candidate_sha256": "bebddc1435985062338012ba76329876a30c46d540cbb4c681b06f46f1fae73e"
+      }
+    },
+    {
+      "id": "D04",
+      "role": "gvhmr_body_reference",
+      "path": "D04/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_chat_group_a_and_gary_side_videos",
+        "at": "2026-10-28T12:03:46.478374+00:00",
+        "candidate_sha256": "ce59ec5be842f4d60b41eae051edb79799b9114fe12a47f58093d143dcccce24"
+      }
+    },
+    {
+      "id": "D05",
+      "role": "gvhmr_body_reference",
+      "path": "D05/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_chat_group_a_and_gary_side_videos",
+        "at": "2026-10-28T12:03:47.223213+00:00",
+        "candidate_sha256": "94b2431b2a3da44d6c52676b39b3ceb21367e01121e2ce06641bee0a3b87f4fa"
+      }
+    },
+    {
+      "id": "D06",
+      "role": "gvhmr_body_reference",
+      "path": "D06/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_chat_group_a_and_gary_side_videos",
+        "at": "2026-10-28T12:03:47.943674+00:00",
+        "candidate_sha256": "62d655deae50515a2b4aec627bb078d2fba2dc97aa24841b913546e232ce31d7"
+      }
+    },
+    {
+      "id": "R03",
+      "role": "qualitative_reference_only",
+      "path": "R03/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_chat_group_a_and_gary_side_videos",
+        "at": "2026-10-28T12:03:48.714700+00:00",
+        "candidate_sha256": "3d0c1b112ec2b97ea367ea1643ff7c44689d429f1b6e7b40e71fff14cddccb89"
+      }
+    },
+    {
+      "id": "R04",
+      "role": "qualitative_reference_only",
+      "path": "R04/metadata.json",
+      "approval": {
+        "decision": "approve",
+        "actor": "human_chat_group_a_and_gary_side_videos",
+        "at": "2026-10-28T12:03:48.810407+00:00",
+        "candidate_sha256": "cb7161ed99b5cf76222aa0747f506ad3e8ee0884dab0f58b61eb4b8a10a94f0a"
+      }
+    }
+  ],
+  "note": "Only explicit human approvals enter this bundle."
+}

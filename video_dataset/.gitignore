@@ -1,0 +1,9 @@
+/sources/
+/contact_sheets/
+candidates/*/*.mp4
+candidates/*/*.jpg
+selected/*/*.mp4
+__pycache__/
+*.log
+*.pid
+*.part

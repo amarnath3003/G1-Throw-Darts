@@ -1,0 +1,22 @@
+{
+  "checkpoint_steps": 421248,
+  "evaluation_episodes": 32,
+  "seed_range": [
+    83101,
+    83132
+  ],
+  "board_hits": 29,
+  "board_hit_rate": 0.90625,
+  "bullseyes": 0,
+  "clean_flights": 32,
+  "clean_flight_rate": 1.0,
+  "mean_penalized_closest_distance_m": 0.1818568245717239,
+  "median_closest_tip_distance_cm": 13.767447199060411,
+  "median_board_impact_error_cm": 14.67477425670328,
+  "best_throw_seed": 83101,
+  "best_hit_error_cm": 12.182706746656919,
+  "source_video": "hackathon\\progress_videos\\ppo_best_throw_421248_source.mp4",
+  "output_video": "hackathon\\progress_videos\\ppo_best_throw_metrics_421248.mp4",
+  "slow_motion_factor": 4,
+  "evaluation_file": "experiment2/runs/20261101T081143554534/evaluations/000421248/evaluation.json"
+}

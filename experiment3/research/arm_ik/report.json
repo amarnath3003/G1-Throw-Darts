@@ -1,0 +1,998 @@
+{
+  "scope": "empty-hand arm reach/hover/lift rehearsal; no grasp or object lift",
+  "source": {
+    "sha256": "0d90769027f730e02420448563ef9d2937590aa5f5686047ac5d353127660653",
+    "valid_frames": 28,
+    "side": "left, already reflected by inference; no additional reflection",
+    "camera_motion_recovered": false,
+    "translation": "designed object-relative path",
+    "orientation": "relative palm-frame changes; smoothed, capped 65 deg then weighted 0.20/0.45",
+    "anatomical_to_robot_basis": "diag(1,-1,-1): wrist-to-middle +X, index-to-pinky -Z; proper rotation, not reflection",
+    "finger_motion": "existing open preshape; finger retargeting/contact acquisition not implemented"
+  },
+  "joint_names": [
+    "left_shoulder_pitch_joint",
+    "left_shoulder_roll_joint",
+    "left_shoulder_yaw_joint",
+    "left_elbow_joint",
+    "left_wrist_roll_joint",
+    "left_wrist_pitch_joint",
+    "left_wrist_yaw_joint"
+  ],
+  "model_sha256": "8f6197555552c20f8e23e3fb006a8317af9aacccc8a160128e96cd46223aaacc",
+  "joint_limit_margin_rad": 0.1,
+  "reference_diagnostics": [
+    {
+      "position_error_m": 0.0001349130532237559,
+      "orientation_error_deg": 0.3752421800032423,
+      "min_environment_distance_m": 0.06909431345014562,
+      "elbow_position": [
+        0.140286011475466,
+        0.13445992759683054,
+        0.9776557414989692
+      ]
+    },
+    {
+      "position_error_m": 0.0001138651351800449,
+      "orientation_error_deg": 0.27891966259976697,
+      "min_environment_distance_m": 0.07408477929911965,
+      "elbow_position": [
+        0.1441239333903158,
+        0.1392318559654439,
+        0.9724808704304972
+      ]
+    },
+    {
+      "position_error_m": 0.0001110362015246025,
+      "orientation_error_deg": 0.319867093011944,
+      "min_environment_distance_m": 0.08107708809060539,
+      "elbow_position": [
+        0.14547452743009137,
+        0.14783292499497108,
+        0.9710786383993044
+      ]
+    },
+    {
+      "position_error_m": 0.00010878166392182193,
+      "orientation_error_deg": 0.3704726009785039,
+      "min_environment_distance_m": 0.08918477740138947,
+      "elbow_position": [
+        0.1462825389753151,
+        0.15775475228604402,
+        0.9712165434534317
+      ]
+    },
+    {
+      "position_error_m": 0.00010689110447104637,
+      "orientation_error_deg": 0.42151090572320427,
+      "min_environment_distance_m": 0.09198275638952713,
+      "elbow_position": [
+        0.14712135250473046,
+        0.16773397818122168,
+        0.972197006654761
+      ]
+    },
+    {
+      "position_error_m": 0.00010533248929309314,
+      "orientation_error_deg": 0.46060798996994784,
+      "min_environment_distance_m": 0.09139571910873856,
+      "elbow_position": [
+        0.14794557536332192,
+        0.17564591424342277,
+        0.9734117915114047
+      ]
+    },
+    {
+      "position_error_m": 0.00010402717423775409,
+      "orientation_error_deg": 0.5022945953971253,
+      "min_environment_distance_m": 0.09042898664356536,
+      "elbow_position": [
+        0.1489434516883136,
+        0.18374188590873952,
+        0.9750632389907112
+      ]
+    },
+    {
+      "position_error_m": 0.00010278789426575898,
+      "orientation_error_deg": 0.5431443120873493,
+      "min_environment_distance_m": 0.08906909369247629,
+      "elbow_position": [
+        0.15019853804345862,
+        0.19193015618872034,
+        0.9770659717462596
+      ]
+    },
+    {
+      "position_error_m": 0.00010155918345208141,
+      "orientation_error_deg": 0.5682411569009884,
+      "min_environment_distance_m": 0.08700292809838017,
+      "elbow_position": [
+        0.151519421578828,
+        0.19830343664875322,
+        0.9786536169127459
+      ]
+    },
+    {
+      "position_error_m": 0.00010032247481244384,
+      "orientation_error_deg": 0.5866601119166415,
+      "min_environment_distance_m": 0.08429223145837517,
+      "elbow_position": [
+        0.15287997198046271,
+        0.20361287250515647,
+        0.9799668222907816
+      ]
+    },
+    {
+      "position_error_m": 9.907671040913492e-05,
+      "orientation_error_deg": 0.6057094962106853,
+      "min_environment_distance_m": 0.0811547777902807,
+      "elbow_position": [
+        0.15442283909843896,
+        0.20893196898325378,
+        0.9813550774106893
+      ]
+    },
+    {
+      "position_error_m": 9.779865583017008e-05,
+      "orientation_error_deg": 0.6235137827641788,
+      "min_environment_distance_m": 0.07766651527666346,
+      "elbow_position": [
+        0.15618476591390468,
+        0.21422734322480455,
+        0.98275901688719
+      ]
+    },
+    {
+      "position_error_m": 9.639133039789687e-05,
+      "orientation_error_deg": 0.627220085818324,
+      "min_environment_distance_m": 0.07343172548474798,
+      "elbow_position": [
+        0.1578994560978524,
+        0.2179117632708275,
+        0.9833026559758153
+      ]
+    },
+    {
+      "position_error_m": 9.495518759070552e-05,
+      "orientation_error_deg": 0.6304800613953458,
+      "min_environment_distance_m": 0.06885248038755065,
+      "elbow_position": [
+        0.15971559252030884,
+        0.22131615699302767,
+        0.9836570564170353
+      ]
+    },
+    {
+      "position_error_m": 9.351377944231248e-05,
+      "orientation_error_deg": 0.6341375503206247,
+      "min_environment_distance_m": 0.06410683543586326,
+      "elbow_position": [
+        0.16170516713022975,
+        0.2247396465168885,
+        0.9839551666061133
+      ]
+    },
+    {
+      "position_error_m": 9.208498758823634e-05,
+      "orientation_error_deg": 0.6377394843773128,
+      "min_environment_distance_m": 0.05927947693185964,
+      "elbow_position": [
+        0.1638531717730902,
+        0.22813488170675958,
+        0.9841850168701998
+      ]
+    },
+    {
+      "position_error_m": 9.01342139529914e-05,
+      "orientation_error_deg": 0.6001487306972795,
+      "min_environment_distance_m": 0.053594831289907385,
+      "elbow_position": [
+        0.16450370430793165,
+        0.22586800618273625,
+        0.9814844578308016
+      ]
+    },
+    {
+      "position_error_m": 8.8489566583975e-05,
+      "orientation_error_deg": 0.5733631162376446,
+      "min_environment_distance_m": 0.04801659375927171,
+      "elbow_position": [
+        0.1652111598292244,
+        0.22375008663856735,
+        0.978952669439756
+      ]
+    },
+    {
+      "position_error_m": 8.696034940318982e-05,
+      "orientation_error_deg": 0.5489469379359714,
+      "min_environment_distance_m": 0.042636741178166515,
+      "elbow_position": [
+        0.16598337612557995,
+        0.22177290686807427,
+        0.9765550030498109
+      ]
+    },
+    {
+      "position_error_m": 8.559060334145703e-05,
+      "orientation_error_deg": 0.531095519128023,
+      "min_environment_distance_m": 0.03761998447198922,
+      "elbow_position": [
+        0.16692390425183046,
+        0.22048224837991579,
+        0.9745565469572802
+      ]
+    },
+    {
+      "position_error_m": 8.448522715210282e-05,
+      "orientation_error_deg": 0.5328075388391419,
+      "min_environment_distance_m": 0.03336054131609367,
+      "elbow_position": [
+        0.16844932207254856,
+        0.22180709238877377,
+        0.9738573761991318
+      ]
+    },
+    {
+      "position_error_m": 8.344501805141809e-05,
+      "orientation_error_deg": 0.5320892711910618,
+      "min_environment_distance_m": 0.02949703343604171,
+      "elbow_position": [
+        0.16992736417879858,
+        0.22305549669953795,
+        0.9731896638264564
+      ]
+    },
+    {
+      "position_error_m": 8.254664376887216e-05,
+      "orientation_error_deg": 0.5324959603845757,
+      "min_environment_distance_m": 0.026079472550783696,
+      "elbow_position": [
+        0.17130383725051213,
+        0.22421787105206703,
+        0.972598836441762
+      ]
+    },
+    {
+      "position_error_m": 8.17892483376686e-05,
+      "orientation_error_deg": 0.532496009300523,
+      "min_environment_distance_m": 0.023267949530775718,
+      "elbow_position": [
+        0.1724323110135188,
+        0.22520957858466176,
+        0.9721663267349007
+      ]
+    },
+    {
+      "position_error_m": 8.118348638334472e-05,
+      "orientation_error_deg": 0.5326604294049253,
+      "min_environment_distance_m": 0.021035166876737343,
+      "elbow_position": [
+        0.1733307944557257,
+        0.22602950672119976,
+        0.9718596897543573
+      ]
+    },
+    {
+      "position_error_m": 8.073104740767807e-05,
+      "orientation_error_deg": 0.5333895222906766,
+      "min_environment_distance_m": 0.01931192681502314,
+      "elbow_position": [
+        0.17404781019389165,
+        0.22672435521129136,
+        0.9716553580253502
+      ]
+    },
+    {
+      "position_error_m": 8.029094611838755e-05,
+      "orientation_error_deg": 0.5294108828542712,
+      "min_environment_distance_m": 0.018084579134683976,
+      "elbow_position": [
+        0.17472269009737115,
+        0.22706440000902983,
+        0.9712267670638411
+      ]
+    },
+    {
+      "position_error_m": 0.0002602333964356421,
+      "orientation_error_deg": 0.5160741364725254,
+      "min_environment_distance_m": 0.01788599898004195,
+      "elbow_position": [
+        0.17483589440719513,
+        0.2281885292736736,
+        0.9719830888175379
+      ]
+    },
+    {
+      "position_error_m": 0.00034372896213952383,
+      "orientation_error_deg": 0.5754508511674541,
+      "min_environment_distance_m": 0.017850277776013557,
+      "elbow_position": [
+        0.17458175560069292,
+        0.2292857083581828,
+        0.9731162467991049
+      ]
+    },
+    {
+      "position_error_m": 0.0003217597646756865,
+      "orientation_error_deg": 0.5625331469535636,
+      "min_environment_distance_m": 0.017858758036727318,
+      "elbow_position": [
+        0.17423534324978548,
+        0.2300024936226183,
+        0.974058853698454
+      ]
+    },
+    {
+      "position_error_m": 0.00026468391600089724,
+      "orientation_error_deg": 0.5254837099702035,
+      "min_environment_distance_m": 0.01787908422800011,
+      "elbow_position": [
+        0.1740928366342901,
+        0.2303478999595559,
+        0.9744916720124386
+      ]
+    },
+    {
+      "position_error_m": 7.516540912892371e-05,
+      "orientation_error_deg": 0.5577248666239891,
+      "min_environment_distance_m": 0.01795490763582752,
+      "elbow_position": [
+        0.17354734262904484,
+        0.23100804256803326,
+        0.9756202538109497
+      ]
+    },
+    {
+      "position_error_m": 8.034317386546491e-05,
+      "orientation_error_deg": 0.5392563497558104,
+      "min_environment_distance_m": 0.018178564466082903,
+      "elbow_position": [
+        0.17432049609594377,
+        0.22963391378825956,
+        0.9736654367470428
+      ]
+    },
+    {
+      "position_error_m": 8.020743920999112e-05,
+      "orientation_error_deg": 0.537333662666708,
+      "min_environment_distance_m": 0.018499198357527225,
+      "elbow_position": [
+        0.17443947255879583,
+        0.22949551794072506,
+        0.973426050296579
+      ]
+    },
+    {
+      "position_error_m": 8.018234320081953e-05,
+      "orientation_error_deg": 0.5382232600445922,
+      "min_environment_distance_m": 0.018809600676585436,
+      "elbow_position": [
+        0.17439957513134086,
+        0.22966705954920688,
+        0.9736039492278487
+      ]
+    },
+    {
+      "position_error_m": 8.018262022631392e-05,
+      "orientation_error_deg": 0.5391241388026068,
+      "min_environment_distance_m": 0.01908257033384997,
+      "elbow_position": [
+        0.17433410871910826,
+        0.22986723094633063,
+        0.9738329165490435
+      ]
+    },
+    {
+      "position_error_m": 8.018853403856748e-05,
+      "orientation_error_deg": 0.5401821000553334,
+      "min_environment_distance_m": 0.019357396826590545,
+      "elbow_position": [
+        0.17426966459647913,
+        0.230086862576377,
+        0.9740776022833443
+      ]
+    },
+    {
+      "position_error_m": 8.019548672999111e-05,
+      "orientation_error_deg": 0.5413655763852452,
+      "min_environment_distance_m": 0.019634467862798436,
+      "elbow_position": [
+        0.1742112589321954,
+        0.2303161794812254,
+        0.9743248952701457
+      ]
+    },
+    {
+      "position_error_m": 8.01981148623652e-05,
+      "orientation_error_deg": 0.5423021697963082,
+      "min_environment_distance_m": 0.01983388831042632,
+      "elbow_position": [
+        0.1741732299385837,
+        0.2304761984446637,
+        0.9744951664611314
+      ]
+    },
+    {
+      "position_error_m": 8.019853186603499e-05,
+      "orientation_error_deg": 0.5429992441690034,
+      "min_environment_distance_m": 0.019987576638796023,
+      "elbow_position": [
+        0.17414455395921113,
+        0.2305997736745361,
+        0.9746262765694177
+      ]
+    },
+    {
+      "position_error_m": 8.019930190996244e-05,
+      "orientation_error_deg": 0.5436913279378246,
+      "min_environment_distance_m": 0.020141501335552814,
+      "elbow_position": [
+        0.1741170892967151,
+        0.2307286745544862,
+        0.9747608206257764
+      ]
+    },
+    {
+      "position_error_m": 8.020018780246515e-05,
+      "orientation_error_deg": 0.544418639596774,
+      "min_environment_distance_m": 0.020296149215381476,
+      "elbow_position": [
+        0.17409165934211193,
+        0.23086033361464237,
+        0.9748958220884112
+      ]
+    },
+    {
+      "position_error_m": 8.019806137787629e-05,
+      "orientation_error_deg": 0.5449427713185562,
+      "min_environment_distance_m": 0.02035449390338007,
+      "elbow_position": [
+        0.17409596102266928,
+        0.23094561602282612,
+        0.974961510781627
+      ]
+    },
+    {
+      "position_error_m": 8.019577098321953e-05,
+      "orientation_error_deg": 0.5453043119497852,
+      "min_environment_distance_m": 0.020393010094877154,
+      "elbow_position": [
+        0.17410543472742565,
+        0.23102506396971845,
+        0.9750170561503582
+      ]
+    },
+    {
+      "position_error_m": 8.019331030056826e-05,
+      "orientation_error_deg": 0.5456411061585925,
+      "min_environment_distance_m": 0.020431422234818974,
+      "elbow_position": [
+        0.17411425152419469,
+        0.2311066890010021,
+        0.975075202375236
+      ]
+    },
+    {
+      "position_error_m": 8.019111614834804e-05,
+      "orientation_error_deg": 0.5459769787568207,
+      "min_environment_distance_m": 0.020469379639425078,
+      "elbow_position": [
+        0.17412291106830852,
+        0.23118774438488446,
+        0.9751331403924282
+      ]
+    },
+    {
+      "position_error_m": 8.019578768185206e-05,
+      "orientation_error_deg": 0.5460834202001139,
+      "min_environment_distance_m": 0.020459278175083532,
+      "elbow_position": [
+        0.17412706195857872,
+        0.23117689402854744,
+        0.9751197788113309
+      ]
+    },
+    {
+      "position_error_m": 8.019823508169137e-05,
+      "orientation_error_deg": 0.5460904217358841,
+      "min_environment_distance_m": 0.020448859145838494,
+      "elbow_position": [
+        0.1741312803246599,
+        0.23116714095727184,
+        0.9751072640490958
+      ]
+    },
+    {
+      "position_error_m": 8.020071626327963e-05,
+      "orientation_error_deg": 0.5460960845068968,
+      "min_environment_distance_m": 0.020438448746585847,
+      "elbow_position": [
+        0.17413543379503948,
+        0.23115756631075635,
+        0.9750949696777375
+      ]
+    },
+    {
+      "position_error_m": 8.020415326663156e-05,
+      "orientation_error_deg": 0.5457798778074597,
+      "min_environment_distance_m": 0.020432553211494064,
+      "elbow_position": [
+        0.1741133863282521,
+        0.23107709104503343,
+        0.9750516819303481
+      ]
+    },
+    {
+      "position_error_m": 8.021080522436224e-05,
+      "orientation_error_deg": 0.5441770754035391,
+      "min_environment_distance_m": 0.020447483765678176,
+      "elbow_position": [
+        0.1739840878693669,
+        0.23067876424653364,
+        0.9748596828938475
+      ]
+    },
+    {
+      "position_error_m": 8.022013086610967e-05,
+      "orientation_error_deg": 0.5427445176483049,
+      "min_environment_distance_m": 0.0204649961081238,
+      "elbow_position": [
+        0.17385408003357594,
+        0.23027911546167168,
+        0.9746692760230322
+      ]
+    },
+    {
+      "position_error_m": 8.022967102450672e-05,
+      "orientation_error_deg": 0.5413100149066907,
+      "min_environment_distance_m": 0.020484172544079193,
+      "elbow_position": [
+        0.17372462189572768,
+        0.22987859526746257,
+        0.9744795016813474
+      ]
+    },
+    {
+      "position_error_m": 8.023682519497258e-05,
+      "orientation_error_deg": 0.5375525888607666,
+      "min_environment_distance_m": 0.02051135378856639,
+      "elbow_position": [
+        0.173440633130058,
+        0.22897532798929712,
+        0.9740500727919598
+      ]
+    },
+    {
+      "position_error_m": 8.024987275995622e-05,
+      "orientation_error_deg": 0.5327600174388512,
+      "min_environment_distance_m": 0.02055336620552506,
+      "elbow_position": [
+        0.17307023273556005,
+        0.22778583291787183,
+        0.9734955656746382
+      ]
+    },
+    {
+      "position_error_m": 8.026695362469923e-05,
+      "orientation_error_deg": 0.5281077787488044,
+      "min_environment_distance_m": 0.020602980822076122,
+      "elbow_position": [
+        0.17270434329649842,
+        0.22658974721880895,
+        0.9729477883272009
+      ]
+    },
+    {
+      "position_error_m": 8.028505614837493e-05,
+      "orientation_error_deg": 0.5234213502974883,
+      "min_environment_distance_m": 0.02066349064856177,
+      "elbow_position": [
+        0.1723447327741947,
+        0.22538660879320244,
+        0.9724045917514655
+      ]
+    },
+    {
+      "position_error_m": 8.078892081258153e-05,
+      "orientation_error_deg": 0.5396637148657994,
+      "min_environment_distance_m": 0.02234134413990374,
+      "elbow_position": [
+        0.1720997138751972,
+        0.22508679047794983,
+        0.9724355755275217
+      ]
+    },
+    {
+      "position_error_m": 8.119989534053083e-05,
+      "orientation_error_deg": 0.5556659084028901,
+      "min_environment_distance_m": 0.024550602742922867,
+      "elbow_position": [
+        0.17217676122374487,
+        0.22507905254171995,
+        0.9723490376165708
+      ]
+    },
+    {
+      "position_error_m": 8.141727442253167e-05,
+      "orientation_error_deg": 0.5716960664792929,
+      "min_environment_distance_m": 0.027070721791198626,
+      "elbow_position": [
+        0.17269457079633266,
+        0.22529058631625687,
+        0.9719666510348988
+      ]
+    },
+    {
+      "position_error_m": 8.139490546812391e-05,
+      "orientation_error_deg": 0.5888549636529684,
+      "min_environment_distance_m": 0.030232195632927783,
+      "elbow_position": [
+        0.17376111495732083,
+        0.2257257214213989,
+        0.971190055363045
+      ]
+    },
+    {
+      "position_error_m": 8.103627163057537e-05,
+      "orientation_error_deg": 0.5744539222385825,
+      "min_environment_distance_m": 0.033155391822845215,
+      "elbow_position": [
+        0.17394742180263179,
+        0.22154602398430256,
+        0.9679683147059248
+      ]
+    },
+    {
+      "position_error_m": 8.04923184293012e-05,
+      "orientation_error_deg": 0.5658321837916844,
+      "min_environment_distance_m": 0.03706370340653653,
+      "elbow_position": [
+        0.17457557571732246,
+        0.2174180355170514,
+        0.9645814156507513
+      ]
+    },
+    {
+      "position_error_m": 7.963739523301313e-05,
+      "orientation_error_deg": 0.5588322411932887,
+      "min_environment_distance_m": 0.041993276533752844,
+      "elbow_position": [
+        0.1757584943905579,
+        0.21334103744978888,
+        0.9609372245883308
+      ]
+    },
+    {
+      "position_error_m": 7.853529200719164e-05,
+      "orientation_error_deg": 0.5549896086513445,
+      "min_environment_distance_m": 0.04539905010618896,
+      "elbow_position": [
+        0.177471123182743,
+        0.20991045050373175,
+        0.9574142118549288
+      ]
+    },
+    {
+      "position_error_m": 7.761513383038679e-05,
+      "orientation_error_deg": 0.5534891961867004,
+      "min_environment_distance_m": 0.04767106268354684,
+      "elbow_position": [
+        0.17925518007459595,
+        0.20885067949123656,
+        0.9552687940919786
+      ]
+    },
+    {
+      "position_error_m": 7.657217780662705e-05,
+      "orientation_error_deg": 0.5573503876126756,
+      "min_environment_distance_m": 0.050445235281326564,
+      "elbow_position": [
+        0.1813943491635443,
+        0.2080210541936779,
+        0.9530088881856281
+      ]
+    },
+    {
+      "position_error_m": 7.534259490512727e-05,
+      "orientation_error_deg": 0.5629801002022023,
+      "min_environment_distance_m": 0.05374411425646755,
+      "elbow_position": [
+        0.1838833710976867,
+        0.2073667719557484,
+        0.9506279439426443
+      ]
+    },
+    {
+      "position_error_m": 7.393515373469124e-05,
+      "orientation_error_deg": 0.579408553565288,
+      "min_environment_distance_m": 0.05836993561865236,
+      "elbow_position": [
+        0.1869673771684403,
+        0.20836963772874928,
+        0.9486941016602067
+      ]
+    },
+    {
+      "position_error_m": 7.24534379875554e-05,
+      "orientation_error_deg": 0.6023634904645154,
+      "min_environment_distance_m": 0.06368752295010212,
+      "elbow_position": [
+        0.19051339864563305,
+        0.21037349457505833,
+        0.9470227253733982
+      ]
+    },
+    {
+      "position_error_m": 7.098496161890753e-05,
+      "orientation_error_deg": 0.626874711893349,
+      "min_environment_distance_m": 0.06902127772873336,
+      "elbow_position": [
+        0.19427484576074983,
+        0.21250661440747737,
+        0.9453974388382554
+      ]
+    },
+    {
+      "position_error_m": 6.960963109628247e-05,
+      "orientation_error_deg": 0.6527928126753506,
+      "min_environment_distance_m": 0.07422593855441002,
+      "elbow_position": [
+        0.1981223151704735,
+        0.2147080108116551,
+        0.9438937935770221
+      ]
+    },
+    {
+      "position_error_m": 6.839160389920091e-05,
+      "orientation_error_deg": 0.686446055343842,
+      "min_environment_distance_m": 0.07941772227262064,
+      "elbow_position": [
+        0.2022023174270722,
+        0.21725717373220144,
+        0.9425759006648518
+      ]
+    },
+    {
+      "position_error_m": 6.744905860303288e-05,
+      "orientation_error_deg": 0.7208750660342196,
+      "min_environment_distance_m": 0.08426052513773014,
+      "elbow_position": [
+        0.20621484078069605,
+        0.21978732241805823,
+        0.9414539938510684
+      ]
+    },
+    {
+      "position_error_m": 6.68111690163871e-05,
+      "orientation_error_deg": 0.7539657159290896,
+      "min_environment_distance_m": 0.08859434306806813,
+      "elbow_position": [
+        0.2099545274390466,
+        0.22213211915431613,
+        0.9405422668357889
+      ]
+    },
+    {
+      "position_error_m": 6.644663843301526e-05,
+      "orientation_error_deg": 0.7842567225389859,
+      "min_environment_distance_m": 0.09233137531139518,
+      "elbow_position": [
+        0.2132834582283038,
+        0.22419474752012075,
+        0.9398289464762916
+      ]
+    },
+    {
+      "position_error_m": 6.635077871255143e-05,
+      "orientation_error_deg": 0.8141596428590718,
+      "min_environment_distance_m": 0.09549942414085931,
+      "elbow_position": [
+        0.21621708859208288,
+        0.22597137799453687,
+        0.9392624374519156
+      ]
+    },
+    {
+      "position_error_m": 6.639317673715238e-05,
+      "orientation_error_deg": 0.8383544614390667,
+      "min_environment_distance_m": 0.09797634710611164,
+      "elbow_position": [
+        0.2185738609644828,
+        0.22733430640840538,
+        0.9388259708443777
+      ]
+    },
+    {
+      "position_error_m": 6.649285493760335e-05,
+      "orientation_error_deg": 0.8565643840726094,
+      "min_environment_distance_m": 0.09976774177155133,
+      "elbow_position": [
+        0.22031261051930648,
+        0.2282655956512049,
+        0.9384907843694782
+      ]
+    },
+    {
+      "position_error_m": 6.659019154017642e-05,
+      "orientation_error_deg": 0.8689329721161057,
+      "min_environment_distance_m": 0.10092697547167466,
+      "elbow_position": [
+        0.2214557664871862,
+        0.22879126089562532,
+        0.9382318867094251
+      ]
+    },
+    {
+      "position_error_m": 6.667037748568611e-05,
+      "orientation_error_deg": 0.8768423137621705,
+      "min_environment_distance_m": 0.10156474453189715,
+      "elbow_position": [
+        0.22210869326782412,
+        0.22898559987075554,
+        0.9380242862846083
+      ]
+    },
+    {
+      "position_error_m": 6.670588221242329e-05,
+      "orientation_error_deg": 0.8807370049026964,
+      "min_environment_distance_m": 0.10181098131940035,
+      "elbow_position": [
+        0.2223749185203258,
+        0.22891614728472015,
+        0.9378501187859704
+      ]
+    },
+    {
+      "position_error_m": 6.672130353440852e-05,
+      "orientation_error_deg": 0.8830354937151427,
+      "min_environment_distance_m": 0.10187143575752532,
+      "elbow_position": [
+        0.2224596287347673,
+        0.22871623026801408,
+        0.937686985357244
+      ]
+    },
+    {
+      "position_error_m": 6.674156862132296e-05,
+      "orientation_error_deg": 0.8848918729760803,
+      "min_environment_distance_m": 0.10190521290763824,
+      "elbow_position": [
+        0.22251442912512015,
+        0.22855748689068633,
+        0.9375639424926583
+      ]
+    },
+    {
+      "position_error_m": 6.676055020491476e-05,
+      "orientation_error_deg": 0.8865075348248098,
+      "min_environment_distance_m": 0.10193396944265354,
+      "elbow_position": [
+        0.22256091712116624,
+        0.22843017888560768,
+        0.9374642382643823
+      ]
+    },
+    {
+      "position_error_m": 6.67795210850107e-05,
+      "orientation_error_deg": 0.8881629638096068,
+      "min_environment_distance_m": 0.10196261728717604,
+      "elbow_position": [
+        0.22260622425971535,
+        0.22830510242703728,
+        0.937366664043733
+      ]
+    },
+    {
+      "position_error_m": 6.679934207388576e-05,
+      "orientation_error_deg": 0.8898376667649017,
+      "min_environment_distance_m": 0.10199125367866499,
+      "elbow_position": [
+        0.22265195398976478,
+        0.22818032377846603,
+        0.9372692502645181
+      ]
+    },
+    {
+      "position_error_m": 6.679899698614083e-05,
+      "orientation_error_deg": 0.8900327705763073,
+      "min_environment_distance_m": 0.101996185900885,
+      "elbow_position": [
+        0.2226622528260125,
+        0.2281213494206163,
+        0.9372287825240823
+      ]
+    },
+    {
+      "position_error_m": 6.679395565385035e-05,
+      "orientation_error_deg": 0.8901045483044396,
+      "min_environment_distance_m": 0.10199654393548661,
+      "elbow_position": [
+        0.22266365058843002,
+        0.22807684079760246,
+        0.9372013869221446
+      ]
+    },
+    {
+      "position_error_m": 6.67892152716325e-05,
+      "orientation_error_deg": 0.8902024096044713,
+      "min_environment_distance_m": 0.10199682302686067,
+      "elbow_position": [
+        0.22266310546571058,
+        0.22803461354604612,
+        0.9371763433153881
+      ]
+    },
+    {
+      "position_error_m": 6.678354786582107e-05,
+      "orientation_error_deg": 0.8902496918785099,
+      "min_environment_distance_m": 0.10199623614941686,
+      "elbow_position": [
+        0.22266094724019073,
+        0.2279939029363048,
+        0.9371530149340981
+      ]
+    },
+    {
+      "position_error_m": 6.674320998821044e-05,
+      "orientation_error_deg": 0.8882503472878409,
+      "min_environment_distance_m": 0.10196123919219055,
+      "elbow_position": [
+        0.22260953385951832,
+        0.22799564267642208,
+        0.9371791382073433
+      ]
+    },
+    {
+      "position_error_m": 6.671281585147478e-05,
+      "orientation_error_deg": 0.8869757061541635,
+      "min_environment_distance_m": 0.10193452140676745,
+      "elbow_position": [
+        0.22256310846792066,
+        0.22800610196387638,
+        0.9372081444831444
+      ]
+    }
+  ],
+  "duration_s": 16.27,
+  "planned_max_position_error_m": 0.00034372896213952383,
+  "planned_max_orientation_error_deg": 0.8902496918785099,
+  "dense_kinematic_min_clearance_m": 0.017850723314779215,
+  "joint_speed_max_rad_s": 0.9569073520952609,
+  "joint_limit_margin_actual_rad": 0.20362015260335645,
+  "planning_pass": true,
+  "physics": [
+    {
+      "timestep_s": 0.0005,
+      "max_joint_tracking_error_rad": 0.04871631208448439,
+      "dart_inertia_rounding_restored_relative": 1.9149029921727845e-06,
+      "max_joint_speed_rad_s": 0.9560482094164047,
+      "min_environment_clearance_m": 0.017513449570820572,
+      "max_tool_tracking_error_m": 0.011775923909410813,
+      "clearance_sampling_hz": 30,
+      "contact_check": "every physics step, new arm penetration threshold 0.2 mm",
+      "new_arm_penetration_count": 0,
+      "penetrating_contacts": [],
+      "dart_displacement_m": 0.0,
+      "pickup_success": false,
+      "finite_state": true,
+      "pass": true
+    },
+    {
+      "timestep_s": 0.00025,
+      "max_joint_tracking_error_rad": 0.04895073820334038,
+      "dart_inertia_rounding_restored_relative": 1.9149029921727845e-06,
+      "max_joint_speed_rad_s": 0.9560559603944375,
+      "min_environment_clearance_m": 0.017512988936600693,
+      "max_tool_tracking_error_m": 0.011834828740805464,
+      "clearance_sampling_hz": 30,
+      "contact_check": "every physics step, new arm penetration threshold 0.2 mm",
+      "new_arm_penetration_count": 0,
+      "penetrating_contacts": [],
+      "dart_displacement_m": 0.0,
+      "pickup_success": false,
+      "finite_state": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

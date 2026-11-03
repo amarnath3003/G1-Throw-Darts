@@ -1,0 +1,53 @@
+{
+  "q_grasp": [
+    1.2824059810334907,
+    0.3585484755423199,
+    0.7903028185145674,
+    0.794821967762278,
+    1.35,
+    1.35
+  ],
+  "dart_pos_hand": [
+    0.18922978542598146,
+    -0.0580890667972949,
+    0.008708421420769994
+  ],
+  "dart_quat_hand": [
+    0.707106781,
+    0,
+    -0.707106781,
+    0
+  ],
+  "arm_pose": {
+    "left_shoulder_pitch_joint": -1.0710447298329764,
+    "left_shoulder_roll_joint": 0.5820973972533429,
+    "left_shoulder_yaw_joint": -0.20942332040293682,
+    "left_elbow_joint": 0.8294036774088893,
+    "left_wrist_roll_joint": 1.8922199999984186,
+    "left_wrist_pitch_joint": 1.5344299997170705,
+    "left_wrist_yaw_joint": 0.6210292588131359,
+    "right_shoulder_roll_joint": -0.16,
+    "right_elbow_joint": 0.65
+  },
+  "squeeze": 0.025,
+  "kp": 4.0,
+  "kd": 0.1,
+  "closure_direction": [
+    0,
+    -1,
+    1,
+    1,
+    0,
+    0
+  ],
+  "q_open": [
+    0.6,
+    0.5,
+    0,
+    0,
+    1.35,
+    1.35
+  ],
+  "force_feedback": true,
+  "hand": "left"
+}

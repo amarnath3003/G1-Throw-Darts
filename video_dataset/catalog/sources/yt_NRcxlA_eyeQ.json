@@ -1,0 +1,30 @@
+{
+  "id": "yt_NRcxlA_eyeQ",
+  "source_url": "https://www.youtube.com/watch?v=NRcxlA_eyeQ",
+  "creator": "The Darts Box",
+  "title": "Bien se positionner et travailler son lancé aux fléchettes",
+  "origin": "internet",
+  "retrieved_at": "2026-10-28T11:38:44.580475+00:00",
+  "path": "sources/youtube/NRcxlA_eyeQ.mp4",
+  "license": "not declared in metadata",
+  "redistribution": "unverified; local reference only",
+  "playback_speed": "mixed or unverified",
+  "capture_fps": null,
+  "source_session": "yt_NRcxlA_eyeQ",
+  "thrower": "unresolved",
+  "status": "awaiting_inspection",
+  "media": {
+    "codec": "av1",
+    "width": 1920,
+    "height": 1080,
+    "avg_frame_rate": "24/1",
+    "r_frame_rate": "24/1",
+    "time_base": "1/12288",
+    "start_time": "0.000000",
+    "duration_s": 252.5,
+    "frames": null,
+    "side_data": [],
+    "bytes": 19290978,
+    "sha256": "a40787f618dd5ef152f17504fd286abbd564900e0bcc20e4b907cbfc47208dc1"
+  }
+}

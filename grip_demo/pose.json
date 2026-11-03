@@ -1,0 +1,26 @@
+{
+  "source": "manually posed, wrist alignment refined geometrically",
+  "joints_rad": {
+    "right_shoulder_pitch_joint": -1.45,
+    "right_shoulder_roll_joint": -0.15,
+    "right_shoulder_yaw_joint": 0.0,
+    "right_elbow_joint": 1.15,
+    "right_wrist_roll_joint": 0.22894461,
+    "right_wrist_pitch_joint": 0.00216948,
+    "right_wrist_yaw_joint": -0.15878494,
+    "left_shoulder_roll_joint": 0.16,
+    "left_elbow_joint": 0.65
+  },
+  "joint_degrees": {
+    "right_shoulder_pitch_joint": -83.07888029396936,
+    "right_shoulder_roll_joint": -8.594366926962348,
+    "right_shoulder_yaw_joint": 0.0,
+    "right_elbow_joint": 65.89014644004466,
+    "right_wrist_roll_joint": 13.117559895268622,
+    "right_wrist_pitch_joint": 0.12430204773804185,
+    "right_wrist_yaw_joint": -9.097706912238007,
+    "left_shoulder_roll_joint": 9.167324722093172,
+    "left_elbow_joint": 37.24225668350351
+  },
+  "video_used": false
+}

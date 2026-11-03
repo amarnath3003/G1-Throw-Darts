@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "dataset_id": "pickup_20261102_v1",
+  "source_directory": "G1 Darts Ref videos",
+  "hand": "left",
+  "mirrored": false,
+  "marker_dictionary": "DICT_4X4_50",
+  "marker_edge_m": 0.048,
+  "template_edge_m": 0.050,
+  "pen_length_m": 0.145,
+  "pen_diameter_m": 0.010,
+  "pen_diameter_uncertain": true,
+  "camera_calibrated": false,
+  "color": "rgb_baseline",
+  "excluded_clips": ["IMG_4281.MOV", "IMG_4282.MOV", "IMG_4283.MOV"],
+  "missing_optional_clips": ["IMG_4278.MOV"],
+  "clips": [
+    {"id": "4276", "file": "IMG_4276.MOV", "role": "train", "start": 7.0, "end": 23.0, "dense": [10.0, 15.5], "phases": [[0,7,"rest"],[7,10.5,"approach"],[10.5,13.6,"acquisition"],[13.6,15.8,"lift"],[15.8,23,"hold"],[23,28,"put_down"]]},
+    {"id": "4277", "file": "IMG_4277.MOV", "role": "train", "start": 4.0, "end": 23.0, "dense": [6.0, 11.5], "phases": [[0,4,"rest"],[4,6.8,"approach"],[6.8,9.8,"acquisition"],[9.8,11.5,"lift"],[11.5,23,"hold"],[23,28,"put_down"]]},
+    {"id": "4279", "file": "IMG_4279.MOV", "role": "holdout", "start": 4.0, "end": 14.5, "dense": [6.5,11.0], "phases": [[0,4,"rest"],[4,7.3,"approach"],[7.3,10.1,"acquisition"],[10.1,11,"lift"],[11,14.5,"hold"],[14.5,18,"put_down"]]},
+    {"id": "4280", "file": "IMG_4280.MOV", "role": "grip_reference", "start": 0.0, "end": 12.5, "dense": [], "phases": [[0,12.5,"presentation"],[12.5,15,"put_down"]]}
+  ],
+  "annotation_provenance": "Phase boundaries reviewed from source contact sheets; transition times approximate. Initial capped end: top in 4276, upper-left in 4277, left in 4279. Occluded contacts are not labels.",
+  "training": {"seed": 20261103, "evaluation_seed": 741000, "test_seed": 951000, "test_episodes": 100, "pilot_transitions": 100000, "eval_every": 25000, "stale_evaluations": 5, "workers": 4, "rollout": 256, "batch_size": 256, "learning_rate": 0.0003, "gamma": 0.99, "gae_lambda": 0.95, "clip_range": 0.2, "target_kl": 0.015, "net_arch": [256,256]}
+}

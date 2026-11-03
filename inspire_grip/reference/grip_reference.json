@@ -1,0 +1,32 @@
+{
+  "source": "Three user-supplied photographs of their pen grip, 2026-10-28",
+  "interpretation": "Manual anatomical contact specification, not calibrated 3-D reconstruction",
+  "requested_robot_hand": "left (explicitly mirrored at user request)",
+  "contacts": {
+    "thumb": "opposes index and middle on barrel",
+    "index": "barrel, same side as middle",
+    "middle": "barrel, same side as index",
+    "ring": "curled clear; no dart contact",
+    "pinky": "curled clear; no dart contact"
+  },
+  "axis": "barrel crosses index and middle; tip forward",
+  "used_by": "inspire_grip_tools.fit_pose: three distal contacts, thumb opposite and centered axially; ring/pinky tucked",
+  "limitations": [
+    "No metric depth, finger force or motion timing inferred from photographs",
+    "Does not replace personally recorded motion footage for the throwing challenge"
+  ],
+  "photos": [
+    {
+      "file": "photos/grip_01.png",
+      "sha256": "c39711dad20d67ecfad98a9479f9d00a7814ff455a89f88b70e43907a982dcfe"
+    },
+    {
+      "file": "photos/grip_02.png",
+      "sha256": "5735c006129b32c72393e57c321b9c0d076e39f369d847d64cee5c8b05696bf6"
+    },
+    {
+      "file": "photos/grip_03.png",
+      "sha256": "7a613d4e699f7ab87458311a2cff011b5041a5a00d5501158628652859da67ca"
+    }
+  ]
+}

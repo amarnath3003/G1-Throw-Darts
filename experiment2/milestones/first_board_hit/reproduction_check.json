@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source_seed": 81001,
+  "impact_error_m": 0.06633908414951152,
+  "absolute_reproduction_difference_m": 1.2296002785405769e-08,
+  "impact_position": [
+    2.999978043391364,
+    0.03326077091934567,
+    1.672601435526254
+  ],
+  "valid_tip_first_board_hit": true,
+  "bullseye": false,
+  "recording": "experiment2\\runs\\board_hit_replay_20261030T141208681483\\episodes\\000000"
+}

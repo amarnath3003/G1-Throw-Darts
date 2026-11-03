@@ -1,0 +1,13 @@
+{
+  "selected_backend": "hamer",
+  "reason": "User selected HaMeR and requested full 3D surface outputs; preserve WiLoR alongside.",
+  "inference_entrypoint": "experiment3/reconstruct_hamer.py",
+  "python": "experiment3/.venv-hamer/Scripts/python.exe",
+  "report": "data/hamer_pilot/report.json",
+  "interactive_mesh": "research/hamer_mesh_3d.html",
+  "baseline_backend": "wilor",
+  "baseline_report": "data/wilor_pilot/report.json",
+  "hand": "left",
+  "image_mirrored": false,
+  "status": "30-frame pilot complete; 28 full surfaces exported. Hidden contacts remain estimates."
+}

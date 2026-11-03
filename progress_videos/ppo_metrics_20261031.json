@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "episodes": 32,
+    "outcomes": {
+      "robot_hit": 4,
+      "board": 21,
+      "recontact": 2,
+      "environment_hit": 5
+    },
+    "board_hits": 21,
+    "bullseyes": 0,
+    "clean_flight_rate": 0.8125,
+    "median_velocity_gap_m_s": 0.255482286873834,
+    "median_vertical_deficit_m_s": 0.13540111486810513,
+    "median_predicted_board_error_m": 0.14687087160528017,
+    "median_closest_tip_distance_m": 0.13687025256312682,
+    "median_peak_height_m": 1.9066001036097973,
+    "median_vx_m_s": 4.532862775407393,
+    "median_vz_m_s": 3.2481643437338015,
+    "median_required_vz_m_s": 3.370386731683056,
+    "mean_return": 58.073477418696754,
+    "valid_board_hits": 21,
+    "median_impact_error_among_hits_m": 0.14565633005832782,
+    "best_impact_error_among_hits_m": 0.12487532546371484,
+    "policy_sha256": "3a20096966a00d42852eddd4c08776191a5e3028ac6ab9b548d3bea2cbd68d92",
+    "bundle": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\models\\best_verified_20261031"
+  },
+  "clips": [
+    {
+      "seed": 84121,
+      "outcome": "board",
+      "source": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\analysis\\final_20261031\\heldout\\episodes\\000020\\swing.mp4"
+    },
+    {
+      "seed": 84115,
+      "outcome": "environment_hit",
+      "source": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\analysis\\final_20261031\\heldout\\episodes\\000014\\swing.mp4"
+    },
+    {
+      "seed": 84101,
+      "outcome": "robot_hit",
+      "source": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\analysis\\final_20261031\\heldout\\episodes\\000000\\swing.mp4"
+    }
+  ],
+  "slow_motion_factor": 4
+}

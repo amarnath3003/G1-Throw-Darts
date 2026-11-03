@@ -1,0 +1,12 @@
+{
+  "pass_checks": true,
+  "valid_proper_palm_frames": 28,
+  "known_collision_distance_m": -0.00277796310385812,
+  "model_and_source_hashes_match": true,
+  "timesteps": [
+    0.0005,
+    0.00025
+  ],
+  "no_artificial_dart_lift": true,
+  "mujoco_version": "3.10.0"
+}

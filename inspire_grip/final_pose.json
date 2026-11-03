@@ -1,0 +1,28 @@
+{
+  "arm_pose": {
+    "left_shoulder_pitch_joint": -1.0168414557330805,
+    "left_shoulder_roll_joint": 0.24020951479665276,
+    "left_shoulder_yaw_joint": 0.619149249105903,
+    "left_elbow_joint": -0.1270172225678708,
+    "left_wrist_roll_joint": -0.49505678776978757,
+    "left_wrist_pitch_joint": -0.44899999999999995,
+    "left_wrist_yaw_joint": -0.44899999999999995,
+    "right_shoulder_roll_joint": -0.16,
+    "right_elbow_joint": 0.65
+  },
+  "dart_quat_hand": [
+    0.7071067811865476,
+    0,
+    0.7071067811865476,
+    0
+  ],
+  "q_open": [
+    1.0,
+    0.4,
+    0,
+    0,
+    1.55,
+    1.55
+  ],
+  "post_training_adjustment": "Arm fitted with inward wrist, all wrist joints within +/-0.55 rad; dart axis reversed within hand; open thumb target avoids palm collision. Learned force parameters retained and revalidated."
+}

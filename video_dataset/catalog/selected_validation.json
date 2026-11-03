@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "request": "All Group A candidates and Gary Anderson side-view references",
+  "clips": [
+    {
+      "id": "D01",
+      "role": "gvhmr_body_reference",
+      "status": "passed"
+    },
+    {
+      "id": "D02",
+      "role": "gvhmr_body_reference",
+      "status": "passed"
+    },
+    {
+      "id": "D03",
+      "role": "gvhmr_body_reference",
+      "status": "passed"
+    },
+    {
+      "id": "D04",
+      "role": "gvhmr_body_reference",
+      "status": "passed"
+    },
+    {
+      "id": "D05",
+      "role": "gvhmr_body_reference",
+      "status": "passed"
+    },
+    {
+      "id": "D06",
+      "role": "gvhmr_body_reference",
+      "status": "passed"
+    },
+    {
+      "id": "R03",
+      "role": "qualitative_reference_only",
+      "status": "passed"
+    },
+    {
+      "id": "R04",
+      "role": "qualitative_reference_only",
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    "native hashes",
+    "30 FPS body exports",
+    "frame-map row counts",
+    "full export decode",
+    "qualitative-only Gary routing"
+  ]
+}

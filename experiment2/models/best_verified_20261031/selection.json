@@ -1,0 +1,77 @@
+{
+  "selected": "C:\\robotics\\KungFu UniTree\\hackathon\\experiment2\\runs\\20261030T161744390253\\best_physics\\policy.zip",
+  "latest_summary": {
+    "episodes": 12,
+    "bullseyes": 0,
+    "valid_board_hits": 9,
+    "clean_flight_rate": 1.0,
+    "mean_penalized_closest_distance_m": 0.23327190214240015,
+    "selection_score": [
+      1,
+      0,
+      9,
+      -0.23327190214240015
+    ]
+  },
+  "previous_summary": {
+    "episodes": 12,
+    "bullseyes": 0,
+    "valid_board_hits": 9,
+    "clean_flight_rate": 1.0,
+    "mean_penalized_closest_distance_m": 0.1714585493821298,
+    "selection_score": [
+      1,
+      0,
+      9,
+      -0.1714585493821298
+    ]
+  },
+  "selection_seeds": [
+    83101,
+    83102,
+    83103,
+    83104,
+    83105,
+    83106,
+    83107,
+    83108,
+    83109,
+    83110,
+    83111,
+    83112
+  ],
+  "final_test_seeds": [
+    84101,
+    84102,
+    84103,
+    84104,
+    84105,
+    84106,
+    84107,
+    84108,
+    84109,
+    84110,
+    84111,
+    84112,
+    84113,
+    84114,
+    84115,
+    84116,
+    84117,
+    84118,
+    84119,
+    84120,
+    84121,
+    84122,
+    84123,
+    84124,
+    84125,
+    84126,
+    84127,
+    84128,
+    84129,
+    84130,
+    84131,
+    84132
+  ]
+}

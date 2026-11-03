@@ -1,0 +1,6 @@
+{
+  "reference": "experiment4/data/shoulder_dart_refit/reference.npz",
+  "reference_sha256": "8ca7993a726b7eb4b79876c43b562aeda90b091c4177d534651a8f2243fb0245",
+  "name": "Video to Throw PPO",
+  "controller": "video_to_throw_v1"
+}

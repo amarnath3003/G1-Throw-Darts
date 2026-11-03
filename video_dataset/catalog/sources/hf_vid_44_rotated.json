@@ -1,0 +1,31 @@
+{
+  "id": "hf_vid_44_rotated",
+  "source_url": "https://huggingface.co/datasets/pratikshapai/human-motion-tracking-deeplabcut/blob/202b971078b1b1be719bab211bfdc7b9848bed71/videos/vid_44_rotated.mp4",
+  "download_url": "https://huggingface.co/datasets/pratikshapai/human-motion-tracking-deeplabcut/resolve/202b971078b1b1be719bab211bfdc7b9848bed71/videos/vid_44_rotated.mp4",
+  "creator": "pratikshapai (dataset uploader; camera operator/subjects unidentified)",
+  "retrieved_at": "2026-10-28T11:38:17.227767+00:00",
+  "path": "sources/hf_dlc/vid_44_rotated.mp4",
+  "source_revision": "202b971078b1b1be719bab211bfdc7b9848bed71",
+  "origin": "internet",
+  "license": "not declared",
+  "redistribution": "unverified; local reference only",
+  "playback_speed": "unverified",
+  "capture_fps": null,
+  "source_session": "hf_dlc_unresolved",
+  "thrower": "unresolved",
+  "status": "awaiting_inspection",
+  "media": {
+    "codec": "h264",
+    "width": 720,
+    "height": 1280,
+    "avg_frame_rate": "20/1",
+    "r_frame_rate": "20/1",
+    "time_base": "1/10240",
+    "start_time": "0.000000",
+    "duration_s": 25.55,
+    "frames": "511",
+    "side_data": [],
+    "bytes": 3985602,
+    "sha256": "0655f532a65d6b263c71b7194f9f6b2fd472bacea9c1501fde95675ab6a576d6"
+  }
+}

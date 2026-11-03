@@ -1,0 +1,494 @@
+{
+  "rules": {
+    "version": 1,
+    "keypoint_confidence": 0.35,
+    "minimum_body_visible_fraction": 0.85,
+    "minimum_wrist_visible_fraction": 0.85,
+    "minimum_wrist_inside_fraction": 0.95,
+    "maximum_multiple_people_fraction": 0.05,
+    "minimum_median_person_height_pixels": 250,
+    "maximum_cut_count": 0,
+    "border_margin_fraction": 0.015
+  },
+  "model_sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+  "clips": [
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 40,
+        "decoded_frames": 40,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 694.3216552734375,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D01",
+      "candidate_sha256": "0bc5341e22920b592afbee6a77d85afd0c354c8d5dcd88bfd7c47339a97c8615",
+      "group": "A"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 42,
+        "decoded_frames": 42,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 695.6517333984375,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D02",
+      "candidate_sha256": "273f5fcecd0c0bc24bd685f4d8ac2cd4634cb0a737af8734eaf0dff303d2929a",
+      "group": "A"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 35,
+        "decoded_frames": 35,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 694.405517578125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D03",
+      "candidate_sha256": "bebddc1435985062338012ba76329876a30c46d540cbb4c681b06f46f1fae73e",
+      "group": "A"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 35,
+        "decoded_frames": 35,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 694.0809326171875,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D04",
+      "candidate_sha256": "ce59ec5be842f4d60b41eae051edb79799b9114fe12a47f58093d143dcccce24",
+      "group": "A"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 35,
+        "decoded_frames": 35,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 694.42333984375,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D05",
+      "candidate_sha256": "94b2431b2a3da44d6c52676b39b3ceb21367e01121e2ce06641bee0a3b87f4fa",
+      "group": "A"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 39,
+        "decoded_frames": 39,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 694.3897705078125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D06",
+      "candidate_sha256": "62d655deae50515a2b4aec627bb078d2fba2dc97aa24841b913546e232ce31d7",
+      "group": "A"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 31,
+        "decoded_frames": 31,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 787.364013671875,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D07",
+      "candidate_sha256": "d574aaccba8c1de81a03c4cca7f3213e401adc2c200755eef2740f20da08b8e4",
+      "group": "B"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 30,
+        "decoded_frames": 30,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 786.1920166015625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D08",
+      "candidate_sha256": "ec4b6e3a8989bd6bc17f68f573085ae857d4060e76aa3951f0a879ab01ee1505",
+      "group": "B"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 31,
+        "decoded_frames": 31,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 787.9583740234375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D09",
+      "candidate_sha256": "f4030c7873240ad428effebc47d97d789e3e1c104949281a4154091bcbfb75a3",
+      "group": "B"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 32,
+        "decoded_frames": 32,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 787.2203979492188,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D10",
+      "candidate_sha256": "cd637e3418e9927ae8e46d60736be8cf3c721e5a628c6068d675923683792f97",
+      "group": "B"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 32,
+        "decoded_frames": 32,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 785.5802612304688,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D11",
+      "candidate_sha256": "70b04ad3ba9d25f09aa955ef083b1a3f6b64b40de3b3305dac3309ebfb235311",
+      "group": "B"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 36,
+        "decoded_frames": 36,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 789.5587768554688,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D12",
+      "candidate_sha256": "b0b9b1040ca5ae41675f9ac0de45e008e71a6ac331e1b60e3bd1107fe12f0d72",
+      "group": "B"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 28,
+        "decoded_frames": 28,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 712.4400024414062,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D13",
+      "candidate_sha256": "1ecb6258e77596a07db6a4cc5a80063903d69383c8647e33bfe143a8389ab7ed",
+      "group": "C"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 32,
+        "decoded_frames": 32,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 715.204345703125,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D14",
+      "candidate_sha256": "5ed6ecc40123697c5490b1b49d354f03834f6366efc5ff3a388ecd1680bf67cb",
+      "group": "C"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 31,
+        "decoded_frames": 31,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 714.9700927734375,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D15",
+      "candidate_sha256": "07f2cdadd5300ba50a80c0fb27d949df689c0d0a76749a509fa4315072792402",
+      "group": "C"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 34,
+        "decoded_frames": 34,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 715.6998901367188,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D16",
+      "candidate_sha256": "844c8b12b265a7b085fbe6f54e337fa1ded98f25695b91b32f99389cd60ec566",
+      "group": "C"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 34,
+        "decoded_frames": 34,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 708.5972900390625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D17",
+      "candidate_sha256": "2480619d140985bce975ac9cc10a287421396bec6f53abf83f3d5eaf44c6d7e7",
+      "group": "C"
+    },
+    {
+      "pass": true,
+      "reasons": [],
+      "metrics": {
+        "sampled_frames": 36,
+        "decoded_frames": 36,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 705.2183837890625,
+        "estimated_throwing_wrist_coco_index": 10,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D18",
+      "candidate_sha256": "634a6ec4e13688246f8addd937693e4878fd369c3c773b9c10cecb38c0bd0c49",
+      "group": "C"
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "manual_inspection_caution"
+      ],
+      "metrics": {
+        "sampled_frames": 34,
+        "decoded_frames": 34,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 745.432861328125,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D19",
+      "candidate_sha256": "780f77b2365cd72ed4c8cd619c5607f2301442a8a4717a02afc47d482546e52c",
+      "group": "D"
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "manual_inspection_caution"
+      ],
+      "metrics": {
+        "sampled_frames": 58,
+        "decoded_frames": 58,
+        "sampling_every_n_frames": 1,
+        "body_visible_fraction": 1.0,
+        "wrist_visible_fraction": 1.0,
+        "wrist_inside_fraction": 1.0,
+        "multiple_people_fraction": 0.0,
+        "median_person_height_pixels": 747.5599365234375,
+        "estimated_throwing_wrist_coco_index": 9,
+        "cut_count": 0,
+        "encoded_fps": 20.0
+      },
+      "id": "D20",
+      "candidate_sha256": "243c304935a1ea24b1e282a02589aace25620ba826cf4842a24c63edb091ebd3",
+      "group": "D"
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "qualitative_reference_only"
+      ],
+      "metrics": {},
+      "id": "R01",
+      "candidate_sha256": "edf274b92c8e9d0a4f9537f7e3de4a7dd19122dad0f8a8147ae438277612362c",
+      "group": "reference"
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "qualitative_reference_only"
+      ],
+      "metrics": {},
+      "id": "R02",
+      "candidate_sha256": "20561fd321bcfcfa1cdc558808be06c1c31ba404800e455641de488131ce0997",
+      "group": "reference"
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "qualitative_reference_only"
+      ],
+      "metrics": {},
+      "id": "R03",
+      "candidate_sha256": "3d0c1b112ec2b97ea367ea1643ff7c44689d429f1b6e7b40e71fff14cddccb89",
+      "group": "reference"
+    },
+    {
+      "pass": false,
+      "reasons": [
+        "qualitative_reference_only"
+      ],
+      "metrics": {},
+      "id": "R04",
+      "candidate_sha256": "cb7161ed99b5cf76222aa0747f506ad3e8ee0884dab0f58b61eb4b8a10a94f0a",
+      "group": "reference"
+    }
+  ],
+  "spot_check_ids": [
+    "D01",
+    "D07",
+    "D13",
+    "D19"
+  ],
+  "recommended_ids": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15",
+    "D16",
+    "D17",
+    "D18"
+  ],
+  "scope": "existing curated candidates; archive screen does not segment new throws",
+  "limitations": [
+    "2D pose confidence is heuristic",
+    "no capture-speed verification",
+    "no finger/release or 3D quality validation",
+    "wrist choice based on motion, not verified handedness",
+    "no automatic dataset approval"
+  ]
+}

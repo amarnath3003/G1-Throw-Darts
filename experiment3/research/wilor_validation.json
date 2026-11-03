@@ -1,0 +1,18 @@
+{
+  "total_frames": 30,
+  "selected_left_frames": 23,
+  "missing_left_times_s": [
+    0.491667,
+    0.745,
+    3.745,
+    4.0,
+    4.255,
+    4.491667,
+    4.745
+  ],
+  "all_21_projected_in_frame": 18,
+  "occluded_acquisition_frames": 11,
+  "latency_median_s": 0.07570339999983844,
+  "peak_cuda_allocated_gib": 2.6185359954833984,
+  "validation": "timestamps, shapes, finite selected joints, missing-data NaNs, wrist-relative origin, handedness and overlay files passed"
+}

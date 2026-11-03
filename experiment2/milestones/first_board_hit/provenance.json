@@ -1,0 +1,19 @@
+{
+  "trial": 91,
+  "seed": 81001,
+  "source_episode": "experiment2\\analysis\\round400k\\calibration_aim\\episodes\\000091",
+  "source_checkpoint": "experiment2\\runs\\20261030T125811941261\\checkpoints\\rl_model_403564_steps.zip",
+  "method": "Frozen PPO with optimizer-calibrated joint references",
+  "held_out": false,
+  "sha256": {
+    "actions.npz": "5b8ed67e763fcdf2ee8124fcfbf4002eb87ed9bdf2d3f0ea021e10caa0b6aaaf",
+    "calibration_checks.json": "93bd4337d331f9d78a7b25b49e3174f5d1385f8d6ecc5e03eba0a340fdcdcf74",
+    "normalize.pkl": "abfc0186e3d63e24ac648d956cbd950ab32453c1a42970c9cc6905f8309f1236",
+    "policy.zip": "3ff31441c21839c5a9e26232a189fb4ec56d9553b56bee48c37680374124c701",
+    "profile.json": "a5f5425cbffd8c9015697b088d74631607d24fbd2f8dacc673f8a74e335ea6a5",
+    "README.md": "69ffe6d6dda26ef1bb53fd8367e04f1205738fdb41b79b352bda2620f3aa9468",
+    "result.json": "b81c29e00a5dfbebc928b2ef7a21e75afbf02635c864cd50122644ab76974c8b",
+    "states.npz": "c9f6bd60bd87c17c7c1a48a1e6a918a6f152b482801a27f11d62f93f04df0698",
+    "swing.mp4": "853d1c0cd4d9321ecfd66f07d23c01e9b301eb660e9d7d84027059e09f1945e9"
+  }
+}

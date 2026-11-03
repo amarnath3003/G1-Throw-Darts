@@ -1,0 +1,62 @@
+{
+  "q_grasp": [
+    1.242098634303627,
+    0.37017924648474354,
+    0.7950157086408697,
+    0.7937561119850793,
+    1.55,
+    1.55
+  ],
+  "dart_pos_hand": [
+    0.18948738516122213,
+    -0.05613240177893199,
+    0.02347623622181863
+  ],
+  "dart_quat_hand": [
+    0.7071067811865476,
+    0,
+    0.7071067811865476,
+    0
+  ],
+  "arm_pose": {
+    "left_shoulder_pitch_joint": -1.0168414557330805,
+    "left_shoulder_roll_joint": 0.24020951479665276,
+    "left_shoulder_yaw_joint": 0.619149249105903,
+    "left_elbow_joint": -0.1270172225678708,
+    "left_wrist_roll_joint": -0.49505678776978757,
+    "left_wrist_pitch_joint": -0.44899999999999995,
+    "left_wrist_yaw_joint": -0.44899999999999995,
+    "right_shoulder_roll_joint": -0.16,
+    "right_elbow_joint": 0.65
+  },
+  "squeeze": 0.022872131137170484,
+  "kp": 4.874620418982835,
+  "kd": 0.09979691507208949,
+  "closure_direction": [
+    0,
+    -1,
+    1,
+    1,
+    0,
+    0
+  ],
+  "q_open": [
+    1.0,
+    0.4,
+    0,
+    0,
+    1.55,
+    1.55
+  ],
+  "force_feedback": true,
+  "hand": "left",
+  "force_targets": [
+    2.188720920952339,
+    1.0936111862697937,
+    0.9149877932572121
+  ],
+  "force_gain": 0.010066108676446044,
+  "training_method": "cross_entropy_policy_search",
+  "training_cost": 0.9131710545104941,
+  "post_training_adjustment": "Arm fitted with inward wrist, all wrist joints within +/-0.55 rad; dart axis reversed within hand; open thumb target avoids palm collision. Learned force parameters retained and revalidated."
+}
