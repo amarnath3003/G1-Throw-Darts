@@ -14,7 +14,7 @@ shows the sensitivity of the fitted contact controller.
 
 ## Inspect the scene
 
-From the repository root:
+From the `lab/` directory:
 
 ```sh
 python experiment3/setup_scene.py

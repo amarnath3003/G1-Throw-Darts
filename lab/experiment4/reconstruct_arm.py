@@ -13,7 +13,7 @@ from scipy.spatial.transform import Rotation
 
 from prepare_reference import write_video
 
-WORKSPACE = Path(__file__).resolve().parents[2]
+WORKSPACE = Path(__file__).resolve().parents[3]
 MODEL = WORKSPACE / "video_to_g1/vendor/GMR/assets/body_models/smplx/SMPLX_NEUTRAL.npz"
 
 

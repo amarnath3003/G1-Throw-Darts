@@ -22,7 +22,7 @@ checkpoints are archived separately from this repository.
 ## Reproduce the calibrated milestone
 
 Install dependencies with `python -m pip install -r experiment2/requirements.txt`
-and run `python experiment2/replay_board_hit.py --verify-only` from the repository root.
+and run `python experiment2/replay_board_hit.py --verify-only` from the `lab/` directory.
 The [milestone bundle](milestones/first_board_hit/README.md) includes the policy,
 normalizer, calibrated reference and recording. Its impact was 6.634 cm from
 center. The [later 1.17 mm impact video](../progress_videos/12_ppo_bullseye_training_throw.mp4)

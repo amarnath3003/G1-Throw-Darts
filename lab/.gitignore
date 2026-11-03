@@ -1,0 +1,60 @@
+__pycache__/
+viewer*.log
+*.pid
+*.log
+MUJOCO_LOG.TXT
+progress_videos/_qa/*.png
+d01_retarget/input/
+inspire_grip/reference/photos/
+inspire_grip/_work/
+
+# PPO rollouts, checkpoints, videos, and runtime logs are generated locally.
+experiment2/runs/
+experiment2/__pycache__/
+experiment2/analysis/*/eval_*/
+
+# Reconstruction runtimes and downloaded weights/datasets are external assets.
+experiment3/.venv-hamer/
+experiment3/.venv-wilor/
+experiment3/data/
+experiment3/models/
+experiment3/vendor/
+experiment3/__pycache__/
+
+# Python caches created anywhere in this repository.
+__pycache__/
+*.py[cod]
+
+# Local notes, machine-specific deployment, and generated archives.
+/.workspace-notes/
+/PROGRESS.md
+/experiment1/trials/
+/experiment2/analysis/*
+!/experiment2/analysis/extension_holdout_20261103/
+/experiment2/remote_training/*
+!/experiment2/remote_training/guard.py
+!/experiment2/remote_training/*_profile.json
+/experiment3/ASTRA_HANDOFF.md
+/experiment3/PLAN.md
+/experiment3/PICKUP_PIPELINE_STATUS.md
+/experiment3/RECORDING_CHECKLIST.md
+/experiment3/recording_assets/
+/experiment3/research/pickup_attempt/
+/experiment3/pickup_remote.py
+/experiment3/decode_pickup_remote.py
+/experiment3/setup_reconstruction_remote.sh
+/experiment4/status.json
+/experiment4/remote.py
+/experiment4/launch_remote.py
+/experiment4/start_video.sh
+/experiment4/PPO_DESIGN.md
+/G1 Darts Ref videos/
+/progress_videos/14_gvhmr_*.mp4
+/progress_videos/14_experiment4_shoulder_final.mp4
+/progress_videos/15_held_0.5ms.mp4
+
+# Generated checks and local experiment notes
+/experiment2/checks.json
+/experiment2/implementation_status.json
+/experiment3/PICKUP_ATTEMPT.md
+/progress_videos/11_g1_pickup_attempt_failed.md
