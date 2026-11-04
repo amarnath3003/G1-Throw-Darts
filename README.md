@@ -4,7 +4,7 @@
 
 [![Animated preview of the G1 Throw Labs film](lab/previews/g1-throw-labs-film.gif)](lab/progress_videos/g1-throw-labs-intro.mp4)
 
-[Watch the full film (5:41)](lab/progress_videos/g1-throw-labs-intro.mp4)
+[Watch the full film (6:14)](lab/progress_videos/g1-throw-labs-intro.mp4)
 
 A simulated Unitree G1 learns to throw a dart with a five-finger Inspire hand.
 
