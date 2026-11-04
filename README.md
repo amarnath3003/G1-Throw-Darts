@@ -1,10 +1,30 @@
-# G1 Throw Labs
+<h1 align="center">G1 Throw Labs</h1>
 
-![G1 Throw Labs banner rendered in Blender from the project’s Unitree G1 model](lab/previews/g1-throw-labs-3d.jpg)
+<p align="center">
+  <img src="lab/previews/g1-throw-labs-3d.jpg" alt="G1 Throw Labs" width="720" />
+</p>
 
-[![Animated preview of the G1 Throw Labs film](lab/previews/g1-throw-labs-film.gif)](lab/progress_videos/g1-throw-labs-intro.mp4)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MuJoCo-00695C?style=flat-square" alt="MuJoCo" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Stable_Baselines3-8E44AD?style=flat-square" alt="Stable Baselines3" />
+  <img src="https://img.shields.io/badge/PPO-D94362?style=flat-square" alt="PPO" />
+  <br />
+  <img src="https://img.shields.io/badge/HaMeR-00A8CC?style=flat-square" alt="HaMeR" />
+  <img src="https://img.shields.io/badge/GVHMR-4263EB?style=flat-square" alt="GVHMR" />
+  <img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&amp;logo=blender&amp;logoColor=white" alt="Blender" />
+  <img src="https://img.shields.io/badge/Unitree_G1-252525?style=flat-square" alt="Unitree G1" />
+  <img src="https://img.shields.io/badge/Inspire_Hand-149E72?style=flat-square" alt="Inspire Hand" />
+</p>
 
-[Watch the full film (6:14)](lab/progress_videos/g1-throw-labs-intro.mp4)
+<p align="center">
+  <a href="lab/progress_videos/g1-throw-labs-intro.mp4">
+    <img src="lab/previews/g1-throw-labs-film.gif" alt="Film highlights from dart design and hand reconstruction to pickup, throwing, and the bullseye" width="720" />
+  </a>
+  <br />
+  <a href="lab/progress_videos/g1-throw-labs-intro.mp4">Watch the full film (6:14)</a>
+</p>
 
 A simulated Unitree G1 learns to throw a dart with a five-finger Inspire hand.
 
