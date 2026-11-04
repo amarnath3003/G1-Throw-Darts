@@ -19,11 +19,11 @@
 </p>
 
 <p align="center">
-  <a href="lab/progress_videos/g1-throw-labs-intro.mp4">
+  <a href="https://youtu.be/zbl3B8nq2ZY">
     <img src="lab/previews/g1-throw-labs-film.gif" alt="Film highlights from dart design and hand reconstruction to pickup, throwing, and the bullseye" width="720" />
   </a>
   <br />
-  <a href="lab/progress_videos/g1-throw-labs-intro.mp4">Watch the full film (6:14)</a>
+  <a href="https://youtu.be/zbl3B8nq2ZY">Watch the full film (6:14)</a>
 </p>
 
 A simulated Unitree G1 learns to throw a dart with a five-finger Inspire hand.
